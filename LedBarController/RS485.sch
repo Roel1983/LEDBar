@@ -1,0 +1,290 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_UART:MAX485E U201
+U 1 1 5F7B8096
+P 6000 3200
+F 0 "U201" H 5750 3750 50  0000 C CNN
+F 1 "MAX485E" H 5750 3650 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-8_Handsoldering" H 6000 2500 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf" H 6000 3250 50  0001 C CNN
+	1    6000 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0206
+U 1 1 5F7B92E7
+P 6000 4000
+F 0 "#PWR0206" H 6000 3750 50  0001 C CNN
+F 1 "GND" H 6005 3827 50  0000 C CNN
+F 2 "" H 6000 4000 50  0001 C CNN
+F 3 "" H 6000 4000 50  0001 C CNN
+	1    6000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0202
+U 1 1 5F7B9C6C
+P 6000 2500
+F 0 "#PWR0202" H 6000 2350 50  0001 C CNN
+F 1 "+5V" H 6015 2673 50  0000 C CNN
+F 2 "" H 6000 2500 50  0001 C CNN
+F 3 "" H 6000 2500 50  0001 C CNN
+	1    6000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R203
+U 1 1 5F7BA62C
+P 5000 3750
+F 0 "R203" H 5070 3796 50  0000 L CNN
+F 1 "20K" H 5070 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4930 3750 50  0001 C CNN
+F 3 "~" H 5000 3750 50  0001 C CNN
+	1    5000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J201
+U 1 1 5F7BCC5A
+P 3300 3300
+F 0 "J201" H 3300 3550 50  0000 C CNN
+F 1 "Conn_01x04" V 3450 3250 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 3300 3300 50  0001 C CNN
+F 3 "~" H 3300 3300 50  0001 C CNN
+	1    3300 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R201
+U 1 1 5F7BA295
+P 5000 2750
+F 0 "R201" H 5070 2796 50  0000 L CNN
+F 1 "20K" H 5070 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4930 2750 50  0001 C CNN
+F 3 "~" H 5000 2750 50  0001 C CNN
+	1    5000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0201
+U 1 1 5F7BC240
+P 5000 2500
+F 0 "#PWR0201" H 5000 2250 50  0001 C CNN
+F 1 "GND" H 5005 2327 50  0000 C CNN
+F 2 "" H 5000 2500 50  0001 C CNN
+F 3 "" H 5000 2500 50  0001 C CNN
+	1    5000 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0205
+U 1 1 5F7BB859
+P 5000 4000
+F 0 "#PWR0205" H 5000 3850 50  0001 C CNN
+F 1 "+5V" H 5015 4173 50  0000 C CNN
+F 2 "" H 5000 4000 50  0001 C CNN
+F 3 "" H 5000 4000 50  0001 C CNN
+	1    5000 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R202
+U 1 1 5F7BC04A
+P 5000 3250
+F 0 "R202" H 5070 3296 50  0000 L CNN
+F 1 "120" H 5070 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4930 3250 50  0001 C CNN
+F 3 "~" H 5000 3250 50  0001 C CNN
+	1    5000 3250
+	1    0    0    -1  
+$EndComp
+Text HLabel 7400 4000 2    50   Input ~ 0
+TxEn
+Text HLabel 7400 3000 2    50   Output ~ 0
+Rx
+Text HLabel 7400 3500 2    50   Input ~ 0
+Tx
+Wire Wire Line
+	5000 2500 5000 2600
+Wire Wire Line
+	5000 2900 5000 3000
+Wire Wire Line
+	5600 3100 5500 3100
+Wire Wire Line
+	5500 3100 5500 3000
+Wire Wire Line
+	5500 3000 5000 3000
+Connection ~ 5000 3000
+Wire Wire Line
+	5000 3000 5000 3100
+Wire Wire Line
+	5600 3400 5500 3400
+Wire Wire Line
+	5500 3400 5500 3500
+Wire Wire Line
+	5500 3500 5000 3500
+Wire Wire Line
+	5000 3500 5000 3400
+Wire Wire Line
+	5000 3600 5000 3500
+Connection ~ 5000 3500
+Wire Wire Line
+	5000 4000 5000 3900
+Wire Wire Line
+	6000 3800 6000 4000
+Wire Wire Line
+	6000 2500 6000 2700
+Wire Wire Line
+	6400 3100 7000 3100
+Wire Wire Line
+	7000 3100 7000 3000
+Wire Wire Line
+	7000 3000 7400 3000
+Wire Wire Line
+	6400 3400 7000 3400
+Wire Wire Line
+	6400 3200 6500 3200
+Wire Wire Line
+	6500 3200 6500 3300
+Wire Wire Line
+	6500 3300 6400 3300
+Wire Wire Line
+	6500 3300 6500 4000
+Wire Wire Line
+	6500 4000 7400 4000
+Connection ~ 6500 3300
+Wire Wire Line
+	5000 3000 4500 3000
+Wire Wire Line
+	4500 3000 4500 3200
+Wire Wire Line
+	4500 3200 3500 3200
+Wire Wire Line
+	3500 3300 4500 3300
+Wire Wire Line
+	4500 3300 4500 3500
+Wire Wire Line
+	4500 3500 5000 3500
+$Comp
+L power:+5V #PWR0203
+U 1 1 5F80DA50
+P 4000 3000
+F 0 "#PWR0203" H 4000 2850 50  0001 C CNN
+F 1 "+5V" H 4015 3173 50  0000 C CNN
+F 2 "" H 4000 3000 50  0001 C CNN
+F 3 "" H 4000 3000 50  0001 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0204
+U 1 1 5F80DCFB
+P 4000 3500
+F 0 "#PWR0204" H 4000 3250 50  0001 C CNN
+F 1 "GND" H 4005 3327 50  0000 C CNN
+F 2 "" H 4000 3500 50  0001 C CNN
+F 3 "" H 4000 3500 50  0001 C CNN
+	1    4000 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3000 4000 3100
+Wire Wire Line
+	4000 3100 3500 3100
+Wire Wire Line
+	4000 3500 4000 3400
+Wire Wire Line
+	4000 3400 3500 3400
+$Comp
+L Connector:TestPoint TP202
+U 1 1 5FA67E8C
+P 7000 2950
+F 0 "TP202" H 7058 3068 50  0000 L CNN
+F 1 "Rx" H 7058 2977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7200 2950 50  0001 C CNN
+F 3 "~" H 7200 2950 50  0001 C CNN
+	1    7000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP204
+U 1 1 5FA6827F
+P 7000 3550
+F 0 "TP204" H 6942 3576 50  0000 R CNN
+F 1 "Tx" H 6942 3667 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7200 3550 50  0001 C CNN
+F 3 "~" H 7200 3550 50  0001 C CNN
+	1    7000 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP205
+U 1 1 5FA685D1
+P 6500 4050
+F 0 "TP205" H 6442 4076 50  0000 R CNN
+F 1 "TxEn" H 6442 4167 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6700 4050 50  0001 C CNN
+F 3 "~" H 6700 4050 50  0001 C CNN
+	1    6500 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP201
+U 1 1 5FA6885F
+P 4500 2950
+F 0 "TP201" H 4558 3068 50  0000 L CNN
+F 1 "B" H 4558 2977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 2950 50  0001 C CNN
+F 3 "~" H 4700 2950 50  0001 C CNN
+	1    4500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP203
+U 1 1 5FA68C0E
+P 4500 3550
+F 0 "TP203" H 4442 3576 50  0000 R CNN
+F 1 "A" H 4442 3667 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4700 3550 50  0001 C CNN
+F 3 "~" H 4700 3550 50  0001 C CNN
+	1    4500 3550
+	-1   0    0    1   
+$EndComp
+Connection ~ 4500 3500
+Connection ~ 7000 3000
+Connection ~ 6500 4000
+Wire Wire Line
+	4500 3500 4500 3550
+Wire Wire Line
+	4500 2950 4500 3000
+Connection ~ 4500 3000
+Wire Wire Line
+	6500 4050 6500 4000
+Wire Wire Line
+	7000 2950 7000 3000
+Text Label 3500 3200 0    50   ~ 0
+B
+Text Label 3500 3300 0    50   ~ 0
+A
+Wire Wire Line
+	7000 3400 7000 3500
+Wire Wire Line
+	7400 3500 7000 3500
+Connection ~ 7000 3500
+Wire Wire Line
+	7000 3500 7000 3550
+$EndSCHEMATC
