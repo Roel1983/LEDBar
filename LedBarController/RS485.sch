@@ -287,4 +287,6 @@ Wire Wire Line
 Connection ~ 7000 3500
 Wire Wire Line
 	7000 3500 7000 3550
+Text Notes 2900 4150 0    50   ~ 0
+TODO: jumper for end-resistor\nTODO: 2nd connector, one for each side
 $EndSCHEMATC

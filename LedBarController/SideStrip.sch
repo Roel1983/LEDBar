@@ -21,7 +21,6 @@ Text HLabel 3900 2850 0    50   Input ~ 0
 blue
 Text HLabel 3900 2950 0    50   Input ~ 0
 white
-NoConn ~ 3700 1900
 $Comp
 L Connector_Generic:Conn_01x05 J1301
 U 1 1 5F96CE6F
