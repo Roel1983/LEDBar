@@ -1,4 +1,4 @@
-update=do 08 okt 2020 18:24:05 CEST
+update=za 10 okt 2020 00:02:19 CEST
 version=1
 last_client=kicad
 [general]
@@ -39,6 +39,9 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
+TrackWidth2=0.25
+TrackWidth3=0.5
+TrackWidth4=1.4
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -249,7 +252,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=all_stip_power
 Clearance=0.2
-TrackWidth=2.8
+TrackWidth=2.5
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -271,7 +274,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=single_strip_channel
 Clearance=0.2
-TrackWidth=0.25
+TrackWidth=0.67
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -282,7 +285,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=single_strip_power
 Clearance=0.2
-TrackWidth=0.42
+TrackWidth=0.67
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
