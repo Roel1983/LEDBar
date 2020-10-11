@@ -536,33 +536,18 @@ Wire Wire Line
 Connection ~ 9050 5300
 Wire Wire Line
 	9050 5300 9300 5300
-Wire Wire Line
-	8600 3350 8600 3250
-$Comp
-L Connector_Generic:Conn_02x07_Odd_Even J?
-U 1 1 5F880FC8
-P 8300 3650
-AR Path="/5F92F971/5F880FC8" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5F880FC8" Ref="J202"  Part="1" 
-F 0 "J202" H 8350 4075 50  0000 C CNN
-F 1 "Conn_02x07_Odd_Even" H 8350 4076 50  0001 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_2x07_P2.00mm_Vertical" H 8300 3650 50  0001 C CNN
-F 3 "~" H 8300 3650 50  0001 C CNN
-	1    8300 3650
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F880FC2
-P 8600 3250
+P 8600 3950
 AR Path="/5F92F971/5F880FC2" Ref="#PWR?"  Part="1" 
 AR Path="/5F8F2E1B/5F880FC2" Ref="#PWR0206"  Part="1" 
-F 0 "#PWR0206" H 8600 3000 50  0001 C CNN
-F 1 "GND" H 8605 3077 50  0000 C CNN
-F 2 "" H 8600 3250 50  0001 C CNN
-F 3 "" H 8600 3250 50  0001 C CNN
-	1    8600 3250
-	-1   0    0    1   
+F 0 "#PWR0206" H 8600 3700 50  0001 C CNN
+F 1 "GND" H 8605 3777 50  0000 C CNN
+F 2 "" H 8600 3950 50  0001 C CNN
+F 3 "" H 8600 3950 50  0001 C CNN
+	1    8600 3950
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8000 3900 8100 3900
@@ -638,12 +623,8 @@ Wire Wire Line
 	6500 2850 8400 2850
 Wire Wire Line
 	6500 2950 8500 2950
-Text HLabel 8700 3950 2    50   Output ~ 0
-button
 Wire Wire Line
-	8600 3850 8600 3950
-Wire Wire Line
-	8600 3950 8700 3950
+	8600 3250 8700 3250
 Wire Wire Line
 	8200 3350 8200 2750
 Wire Wire Line
@@ -658,14 +639,6 @@ Wire Wire Line
 	5500 2850 5000 2850
 Wire Wire Line
 	6500 4250 8300 4250
-Wire Wire Line
-	8200 3850 8200 4350
-Wire Wire Line
-	8300 4250 8300 3850
-Wire Wire Line
-	8400 3850 8400 4450
-Wire Wire Line
-	8500 4550 8500 3850
 Wire Wire Line
 	5500 4250 5100 4250
 Wire Wire Line
@@ -771,4 +744,31 @@ U 5FA34085
 F0 "SideStrip_right" 50
 F1 "SideStrip.sch" 50
 $EndSheet
+Wire Wire Line
+	8300 4250 8300 3850
+Wire Wire Line
+	8200 3850 8200 4350
+Wire Wire Line
+	8500 4550 8500 3850
+Wire Wire Line
+	8400 3850 8400 4450
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J?
+U 1 1 5F880FC8
+P 8300 3550
+AR Path="/5F92F971/5F880FC8" Ref="J?"  Part="1" 
+AR Path="/5F8F2E1B/5F880FC8" Ref="J202"  Part="1" 
+F 0 "J202" H 8350 3975 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 8350 3976 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_2x07_P2.00mm_Vertical" H 8300 3550 50  0001 C CNN
+F 3 "~" H 8300 3550 50  0001 C CNN
+	1    8300 3550
+	0    -1   1    0   
+$EndComp
+Text HLabel 8700 3250 2    50   Output ~ 0
+button
+Wire Wire Line
+	8600 3950 8600 3850
+Wire Wire Line
+	8600 3350 8600 3250
 $EndSCHEMATC
