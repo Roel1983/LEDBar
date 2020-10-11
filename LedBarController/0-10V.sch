@@ -258,7 +258,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 2200 5500 3050
 Wire Wire Line
-	6500 2500 7150 2500
+	6500 2500 7000 2500
 Connection ~ 6500 2500
 Wire Wire Line
 	6500 2500 6500 2650
@@ -343,7 +343,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 4950 6500 5000
 Wire Wire Line
-	6500 5000 7150 5000
+	6500 5000 7000 5000
 Connection ~ 6500 5000
 Wire Wire Line
 	6500 5000 6500 5150
@@ -453,4 +453,62 @@ Wire Wire Line
 Connection ~ 6500 5550
 Wire Wire Line
 	6500 5550 6500 5650
+$Comp
+L Device:C C?
+U 1 1 5F9C7EB5
+P 7000 4750
+F 0 "C?" H 7115 4796 50  0000 L CNN
+F 1 "C" H 7115 4705 50  0000 L CNN
+F 2 "" H 7038 4600 50  0001 C CNN
+F 3 "~" H 7000 4750 50  0001 C CNN
+	1    7000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F9C8781
+P 7000 2250
+F 0 "C?" H 7115 2296 50  0000 L CNN
+F 1 "C" H 7115 2205 50  0000 L CNN
+F 2 "" H 7038 2100 50  0001 C CNN
+F 3 "~" H 7000 2250 50  0001 C CNN
+	1    7000 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2400 7000 2500
+Connection ~ 7000 2500
+Wire Wire Line
+	7000 2500 7150 2500
+Wire Wire Line
+	7000 4900 7000 5000
+Connection ~ 7000 5000
+Wire Wire Line
+	7000 5000 7150 5000
+$Comp
+L power:GND #PWR?
+U 1 1 5F9CAF62
+P 7000 4450
+F 0 "#PWR?" H 7000 4200 50  0001 C CNN
+F 1 "GND" H 7005 4277 50  0000 C CNN
+F 2 "" H 7000 4450 50  0001 C CNN
+F 3 "" H 7000 4450 50  0001 C CNN
+	1    7000 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 4450 7000 4600
+$Comp
+L power:GND #PWR?
+U 1 1 5F9CDC23
+P 7000 2000
+F 0 "#PWR?" H 7000 1750 50  0001 C CNN
+F 1 "GND" H 7005 1827 50  0000 C CNN
+F 2 "" H 7000 2000 50  0001 C CNN
+F 3 "" H 7000 2000 50  0001 C CNN
+	1    7000 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 2000 7000 2100
 $EndSCHEMATC

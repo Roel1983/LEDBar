@@ -58,17 +58,6 @@ F 3 "~" H 5000 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J1302
-U 1 1 5F7BCC5A
-P 3350 3300
-F 0 "J1302" H 3350 3550 50  0000 C CNN
-F 1 "Conn_01x04" V 3500 3250 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 3350 3300 50  0001 C CNN
-F 3 "~" H 3350 3300 50  0001 C CNN
-	1    3350 3300
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R R1301
 U 1 1 5F7BA295
 P 5000 2250
@@ -262,17 +251,6 @@ F 3 "~" H 5000 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 3200 5000 3350
-$Comp
-L Connector_Generic:Conn_01x04 J1301
-U 1 1 5F80B945
-P 4350 3300
-F 0 "J1301" H 4350 3550 50  0000 C CNN
-F 1 "Conn_01x04" V 4500 3250 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 4350 3300 50  0001 C CNN
-F 3 "~" H 4350 3300 50  0001 C CNN
-	1    4350 3300
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	4000 2500 4000 3200
 Wire Wire Line
@@ -288,19 +266,6 @@ F 3 "" H 3700 3550 50  0001 C CNN
 	1    3700 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR01303
-U 1 1 5F81AA3E
-P 3700 2950
-F 0 "#PWR01303" H 3700 2800 50  0001 C CNN
-F 1 "+5V" H 3715 3123 50  0000 C CNN
-F 2 "" H 3700 2950 50  0001 C CNN
-F 3 "" H 3700 2950 50  0001 C CNN
-	1    3700 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 2950 3700 3100
 Wire Wire Line
 	3700 3550 3700 3400
 Wire Wire Line
@@ -318,13 +283,30 @@ Wire Wire Line
 Wire Wire Line
 	4000 4000 4500 4000
 Wire Wire Line
-	3550 3100 3700 3100
-Wire Wire Line
 	3550 3400 3700 3400
 Connection ~ 3700 3400
 Wire Wire Line
 	3700 3400 4150 3400
-Connection ~ 3700 3100
-Wire Wire Line
-	3700 3100 4150 3100
+$Comp
+L Connector:Screw_Terminal_01x03 J1301
+U 1 1 5F9ABD9D
+P 3350 3300
+F 0 "J1301" H 3268 3617 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 3268 3526 50  0000 C CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal" H 3350 3300 50  0001 C CNN
+F 3 "~" H 3350 3300 50  0001 C CNN
+	1    3350 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J1302
+U 1 1 5F9AB4F9
+P 4350 3300
+F 0 "J1302" H 4268 2975 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 4268 3066 50  0000 C CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal" H 4350 3300 50  0001 C CNN
+F 3 "~" H 4350 3300 50  0001 C CNN
+	1    4350 3300
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
