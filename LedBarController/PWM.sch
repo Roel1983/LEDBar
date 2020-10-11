@@ -755,15 +755,15 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x07_Odd_Even J?
 U 1 1 5F880FC8
-P 8300 3550
+P 8300 3650
 AR Path="/5F92F971/5F880FC8" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5F880FC8" Ref="J202"  Part="1" 
-F 0 "J202" H 8350 3975 50  0000 C CNN
-F 1 "Conn_02x07_Odd_Even" H 8350 3976 50  0001 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_2x07_P2.00mm_Vertical" H 8300 3550 50  0001 C CNN
-F 3 "~" H 8300 3550 50  0001 C CNN
-	1    8300 3550
-	0    -1   1    0   
+F 0 "J202" H 8350 4075 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 8350 4076 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_2x07_P2.00mm_Vertical" H 8300 3650 50  0001 C CNN
+F 3 "~" H 8300 3650 50  0001 C CNN
+	1    8300 3650
+	0    -1   -1   0   
 $EndComp
 Text HLabel 8700 3250 2    50   Output ~ 0
 button
