@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 13
+Sheet 8 13
 Title ""
 Date ""
 Rev ""
@@ -177,7 +177,7 @@ AR Path="/5F92F971/5F9BC931" Ref="SW?"  Part="1"
 AR Path="/5F8F2E1B/5FA33E59/5F9BC931" Ref="SW801"  Part="1" 
 F 0 "SW801" H 5500 4385 50  0000 C CNN
 F 1 "SW_Push" H 5500 4294 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ" H 5500 4300 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithStem" H 5500 4300 50  0001 C CNN
 F 3 "~" H 5500 4300 50  0001 C CNN
 	1    5500 4100
 	1    0    0    -1  

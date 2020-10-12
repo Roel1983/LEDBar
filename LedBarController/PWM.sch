@@ -61,48 +61,23 @@ Text Label 3750 4350 0    50   ~ 0
 strip4_w
 Connection ~ 2100 3850
 Wire Wire Line
-	2100 3050 2100 3850
+	2100 3050 2100 3750
 Wire Wire Line
 	3000 2150 3000 2550
 Wire Wire Line
 	1700 3150 2300 3150
-Wire Wire Line
-	2200 3750 2200 3950
-Connection ~ 2200 3750
-Wire Wire Line
-	2300 3750 2200 3750
-Wire Wire Line
-	2200 3950 2200 4150
-Connection ~ 2200 3950
-Wire Wire Line
-	2300 3950 2200 3950
-Wire Wire Line
-	2200 4150 2300 4150
-Wire Wire Line
-	2200 3650 2200 3750
-$Comp
-L power:+5V #PWR0207
-U 1 1 5F85CEB7
-P 2200 3650
-F 0 "#PWR0207" H 2200 3500 50  0001 C CNN
-F 1 "+5V" H 2215 3823 50  0000 C CNN
-F 2 "" H 2200 3650 50  0001 C CNN
-F 3 "" H 2200 3650 50  0001 C CNN
-	1    2200 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2100 4250 2100 4900
 Connection ~ 2100 4250
 Wire Wire Line
 	2300 4250 2100 4250
 Wire Wire Line
-	2100 4050 2100 4250
+	2100 4050 2100 4150
 Connection ~ 2100 4050
 Wire Wire Line
 	2300 4050 2100 4050
 Wire Wire Line
-	2100 3850 2100 4050
+	2100 3850 2100 3950
 Wire Wire Line
 	2300 3850 2100 3850
 Wire Wire Line
@@ -771,4 +746,19 @@ Wire Wire Line
 	8600 3950 8600 3850
 Wire Wire Line
 	8600 3350 8600 3250
+Wire Wire Line
+	2300 3750 2100 3750
+Connection ~ 2100 3750
+Wire Wire Line
+	2100 3750 2100 3850
+Wire Wire Line
+	2300 3950 2100 3950
+Connection ~ 2100 3950
+Wire Wire Line
+	2100 3950 2100 4050
+Wire Wire Line
+	2300 4150 2100 4150
+Connection ~ 2100 4150
+Wire Wire Line
+	2100 4150 2100 4250
 $EndSCHEMATC
