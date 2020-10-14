@@ -19,7 +19,7 @@ U 1 1 5F7B8096
 P 6000 3200
 F 0 "U1301" H 5750 3750 50  0000 C CNN
 F 1 "MAX485E" H 5750 3650 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-8_Handsoldering" H 6000 2500 50  0001 C CNN
+F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 6000 2500 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf" H 6000 3250 50  0001 C CNN
 	1    6000 3200
 	-1   0    0    -1  
