@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 13
+Sheet 2 14
 Title ""
 Date ""
 Rev ""
@@ -94,7 +94,7 @@ F 3 "" H 2100 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1700 3150 0    50   Input ~ 0
-~OE
+~oe
 Wire Wire Line
 	1700 2950 2300 2950
 Wire Wire Line
@@ -161,9 +161,9 @@ F 3 "" H 3000 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1700 2950 0    50   BiDi ~ 0
-I2C_SDA
+sda
 Text HLabel 1700 2850 0    50   Output ~ 0
-I2C_SCL
+scl
 $Comp
 L Driver_LED:PCA9685PW U201
 U 1 1 5F836506

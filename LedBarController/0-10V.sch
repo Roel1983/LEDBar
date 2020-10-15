@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 13
+Sheet 11 14
 Title ""
 Date ""
 Rev ""
@@ -98,7 +98,7 @@ Wire Wire Line
 Connection ~ 9500 3500
 Connection ~ 9500 4500
 Text HLabel 4000 2000 0    50   Input ~ 0
-0-10Vd1
+dout_1
 $Comp
 L Device:C C1101
 U 1 1 5F7DE73D
@@ -115,7 +115,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2000 5000 2100
 Text HLabel 4000 1500 0    50   Output ~ 0
-0-10Va1
+ain_1
 $Comp
 L power:GND #PWR01101
 U 1 1 5F7E0414
@@ -434,9 +434,9 @@ F 3 "~" H 4750 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 4000 4000 0    50   Output ~ 0
-0-10Va2
+ain_2
 Text HLabel 4000 4500 0    50   Input ~ 0
-0-10Vd2
+dout_2
 $Comp
 L Amplifier_Operational:LM358 U1101
 U 2 1 5F7CEF2E
