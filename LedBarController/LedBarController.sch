@@ -86,6 +86,8 @@ S 3500 2000 1000 500
 U 5F7C8D58
 F0 "Power" 50
 F1 "Power.sch" 50
+F2 "scl" I R 4500 2100 50 
+F3 "sda" B R 4500 2200 50 
 $EndSheet
 $Sheet
 S 3500 3500 1000 500 
@@ -145,4 +147,10 @@ F2 "sqw" O L 8000 4900 50
 F3 "scl" I L 8000 4600 50 
 F4 "sda" B L 8000 4700 50 
 $EndSheet
+Wire Wire Line
+	7200 2100 4500 2100
+Connection ~ 7200 2100
+Wire Wire Line
+	4500 2200 7300 2200
+Connection ~ 7300 2200
 $EndSCHEMATC
