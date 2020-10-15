@@ -290,7 +290,7 @@ L Connector:Screw_Terminal_01x03 J1301
 U 1 1 5F9ABD9D
 P 3350 3300
 F 0 "J1301" H 3268 3617 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 3268 3526 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 3268 3526 50  0001 C CNN
 F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal" H 3350 3300 50  0001 C CNN
 F 3 "~" H 3350 3300 50  0001 C CNN
 	1    3350 3300
@@ -301,7 +301,7 @@ L Connector:Screw_Terminal_01x03 J1302
 U 1 1 5F9AB4F9
 P 4350 3300
 F 0 "J1302" H 4268 2975 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 4268 3066 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 4268 3066 50  0001 C CNN
 F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal" H 4350 3300 50  0001 C CNN
 F 3 "~" H 4350 3300 50  0001 C CNN
 	1    4350 3300
