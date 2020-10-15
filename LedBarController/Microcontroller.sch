@@ -454,7 +454,7 @@ F 3 "" H 7200 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04_SIP_Split RN1001
+L Device:R_Pack04_Split RN1001
 U 1 1 5F8B2985
 P 6450 1000
 F 0 "RN1001" V 6243 1000 50  0000 C CNN
@@ -462,39 +462,6 @@ F 1 "1k" V 6334 1000 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6370 1000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6450 1000 50  0001 C CNN
 	1    6450 1000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_SIP_Split RN1001
-U 2 1 5F8B9A58
-P 6450 1400
-F 0 "RN1001" V 6243 1400 50  0000 C CNN
-F 1 "1k" V 6334 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6370 1400 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6450 1400 50  0001 C CNN
-	2    6450 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_SIP_Split RN1001
-U 3 1 5F8B9E96
-P 6450 1800
-F 0 "RN1001" V 6243 1800 50  0000 C CNN
-F 1 "1k" V 6334 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6370 1800 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6450 1800 50  0001 C CNN
-	3    6450 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_SIP_Split RN1001
-U 4 1 5F8BA948
-P 6450 2200
-F 0 "RN1001" V 6243 2200 50  0000 C CNN
-F 1 "1k" V 6334 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6370 2200 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6450 2200 50  0001 C CNN
-	4    6450 2200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -569,7 +536,7 @@ F 3 "~" H 9350 1100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Pack04_SIP_Split RN1002
+L Device:R_Pack04_Split RN1002
 U 1 1 5F8A23F3
 P 9850 1250
 F 0 "RN1002" V 9643 1250 50  0000 C CNN
@@ -580,7 +547,7 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9850 1250 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_Pack04_SIP_Split RN1002
+L Device:R_Pack04_Split RN1002
 U 2 1 5F8A28A0
 P 9850 1650
 F 0 "RN1002" V 9643 1650 50  0000 C CNN
@@ -591,7 +558,7 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9850 1650 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_Pack04_SIP_Split RN1002
+L Device:R_Pack04_Split RN1002
 U 3 1 5F8A2D89
 P 9850 2050
 F 0 "RN1002" V 9643 2050 50  0000 C CNN
@@ -602,7 +569,7 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9850 2050 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_Pack04_SIP_Split RN1002
+L Device:R_Pack04_Split RN1002
 U 4 1 5F8A31E6
 P 9850 2450
 F 0 "RN1002" V 9643 2450 50  0000 C CNN
@@ -994,4 +961,37 @@ Wire Wire Line
 Connection ~ 5950 7100
 Text HLabel 4000 3450 2    50   Output ~ 0
 rtc_sqw
+$Comp
+L Device:R_Pack04_Split RN1001
+U 4 1 5F8BA948
+P 6450 1400
+F 0 "RN1001" V 6243 1400 50  0000 C CNN
+F 1 "1k" V 6334 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6370 1400 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6450 1400 50  0001 C CNN
+	4    6450 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1001
+U 3 1 5F8B9E96
+P 6450 1800
+F 0 "RN1001" V 6243 1800 50  0000 C CNN
+F 1 "1k" V 6334 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6370 1800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6450 1800 50  0001 C CNN
+	3    6450 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1001
+U 2 1 5F8B9A58
+P 6450 2200
+F 0 "RN1001" V 6243 2200 50  0000 C CNN
+F 1 "1k" V 6334 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6370 2200 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6450 2200 50  0001 C CNN
+	2    6450 2200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
