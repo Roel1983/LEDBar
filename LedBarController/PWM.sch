@@ -108,9 +108,12 @@ L Device:C C203
 U 1 1 5F85273F
 P 1600 4450
 F 0 "C203" H 1715 4496 50  0000 L CNN
-F 1 "C" H 1715 4405 50  0000 L CNN
+F 1 "0.1uF" H 1715 4405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1638 4300 50  0001 C CNN
 F 3 "~" H 1600 4450 50  0001 C CNN
+F 4 "PWM_SUPPORTED" H 1600 4450 50  0001 C CNN "Feature"
+F 5 "0.0057" H 1600 4450 50  0001 C CNN "Price"
+F 6 "yes" H 1600 4450 50  0001 C CNN "is stock"
 	1    1600 4450
 	1    0    0    -1  
 $EndComp
@@ -172,6 +175,9 @@ F 0 "U201" H 3350 4550 50  0000 C CNN
 F 1 "PCA9685PW" H 3300 4450 50  0000 C CNN
 F 2 "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" H 3025 2575 50  0001 L CNN
 F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 2600 4250 50  0001 C CNN
+F 4 "PWM_SUPPORTED" H 3000 3550 50  0001 C CNN "Feature"
+F 5 "1.157" H 3000 3550 50  0001 C CNN "Price"
+F 6 "yes" H 3000 3550 50  0001 C CNN "is stock"
 	1    3000 3550
 	1    0    0    -1  
 $EndComp
@@ -342,6 +348,9 @@ F 0 "C202" H 9468 2296 50  0000 L CNN
 F 1 "470uF/35V" H 9468 2205 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm" H 9388 2100 50  0001 C CNN
 F 3 "~" H 9350 2250 50  0001 C CNN
+F 4 "PWM_SUPPORTED" H 9350 2250 50  0001 C CNN "Feature"
+F 5 "0.0656" H 9350 2250 50  0001 C CNN "Price"
+F 6 "no" H 9350 2250 50  0001 C CNN "is stock"
 	1    9350 2250
 	1    0    0    -1  
 $EndComp
@@ -399,6 +408,9 @@ F 0 "C201" H 8965 2296 50  0000 L CNN
 F 1 "0.1uF" H 8965 2205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8888 2100 50  0001 C CNN
 F 3 "~" H 8850 2250 50  0001 C CNN
+F 4 "PWM_SUPPORTED" H 8850 2250 50  0001 C CNN "Feature"
+F 5 "0.0057" H 8850 2250 50  0001 C CNN "Price"
+F 6 "yes" H 8850 2250 50  0001 C CNN "is stock"
 	1    8850 2250
 	1    0    0    -1  
 $EndComp
@@ -433,6 +445,9 @@ F 0 "C205" H 9418 5096 50  0000 L CNN
 F 1 "470uF/35V" H 9418 5005 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm" H 9338 4900 50  0001 C CNN
 F 3 "~" H 9300 5050 50  0001 C CNN
+F 4 "PWM_SUPPORTED" H 9300 5050 50  0001 C CNN "Feature"
+F 5 "0.0656" H 9300 5050 50  0001 C CNN "Price"
+F 6 "no" H 9300 5050 50  0001 C CNN "is stock"
 	1    9300 5050
 	1    0    0    -1  
 $EndComp
@@ -490,6 +505,9 @@ F 0 "C204" H 8915 5096 50  0000 L CNN
 F 1 "0.1uF" H 8915 5005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8838 4900 50  0001 C CNN
 F 3 "~" H 8800 5050 50  0001 C CNN
+F 4 "PWM_SUPPORTED" H 8800 5050 50  0001 C CNN "Feature"
+F 5 "0.0057" H 8800 5050 50  0001 C CNN "Price"
+F 6 "yes" H 8800 5050 50  0001 C CNN "is stock"
 	1    8800 5050
 	1    0    0    -1  
 $EndComp
@@ -634,9 +652,12 @@ AR Path="/5F92F348/5F9D9614" Ref="J?"  Part="1"
 AR Path="/5F92F3F9/5F9D9614" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5F9D9614" Ref="J203"  Part="1" 
 F 0 "J203" H 8330 6192 50  0000 L CNN
-F 1 "Conn_01x05" H 8000 5850 50  0000 L CNN
+F 1 "Female pitch strip 1x7 pins 2.0mm pitch" H 8000 5850 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 8250 6150 50  0001 C CNN
 F 3 "~" H 8250 6150 50  0001 C CNN
+F 4 "PWM_SUPPORTED_4STRIPS" H 8250 6150 50  0001 C CNN "Feature"
+F 5 "0.14" H 8250 6150 50  0001 C CNN "Price"
+F 6 "yes" H 8250 6150 50  0001 C CNN "is stock"
 	1    8250 6150
 	0    -1   1    0   
 $EndComp
@@ -680,9 +701,12 @@ AR Path="/5F92F348/5F85865B" Ref="J?"  Part="1"
 AR Path="/5F92F3F9/5F85865B" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5F85865B" Ref="J201"  Part="1" 
 F 0 "J201" H 8330 1092 50  0000 L CNN
-F 1 "Conn_01x05" H 8330 1001 50  0000 L CNN
+F 1 "Female pitch strip 1x7 pins 2.0mm pitch" H 8330 1001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 8250 1050 50  0001 C CNN
 F 3 "~" H 8250 1050 50  0001 C CNN
+F 4 "PWM_SUPPORTED_4STRIPS" H 8250 1050 50  0001 C CNN "Feature"
+F 5 "0.14" H 8250 1050 50  0001 C CNN "Price"
+F 6 "yes" H 8250 1050 50  0001 C CNN "is stock"
 	1    8250 1050
 	0    -1   -1   0   
 $EndComp
@@ -734,9 +758,12 @@ P 8300 3650
 AR Path="/5F92F971/5F880FC8" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5F880FC8" Ref="J202"  Part="1" 
 F 0 "J202" H 8350 4075 50  0000 C CNN
-F 1 "Conn_02x07_Odd_Even" H 8350 4076 50  0001 C CNN
+F 1 "Female 2x7 pins 2.0mm pitch" H 8350 4076 50  0001 C CNN
 F 2 "Connector_PinSocket_2.00mm:PinSocket_2x07_P2.00mm_Vertical" H 8300 3650 50  0001 C CNN
 F 3 "~" H 8300 3650 50  0001 C CNN
+F 4 "PWM_SUPPORTED_2STRIPS" H 8300 3650 50  0001 C CNN "Feature"
+F 5 "0.0595" H 8300 3650 50  0001 C CNN "Price"
+F 6 "no" H 8300 3650 50  0001 C CNN "is stock"
 	1    8300 3650
 	0    -1   -1   0   
 $EndComp

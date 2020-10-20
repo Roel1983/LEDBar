@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 14
+Sheet 7 14
 Title ""
 Date ""
 Rev ""
@@ -22,9 +22,12 @@ AR Path="/5F92F3F9/5F96E4A9" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/5F96E4A9" Ref="J701"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/5F96E4A9" Ref="J901"  Part="1" 
 F 0 "J901" H 5918 3167 50  0000 C CNN
-F 1 "Conn_01x05" H 5918 3076 50  0000 C CNN
+F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 5918 3076 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 6000 2750 50  0001 C CNN
 F 3 "~" H 6000 2750 50  0001 C CNN
+F 4 "PWM_SUPPORTED_4STRIPS" H 6000 2750 50  0001 C CNN "Feature"
+F 5 "0.016" H 6000 2750 50  0001 C CNN "Price"
+F 6 "yes" H 6000 2750 50  0001 C CNN "is stock"
 	1    6000 2750
 	-1   0    0    -1  
 $EndComp
@@ -40,6 +43,9 @@ F 0 "J902" H 7450 3050 50  0000 L CNN
 F 1 "Conn_01x05" H 7450 3150 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 7500 2750 50  0001 C CNN
 F 3 "~" H 7500 2750 50  0001 C CNN
+F 4 "PWM_SUPPORTED_4STRIPS" H 7500 2750 50  0001 C CNN "Feature"
+F 5 "0" H 7500 2750 50  0001 C CNN "Price"
+F 6 "no" H 7500 2750 50  0001 C CNN "is stock"
 	1    7500 2750
 	1    0    0    -1  
 $EndComp
@@ -55,6 +61,9 @@ F 0 "J903" H 7450 4050 50  0000 L CNN
 F 1 "Conn_01x05" H 7450 4150 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 7500 3750 50  0001 C CNN
 F 3 "~" H 7500 3750 50  0001 C CNN
+F 4 "PWM_SUPPORTED_4STRIPS" H 7500 3750 50  0001 C CNN "Feature"
+F 5 "0" H 7500 3750 50  0001 C CNN "Price"
+F 6 "no" H 7500 3750 50  0001 C CNN "is stock"
 	1    7500 3750
 	1    0    0    -1  
 $EndComp

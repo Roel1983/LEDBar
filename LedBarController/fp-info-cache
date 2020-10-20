@@ -1,4 +1,4 @@
-18992764619103994
+18999176731538608
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56206,6 +56206,34 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+LedBarController
+CP_Disc_D11.5mm_H6.4mm_P12.5mm_Horizontal
+
+
+0
+2
+2
+LedBarController
+CP_Disc_D11.5mm_H12.3mm_P4.7mm_Vertical
+
+
+0
+2
+2
+LedBarController
+CP_Disc_D18.7mm_H20.2mm_P5.0mm_Vertical
+
+
+0
+2
+2
+LedBarController
+SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
 0
 2
 2

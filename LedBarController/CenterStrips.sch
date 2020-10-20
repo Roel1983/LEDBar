@@ -23,6 +23,9 @@ F 0 "J805" H 7130 4392 50  0000 L CNN
 F 1 "Conn_01x05" H 7130 4301 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 7050 4350 50  0001 C CNN
 F 3 "~" H 7050 4350 50  0001 C CNN
+F 4 "PWM_SUPPORTED_2STRIPS" H 7050 4350 50  0001 C CNN "Feature"
+F 5 "0" H 7050 4350 50  0001 C CNN "Price"
+F 6 "no" H 7050 4350 50  0001 C CNN "is stock"
 	1    7050 4350
 	1    0    0    -1  
 $EndComp
@@ -36,6 +39,9 @@ F 0 "J803" H 7130 3392 50  0000 L CNN
 F 1 "Conn_01x05" H 7130 3301 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 7050 3350 50  0001 C CNN
 F 3 "~" H 7050 3350 50  0001 C CNN
+F 4 "PWM_SUPPORTED_2STRIPS" H 7050 3350 50  0001 C CNN "Feature"
+F 5 "0" H 7050 3350 50  0001 C CNN "Price"
+F 6 "no" H 7050 3350 50  0001 C CNN "is stock"
 	1    7050 3350
 	1    0    0    -1  
 $EndComp
@@ -49,6 +55,9 @@ F 0 "J801" H 3868 3767 50  0000 C CNN
 F 1 "Conn_01x05" H 3868 3676 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 3950 3350 50  0001 C CNN
 F 3 "~" H 3950 3350 50  0001 C CNN
+F 4 "PWM_SUPPORTED_2STRIPS" H 3950 3350 50  0001 C CNN "Feature"
+F 5 "0" H 3950 3350 50  0001 C CNN "Price"
+F 6 "no" H 3950 3350 50  0001 C CNN "is stock"
 	1    3950 3350
 	-1   0    0    -1  
 $EndComp
@@ -62,6 +71,9 @@ F 0 "J804" H 3868 4767 50  0000 C CNN
 F 1 "Conn_01x05" H 3868 4676 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 3950 4350 50  0001 C CNN
 F 3 "~" H 3950 4350 50  0001 C CNN
+F 4 "PWM_SUPPORTED_2STRIPS" H 3950 4350 50  0001 C CNN "Feature"
+F 5 "0" H 3950 4350 50  0001 C CNN "Price"
+F 6 "no" H 3950 4350 50  0001 C CNN "is stock"
 	1    3950 4350
 	-1   0    0    -1  
 $EndComp
@@ -176,9 +188,12 @@ P 5500 4100
 AR Path="/5F92F971/5F9BC931" Ref="SW?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/5F9BC931" Ref="SW801"  Part="1" 
 F 0 "SW801" H 5500 4385 50  0000 C CNN
-F 1 "SW_Push" H 5500 4294 50  0000 C CNN
+F 1 "4x42.3mm PCB Tactile Push Button Switch" H 5500 4294 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithStem" H 5500 4300 50  0001 C CNN
 F 3 "~" H 5500 4300 50  0001 C CNN
+F 4 "PWM_SUPPORTED_2STRIPS" H 5500 4100 50  0001 C CNN "Feature"
+F 5 "0.0356" H 5500 4100 50  0001 C CNN "Price"
+F 6 "no" H 5500 4100 50  0001 C CNN "is stock"
 	1    5500 4100
 	1    0    0    -1  
 $EndComp
@@ -189,9 +204,12 @@ P 5450 3350
 AR Path="/5F92F971/5F9CBA33" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/5F9CBA33" Ref="J802"  Part="1" 
 F 0 "J802" H 5500 3775 50  0000 C CNN
-F 1 "Conn_02x07_Odd_Even" H 5500 3776 50  0001 C CNN
+F 1 "Male pitch strip 2x7pins 2.0mm pitch" H 5500 3776 50  0001 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical" H 5450 3350 50  0001 C CNN
 F 3 "~" H 5450 3350 50  0001 C CNN
+F 4 "PWM_SUPPORTED_2STRIPS" H 5450 3350 50  0001 C CNN "Feature"
+F 5 "0.055" H 5450 3350 50  0001 C CNN "Price"
+F 6 "no" H 5450 3350 50  0001 C CNN "is stock"
 	1    5450 3350
 	1    0    0    -1  
 $EndComp
