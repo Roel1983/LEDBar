@@ -930,4 +930,88 @@ $EndComp
 NoConn ~ 3100 2650
 NoConn ~ 3100 2750
 NoConn ~ 1900 1850
+$Comp
+L Memory_EEPROM:CAT24C256 U1002
+U 1 1 5FD8CA5F
+P 3000 6250
+F 0 "U1002" H 2750 6500 50  0000 C CNN
+F 1 "AT24C256" H 3250 6500 50  0000 C CNN
+F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 3000 6250 50  0001 C CNN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" H 3000 6250 50  0001 C CNN
+	1    3000 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01009
+U 1 1 5FD8DA85
+P 3000 6650
+F 0 "#PWR01009" H 3000 6400 50  0001 C CNN
+F 1 "GND" H 3005 6477 50  0000 C CNN
+F 2 "" H 3000 6650 50  0001 C CNN
+F 3 "" H 3000 6650 50  0001 C CNN
+	1    3000 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6650 3000 6550
+$Comp
+L power:+5V #PWR01008
+U 1 1 5FD9311B
+P 3000 5850
+F 0 "#PWR01008" H 3000 5700 50  0001 C CNN
+F 1 "+5V" H 3015 6023 50  0000 C CNN
+F 2 "" H 3000 5850 50  0001 C CNN
+F 3 "" H 3000 5850 50  0001 C CNN
+	1    3000 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5850 3000 5950
+Wire Wire Line
+	2600 6150 2600 6250
+Wire Wire Line
+	2600 6550 3000 6550
+Connection ~ 2600 6250
+Wire Wire Line
+	2600 6250 2600 6350
+Connection ~ 2600 6350
+Wire Wire Line
+	2600 6350 2600 6550
+Connection ~ 3000 6550
+Wire Wire Line
+	3400 6150 3750 6150
+Wire Wire Line
+	3400 6250 3750 6250
+Text Label 3700 6250 2    50   ~ 0
+scl
+Text Label 3700 6150 2    50   ~ 0
+sda
+Wire Wire Line
+	3400 6350 3400 6550
+Wire Wire Line
+	3400 6550 3000 6550
+$Comp
+L Device:C C1005
+U 1 1 5FDBE069
+P 2200 6250
+F 0 "C1005" H 2315 6296 50  0000 L CNN
+F 1 "0.1uF" H 2315 6205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2238 6100 50  0001 C CNN
+F 3 "~" H 2200 6250 50  0001 C CNN
+F 4 "UC" H 2200 6250 50  0001 C CNN "Feature"
+F 5 "0.0057" H 2200 6250 50  0001 C CNN "Price"
+F 6 "yes" H 2200 6250 50  0001 C CNN "is stock"
+	1    2200 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6550 2200 6550
+Wire Wire Line
+	2200 6550 2200 6400
+Connection ~ 2600 6550
+Wire Wire Line
+	2200 6100 2200 5950
+Wire Wire Line
+	2200 5950 3000 5950
+Connection ~ 3000 5950
 $EndSCHEMATC
