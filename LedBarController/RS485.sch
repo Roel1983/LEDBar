@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 14
+Sheet 12 13
 Title ""
 Date ""
 Rev ""
@@ -171,48 +171,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 4000 5000 4000
 $Comp
-L Connector:TestPoint TP1302
-U 1 1 5FA67E8C
-P 7000 2950
-F 0 "TP1302" H 7058 3068 50  0000 L CNN
-F 1 "Rx" H 7058 2977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7200 2950 50  0001 C CNN
-F 3 "~" H 7200 2950 50  0001 C CNN
-F 4 "RS485_SUPPORTED" H 7000 2950 50  0001 C CNN "Feature"
-F 5 "0" H 7000 2950 50  0001 C CNN "Price"
-F 6 "n.a." H 7000 2950 50  0001 C CNN "is stock"
-	1    7000 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP1303
-U 1 1 5FA6827F
-P 7000 3550
-F 0 "TP1303" H 6942 3576 50  0000 R CNN
-F 1 "Tx" H 6942 3667 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7200 3550 50  0001 C CNN
-F 3 "~" H 7200 3550 50  0001 C CNN
-F 4 "RS485_SUPPORTED" H 7000 3550 50  0001 C CNN "Feature"
-F 5 "0" H 7000 3550 50  0001 C CNN "Price"
-F 6 "n.a." H 7000 3550 50  0001 C CNN "is stock"
-	1    7000 3550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP1305
-U 1 1 5FA685D1
-P 6500 4050
-F 0 "TP1305" H 6442 4076 50  0000 R CNN
-F 1 "TxEn" H 6442 4167 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6700 4050 50  0001 C CNN
-F 3 "~" H 6700 4050 50  0001 C CNN
-F 4 "RS485_SUPPORTED" H 6500 4050 50  0001 C CNN "Feature"
-F 5 "0" H 6500 4050 50  0001 C CNN "Price"
-F 6 "n.a." H 6500 4050 50  0001 C CNN "is stock"
-	1    6500 4050
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector:TestPoint TP1301
 U 1 1 5FA6885F
 P 4500 2450
@@ -241,17 +199,11 @@ F 6 "n.a." H 4500 4050 50  0001 C CNN "is stock"
 	-1   0    0    1   
 $EndComp
 Connection ~ 4500 4000
-Connection ~ 7000 3000
-Connection ~ 6500 4000
 Wire Wire Line
 	4500 4000 4500 4050
 Wire Wire Line
 	4500 2450 4500 2500
 Connection ~ 4500 2500
-Wire Wire Line
-	6500 4050 6500 4000
-Wire Wire Line
-	7000 2950 7000 3000
 Text Label 3550 3200 0    50   ~ 0
 B
 Text Label 3550 3300 0    50   ~ 0
@@ -260,9 +212,6 @@ Wire Wire Line
 	7000 3400 7000 3500
 Wire Wire Line
 	7400 3500 7000 3500
-Connection ~ 7000 3500
-Wire Wire Line
-	7000 3500 7000 3550
 $Comp
 L Jumper:Jumper_2_Bridged JP1301
 U 1 1 5F804235
@@ -281,8 +230,6 @@ Wire Wire Line
 	5000 3200 5000 3350
 Wire Wire Line
 	4000 2500 4000 3200
-Wire Wire Line
-	4000 3200 4150 3200
 $Comp
 L power:GND #PWR01304
 U 1 1 5F81A772
@@ -298,51 +245,16 @@ Wire Wire Line
 	3700 3550 3700 3400
 Wire Wire Line
 	3550 3200 4000 3200
-Connection ~ 4000 3200
 Wire Wire Line
 	3550 3300 4000 3300
 Wire Wire Line
 	4000 2500 4500 2500
 Wire Wire Line
 	4000 3300 4000 4000
-Connection ~ 4000 3300
-Wire Wire Line
-	4000 3300 4150 3300
 Wire Wire Line
 	4000 4000 4500 4000
 Wire Wire Line
 	3550 3400 3700 3400
-Connection ~ 3700 3400
-Wire Wire Line
-	3700 3400 4150 3400
-$Comp
-L Connector:Screw_Terminal_01x03 J1301
-U 1 1 5F9ABD9D
-P 3350 3300
-F 0 "J1301" H 3268 3617 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 3268 3526 50  0001 C CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal" H 3350 3300 50  0001 C CNN
-F 3 "~" H 3350 3300 50  0001 C CNN
-F 4 "RS485_SUPPORTED_1CONN" H 3350 3300 50  0001 C CNN "Feature"
-F 5 "0.202" H 3350 3300 50  0001 C CNN "Price"
-F 6 "yes" H 3350 3300 50  0001 C CNN "is stock"
-	1    3350 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 J1302
-U 1 1 5F9AB4F9
-P 4350 3300
-F 0 "J1302" H 4268 2975 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 4268 3066 50  0001 C CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal" H 4350 3300 50  0001 C CNN
-F 3 "~" H 4350 3300 50  0001 C CNN
-F 4 "RS485_SUPPORTED_2CONN" H 4350 3300 50  0001 C CNN "Feature"
-F 5 "0.202" H 4350 3300 50  0001 C CNN "Price"
-F 6 "yes" H 4350 3300 50  0001 C CNN "is stock"
-	1    4350 3300
-	1    0    0    1   
-$EndComp
 Text HLabel 7400 3000 2    50   Output ~ 0
 rxd
 $Comp
@@ -385,4 +297,18 @@ Wire Wire Line
 	6850 1600 6850 1800
 Wire Wire Line
 	6850 2100 6850 2300
+$Comp
+L Connector:Screw_Terminal_01x03 J1301
+U 1 1 5F9ABD9D
+P 3350 3300
+F 0 "J1301" H 3350 3500 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 3268 3526 50  0001 C CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal" H 3350 3300 50  0001 C CNN
+F 3 "~" H 3350 3300 50  0001 C CNN
+F 4 "RS485_SUPPORTED_1CONN" H 3350 3300 50  0001 C CNN "Feature"
+F 5 "0.202" H 3350 3300 50  0001 C CNN "Price"
+F 6 "yes" H 3350 3300 50  0001 C CNN "is stock"
+	1    3350 3300
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

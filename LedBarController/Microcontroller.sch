@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 14
+Sheet 10 13
 Title ""
 Date ""
 Rev ""
@@ -13,20 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MCU_Microchip_ATmega:ATmega328P-AU U1001
-U 1 1 5F8297C2
-P 2500 2750
-F 0 "U1001" H 2850 1250 50  0000 C CNN
-F 1 "ATmega328P-AU" H 2900 1150 50  0000 C CNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 2500 2750 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 2500 2750 50  0001 C CNN
-F 4 "UC" H 2500 2750 50  0001 C CNN "Feature"
-F 5 "1.106" H 2500 2750 50  0001 C CNN "Price"
-F 6 "yes" H 2500 2750 50  0001 C CNN "is stock"
-	1    2500 2750
-	1    0    0    -1  
-$EndComp
 Text HLabel 4000 3350 2    50   Output ~ 0
 txd
 $Comp
@@ -287,20 +273,6 @@ F 6 "yes" H 4950 2200 50  0001 C CNN "is stock"
 	1    4950 2200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:TestPoint TP1004
-U 1 1 5FA6CD39
-P 3450 6950
-F 0 "TP1004" H 3508 7068 50  0000 L CNN
-F 1 "ADC_VDD" H 3508 6977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3650 6950 50  0001 C CNN
-F 3 "~" H 3650 6950 50  0001 C CNN
-F 4 "VDDADC_SUPPORTED" H 3450 6950 50  0001 C CNN "Feature"
-F 5 "0" H 3450 6950 50  0001 C CNN "Price"
-F 6 "n.a." H 3450 6950 50  0001 C CNN "is stock"
-	1    3450 6950
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	10550 4800 10350 4800
 Wire Wire Line
@@ -308,143 +280,6 @@ Wire Wire Line
 Connection ~ 10350 4800
 Wire Wire Line
 	10350 4800 9850 4800
-$Comp
-L power:VDD #PWR01013
-U 1 1 5FA48C7B
-P 2450 5600
-AR Path="/5F829319/5FA48C7B" Ref="#PWR01013"  Part="1" 
-AR Path="/5F7C8D58/5FA48C7B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR01013" H 2450 5450 50  0001 C CNN
-F 1 "VDD" H 2465 5773 50  0000 C CNN
-F 2 "" H 2450 5600 50  0001 C CNN
-F 3 "" H 2450 5600 50  0001 C CNN
-	1    2450 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1007
-U 1 1 5FA48C81
-P 2450 6350
-AR Path="/5F829319/5FA48C81" Ref="R1007"  Part="1" 
-AR Path="/5F7C8D58/5FA48C81" Ref="R?"  Part="1" 
-F 0 "R1007" H 2520 6396 50  0000 L CNN
-F 1 "10k" H 2520 6305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2380 6350 50  0001 C CNN
-F 3 "~" H 2450 6350 50  0001 C CNN
-F 4 "VDDADC_SUPPORTED" H 2450 6350 50  0001 C CNN "Feature"
-F 5 "0.0036" H 2450 6350 50  0001 C CNN "Price"
-F 6 "yes" H 2450 6350 50  0001 C CNN "is stock"
-	1    2450 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1008
-U 1 1 5FA48C87
-P 2450 6850
-AR Path="/5F829319/5FA48C87" Ref="R1008"  Part="1" 
-AR Path="/5F7C8D58/5FA48C87" Ref="R?"  Part="1" 
-F 0 "R1008" H 2520 6896 50  0000 L CNN
-F 1 "1k8" H 2520 6805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2380 6850 50  0001 C CNN
-F 3 "~" H 2450 6850 50  0001 C CNN
-F 4 "VDDADC_SUPPORTED" H 2450 6850 50  0001 C CNN "Feature"
-F 5 "0.0036" H 2450 6850 50  0001 C CNN "Price"
-F 6 "yes" H 2450 6850 50  0001 C CNN "is stock"
-	1    2450 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR01019
-U 1 1 5FA48C8D
-P 2450 7150
-AR Path="/5F829319/5FA48C8D" Ref="#PWR01019"  Part="1" 
-AR Path="/5F7C8D58/5FA48C8D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR01019" H 2450 6900 50  0001 C CNN
-F 1 "GND" H 2455 6977 50  0000 C CNN
-F 2 "" H 2450 7150 50  0001 C CNN
-F 3 "" H 2450 7150 50  0001 C CNN
-	1    2450 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 6500 2450 6600
-Wire Wire Line
-	2450 6200 2450 5600
-Connection ~ 2450 6600
-Wire Wire Line
-	2450 6600 2450 6700
-Wire Wire Line
-	2450 7000 2450 7100
-$Comp
-L power:+5V #PWR01017
-U 1 1 5FA48C98
-P 2950 6100
-AR Path="/5F829319/5FA48C98" Ref="#PWR01017"  Part="1" 
-AR Path="/5F7C8D58/5FA48C98" Ref="#PWR?"  Part="1" 
-F 0 "#PWR01017" H 2950 5950 50  0001 C CNN
-F 1 "+5V" H 2965 6273 50  0000 C CNN
-F 2 "" H 2950 6100 50  0001 C CNN
-F 3 "" H 2950 6100 50  0001 C CNN
-	1    2950 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D1005
-U 1 1 5FA48C9E
-P 2950 6350
-AR Path="/5F829319/5FA48C9E" Ref="D1005"  Part="1" 
-AR Path="/5F7C8D58/5FA48C9E" Ref="D?"  Part="1" 
-F 0 "D1005" V 2904 6430 50  0000 L CNN
-F 1 "1N4148" V 2995 6430 50  0000 L CNN
-F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2950 6350 50  0001 C CNN
-F 3 "~" H 2950 6350 50  0001 C CNN
-F 4 "VDDADC_SUPPORTED" H 2950 6350 50  0001 C CNN "Feature"
-F 5 "0.0048" H 2950 6350 50  0001 C CNN "Price"
-F 6 "yes" H 2950 6350 50  0001 C CNN "is stock"
-	1    2950 6350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2950 6100 2950 6200
-Wire Wire Line
-	2450 6600 2950 6600
-Wire Wire Line
-	2950 6500 2950 6600
-Connection ~ 2950 6600
-Wire Wire Line
-	2950 6600 3450 6600
-$Comp
-L Device:C C?
-U 1 1 5FA48CA9
-P 2950 6850
-AR Path="/5F7C8D58/5FA48CA9" Ref="C?"  Part="1" 
-AR Path="/5F829319/5FA48CA9" Ref="C1006"  Part="1" 
-F 0 "C1006" H 3065 6896 50  0000 L CNN
-F 1 "1uF" H 3065 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2988 6700 50  0001 C CNN
-F 3 "~" H 2950 6850 50  0001 C CNN
-F 4 "VDDADC_SUPPORTED" H 2950 6850 50  0001 C CNN "Feature"
-F 5 "0.015" H 2950 6850 50  0001 C CNN "Price"
-F 6 "no" H 2950 6850 50  0001 C CNN "is stock"
-	1    2950 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 6600 2950 6700
-Wire Wire Line
-	2950 7100 2950 7000
-Wire Wire Line
-	2450 7100 2950 7100
-Connection ~ 2450 7100
-Wire Wire Line
-	2450 7100 2450 7150
-Wire Wire Line
-	3450 6600 3950 6600
-Connection ~ 3450 6600
-Text Label 3950 6600 2    50   ~ 0
-adc_vdd
-Wire Wire Line
-	3450 6950 3450 6600
 $Comp
 L power:+5V #PWR01012
 U 1 1 5F8B3F3B
@@ -590,7 +425,7 @@ U 1 1 5F88FFF7
 P 9350 1100
 F 0 "JP1001" H 9350 1200 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 9350 1214 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9350 1100 50  0001 C CNN
+F 2 "LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9350 1100 50  0001 C CNN
 F 3 "~" H 9350 1100 50  0001 C CNN
 F 4 "GPJUMPER" H 9350 1100 50  0001 C CNN "Feature"
 F 5 "0" H 9350 1100 50  0001 C CNN "Price"
@@ -601,48 +436,6 @@ $EndComp
 $Comp
 L Device:R_Pack04_Split RN1002
 U 1 1 5F8A23F3
-P 9850 1250
-F 0 "RN1002" V 9643 1250 50  0000 C CNN
-F 1 "10k" V 9734 1250 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 9770 1250 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9850 1250 50  0001 C CNN
-F 4 "GPJUMPER" H 9850 1250 50  0001 C CNN "Feature"
-F 5 "0.0134" H 9850 1250 50  0001 C CNN "Price"
-F 6 "no" H 9850 1250 50  0001 C CNN "is stock"
-	1    9850 1250
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split RN1002
-U 2 1 5F8A28A0
-P 9850 1650
-F 0 "RN1002" V 9643 1650 50  0000 C CNN
-F 1 "10k" V 9734 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 9770 1650 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9850 1650 50  0001 C CNN
-F 4 "GPJUMPER" H 9850 1650 50  0001 C CNN "Feature"
-F 5 "0.0134" H 9850 1650 50  0001 C CNN "Price"
-F 6 "no" H 9850 1650 50  0001 C CNN "is stock"
-	2    9850 1650
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split RN1002
-U 3 1 5F8A2D89
-P 9850 2050
-F 0 "RN1002" V 9643 2050 50  0000 C CNN
-F 1 "10k" V 9734 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 9770 2050 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9850 2050 50  0001 C CNN
-F 4 "GPJUMPER" H 9850 2050 50  0001 C CNN "Feature"
-F 5 "0.0134" H 9850 2050 50  0001 C CNN "Price"
-F 6 "no" H 9850 2050 50  0001 C CNN "is stock"
-	3    9850 2050
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split RN1002
-U 4 1 5F8A31E6
 P 9850 2450
 F 0 "RN1002" V 9643 2450 50  0000 C CNN
 F 1 "10k" V 9734 2450 50  0000 C CNN
@@ -651,7 +444,49 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9850 2450 50  0001 C CNN
 F 4 "GPJUMPER" H 9850 2450 50  0001 C CNN "Feature"
 F 5 "0.0134" H 9850 2450 50  0001 C CNN "Price"
 F 6 "no" H 9850 2450 50  0001 C CNN "is stock"
-	4    9850 2450
+	1    9850 2450
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1002
+U 2 1 5F8A28A0
+P 9850 2050
+F 0 "RN1002" V 9643 2050 50  0000 C CNN
+F 1 "10k" V 9734 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 9770 2050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9850 2050 50  0001 C CNN
+F 4 "GPJUMPER" H 9850 2050 50  0001 C CNN "Feature"
+F 5 "0.0134" H 9850 2050 50  0001 C CNN "Price"
+F 6 "no" H 9850 2050 50  0001 C CNN "is stock"
+	2    9850 2050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1002
+U 3 1 5F8A2D89
+P 9850 1650
+F 0 "RN1002" V 9643 1650 50  0000 C CNN
+F 1 "10k" V 9734 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 9770 1650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9850 1650 50  0001 C CNN
+F 4 "GPJUMPER" H 9850 1650 50  0001 C CNN "Feature"
+F 5 "0.0134" H 9850 1650 50  0001 C CNN "Price"
+F 6 "no" H 9850 1650 50  0001 C CNN "is stock"
+	3    9850 1650
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1002
+U 4 1 5F8A31E6
+P 9850 1250
+F 0 "RN1002" V 9643 1250 50  0000 C CNN
+F 1 "10k" V 9734 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 9770 1250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9850 1250 50  0001 C CNN
+F 4 "GPJUMPER" H 9850 1250 50  0001 C CNN "Feature"
+F 5 "0.0134" H 9850 1250 50  0001 C CNN "Price"
+F 6 "no" H 9850 1250 50  0001 C CNN "is stock"
+	4    9850 1250
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
@@ -697,7 +532,7 @@ U 1 1 5F8C286A
 P 9350 1500
 F 0 "JP1002" H 9350 1600 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 9350 1614 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9350 1500 50  0001 C CNN
+F 2 "LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9350 1500 50  0001 C CNN
 F 3 "~" H 9350 1500 50  0001 C CNN
 F 4 "GPJUMPER" H 9350 1500 50  0001 C CNN "Feature"
 F 5 "0" H 9350 1500 50  0001 C CNN "Price"
@@ -711,7 +546,7 @@ U 1 1 5F8C2C72
 P 9350 1900
 F 0 "JP1003" H 9350 2000 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 9350 2014 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9350 1900 50  0001 C CNN
+F 2 "LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9350 1900 50  0001 C CNN
 F 3 "~" H 9350 1900 50  0001 C CNN
 F 4 "GPJUMPER" H 9350 1900 50  0001 C CNN "Feature"
 F 5 "0" H 9350 1900 50  0001 C CNN "Price"
@@ -725,7 +560,7 @@ U 1 1 5F8C30EB
 P 9350 2300
 F 0 "JP1004" H 9350 2400 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 9350 2414 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9350 2300 50  0001 C CNN
+F 2 "LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9350 2300 50  0001 C CNN
 F 3 "~" H 9350 2300 50  0001 C CNN
 F 4 "GPJUMPER" H 9350 2300 50  0001 C CNN "Feature"
 F 5 "0" H 9350 2300 50  0001 C CNN "Price"
@@ -836,8 +671,6 @@ Text Label 3500 1000 0    50   ~ 0
 isp_mosi
 Text Label 3500 1650 0    50   ~ 0
 button
-Text Label 1500 1850 2    50   ~ 0
-adc_vdd
 Text Label 1500 1550 2    50   ~ 0
 aref
 NoConn ~ 1900 1750
@@ -854,10 +687,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 2550 4000 2550
 Wire Wire Line
-	3100 2650 4000 2650
-Wire Wire Line
-	3100 2750 4000 2750
-Wire Wire Line
 	3100 2850 4000 2850
 Wire Wire Line
 	3100 2950 4000 2950
@@ -869,8 +698,6 @@ Wire Wire Line
 	3100 3350 4000 3350
 Wire Wire Line
 	3100 3450 4000 3450
-Wire Wire Line
-	3100 3550 4000 3550
 Wire Wire Line
 	3100 3650 4000 3650
 Wire Wire Line
@@ -910,19 +737,13 @@ Wire Wire Line
 	3400 2050 4000 2050
 Wire Wire Line
 	1000 1550 1900 1550
-Wire Wire Line
-	1000 1850 1900 1850
 Text HLabel 4000 2450 2    50   Output ~ 0
 0_10v_dout_1
-Text HLabel 4000 2650 2    50   Output ~ 0
-0_10v_dout_2
 Text HLabel 4000 2550 2    50   Input ~ 0
 0_10v_ain_1
-Text HLabel 4000 2750 2    50   Input ~ 0
-0_10v_ain_2
 Text HLabel 4000 3250 2    50   Input ~ 0
 rxd
-Text HLabel 4000 3550 2    50   Output ~ 0
+Text HLabel 4000 3450 2    50   Output ~ 0
 tx_en
 Wire Wire Line
 	8350 4350 7900 4350
@@ -1049,8 +870,6 @@ Connection ~ 5600 7000
 Wire Wire Line
 	5950 7100 5000 7100
 Connection ~ 5950 7100
-Text HLabel 4000 3450 2    50   Output ~ 0
-rtc_sqw
 $Comp
 L Device:R_Pack04_Split RN1001
 U 4 1 5F8BA948
@@ -1093,89 +912,22 @@ F 6 "no" H 6450 2200 50  0001 C CNN "is stock"
 	2    6450 2200
 	0    1    1    0   
 $EndComp
+NoConn ~ 3100 3550
 $Comp
-L Memory_EEPROM:CAT24C256 U1002
-U 1 1 5F94ED43
-P 7200 5700
-F 0 "U1002" H 6850 6050 50  0000 C CNN
-F 1 "CAT24C256" H 6850 5950 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7200 5700 50  0001 C CNN
-F 3 "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" H 7200 5700 50  0001 C CNN
-F 4 "0.223" H 7200 5700 50  0001 C CNN "Price"
-F 5 "yes" H 7200 5700 50  0001 C CNN "is stock"
-	1    7200 5700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5F957792
-P 7200 6150
-F 0 "#PWR0104" H 7200 5900 50  0001 C CNN
-F 1 "GND" H 7205 5977 50  0000 C CNN
-F 2 "" H 7200 6150 50  0001 C CNN
-F 3 "" H 7200 6150 50  0001 C CNN
-	1    7200 6150
+L MCU_Microchip_ATmega:ATmega328P-AU U1001
+U 1 1 5F8297C2
+P 2500 2750
+F 0 "U1001" H 2850 1250 50  0000 C CNN
+F 1 "ATmega328P-AU" H 2900 1150 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 2500 2750 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 2500 2750 50  0001 C CNN
+F 4 "UC" H 2500 2750 50  0001 C CNN "Feature"
+F 5 "1.106" H 2500 2750 50  0001 C CNN "Price"
+F 6 "yes" H 2500 2750 50  0001 C CNN "is stock"
+	1    2500 2750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 6000 7200 6150
-Wire Wire Line
-	6800 5800 6800 6000
-Wire Wire Line
-	6800 6000 7200 6000
-Connection ~ 7200 6000
-Wire Wire Line
-	7600 5600 7600 5700
-Wire Wire Line
-	7600 6000 7200 6000
-Connection ~ 7600 5700
-Wire Wire Line
-	7600 5700 7600 5800
-Connection ~ 7600 5800
-Wire Wire Line
-	7600 5800 7600 6000
-Wire Wire Line
-	6500 5600 6800 5600
-Wire Wire Line
-	6800 5700 6500 5700
-Text Label 6550 5700 0    50   ~ 0
-scl
-Text Label 6550 5600 0    50   ~ 0
-sda
-$Comp
-L power:+5V #PWR0105
-U 1 1 5F98BF20
-P 7200 5250
-F 0 "#PWR0105" H 7200 5100 50  0001 C CNN
-F 1 "+5V" H 7215 5423 50  0000 C CNN
-F 2 "" H 7200 5250 50  0001 C CNN
-F 3 "" H 7200 5250 50  0001 C CNN
-	1    7200 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 5400 7200 5250
-$Comp
-L Device:C C1005
-U 1 1 5F99329E
-P 7850 5700
-F 0 "C1005" H 7965 5746 50  0000 L CNN
-F 1 "0.1uF" H 7965 5655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7888 5550 50  0001 C CNN
-F 3 "~" H 7850 5700 50  0001 C CNN
-F 4 "0.0057" H 7850 5700 50  0001 C CNN "Price"
-F 5 "yes" H 7850 5700 50  0001 C CNN "is stock"
-	1    7850 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 5250 7850 5250
-Wire Wire Line
-	7850 5250 7850 5550
-Connection ~ 7200 5250
-Wire Wire Line
-	7600 6000 7850 6000
-Wire Wire Line
-	7850 6000 7850 5850
-Connection ~ 7600 6000
+NoConn ~ 3100 2650
+NoConn ~ 3100 2750
+NoConn ~ 1900 1850
 $EndSCHEMATC
