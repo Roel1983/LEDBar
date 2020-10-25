@@ -1,4 +1,4 @@
-update=zo 25 okt 2020 00:27:36 CEST
+update=zo 25 okt 2020 13:49:33 CET
 version=1
 last_client=kicad
 [general]
@@ -290,6 +290,17 @@ dPairViaGap=0.25
 Name=single_strip_power
 Clearance=0.2
 TrackWidth=0.67
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/5]
+Name=surge_bypass
+Clearance=0.25
+TrackWidth=2
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
