@@ -16,18 +16,18 @@ $EndDescr
 $Comp
 L Connector:Barrel_Jack_Switch J1201
 U 1 1 5F7C9FB6
-P 2700 3750
-F 0 "J1201" H 2757 4067 50  0000 C CNN
-F 1 "Barrel_Jack_Switch" H 2757 3976 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 2750 3710 50  0001 C CNN
-F 3 "~" H 2750 3710 50  0001 C CNN
-F 4 "POWER" H 2700 3750 50  0001 C CNN "Feature"
-F 5 "0.0472" H 2700 3750 50  0001 C CNN "Price"
-F 6 "yes" H 2700 3750 50  0001 C CNN "is stock"
-	1    2700 3750
+P 2200 3750
+F 0 "J1201" H 2257 4067 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 2257 3976 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 2250 3710 50  0001 C CNN
+F 3 "~" H 2250 3710 50  0001 C CNN
+F 4 "POWER" H 2200 3750 50  0001 C CNN "Feature"
+F 5 "0.0472" H 2200 3750 50  0001 C CNN "Price"
+F 6 "yes" H 2200 3750 50  0001 C CNN "is stock"
+	1    2200 3750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3000 3750
+NoConn ~ 2500 3750
 $Comp
 L power:VDD #PWR01201
 U 1 1 5F7CB8F6
@@ -42,15 +42,15 @@ $EndComp
 $Comp
 L Device:Fuse F1201
 U 1 1 5F7CC4D4
-P 3250 3000
-F 0 "F1201" V 3053 3000 50  0000 C CNN
-F 1 "5A" V 3144 3000 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" V 3180 3000 50  0001 C CNN
-F 3 "~" H 3250 3000 50  0001 C CNN
-F 4 "POWER" H 3250 3000 50  0001 C CNN "Feature"
-F 5 "0.1474" H 3250 3000 50  0001 C CNN "Price"
-F 6 "yes" H 3250 3000 50  0001 C CNN "is stock"
-	1    3250 3000
+P 2750 3000
+F 0 "F1201" V 2553 3000 50  0000 C CNN
+F 1 "max. 5A F" V 2644 3000 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" V 2680 3000 50  0001 C CNN
+F 3 "~" H 2750 3000 50  0001 C CNN
+F 4 "POWER" H 2750 3000 50  0001 C CNN "Feature"
+F 5 "0.1474" H 2750 3000 50  0001 C CNN "Price"
+F 6 "yes" H 2750 3000 50  0001 C CNN "is stock"
+	1    2750 3000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -204,11 +204,11 @@ F 3 "" H 9000 3500 50  0001 C CNN
 $EndComp
 Connection ~ 9000 3500
 Wire Wire Line
-	3000 3650 3000 3000
+	2500 3650 2500 3000
 Wire Wire Line
-	3000 3000 3100 3000
+	2500 3000 2600 3000
 Wire Wire Line
-	3000 3850 3000 4500
+	2500 3850 2500 4500
 Connection ~ 7000 4500
 $Comp
 L Device:C C1201
@@ -362,8 +362,6 @@ F 6 "no" H 4500 3100 50  0001 C CNN "is stock"
 	1    4500 3100
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3500 4500 4500 4500
 $Comp
 L Device:D_Zener D1201
 U 1 1 5FA7B9A0
@@ -407,7 +405,6 @@ Wire Wire Line
 Connection ~ 4500 3500
 Wire Wire Line
 	4500 3900 4500 4500
-Connection ~ 4500 4500
 Wire Wire Line
 	4500 4500 5500 4500
 Wire Notes Line
@@ -608,12 +605,12 @@ Wire Wire Line
 $Comp
 L Device:D_TVS D1203
 U 1 1 5FC9A3E5
-P 3500 3750
-F 0 "D1203" V 3454 3830 50  0000 L CNN
-F 1 "SMBJ30CA CK" V 3545 3830 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB_Handsoldering" H 3500 3750 50  0001 C CNN
-F 3 "~" H 3500 3750 50  0001 C CNN
-	1    3500 3750
+P 3000 3750
+F 0 "D1203" V 2954 3830 50  0000 L CNN
+F 1 "SMBJ30CA CK /SMBJ15CA BM" V 3045 3830 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB_Handsoldering" H 3000 3750 50  0001 C CNN
+F 3 "~" H 3000 3750 50  0001 C CNN
+	1    3000 3750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -630,15 +627,20 @@ Wire Wire Line
 Connection ~ 5000 3000
 Connection ~ 5500 3000
 Wire Wire Line
-	3400 3000 3500 3000
+	2900 3000 3000 3000
 Wire Wire Line
-	3000 4500 3500 4500
+	2500 4500 3000 4500
 Wire Wire Line
-	3500 4500 3500 3900
-Connection ~ 3500 4500
+	3000 4500 3000 3900
+Connection ~ 3000 4500
 Wire Wire Line
-	3500 3600 3500 3000
-Connection ~ 3500 3000
+	3000 3600 3000 3000
+Connection ~ 3000 3000
+Text Label 3000 3350 0    50   ~ 0
+surge_bypass
 Wire Wire Line
-	3500 3000 4300 3000
+	3000 3000 4300 3000
+Wire Wire Line
+	3000 4500 4500 4500
+Connection ~ 4500 4500
 $EndSCHEMATC
