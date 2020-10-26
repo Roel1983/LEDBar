@@ -1,4 +1,4 @@
-update=zo 25 okt 2020 13:49:33 CET
+update=ma 26 okt 2020 08:57:42 CET
 version=1
 last_client=kicad
 [general]
@@ -299,7 +299,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
 Name=surge_bypass
-Clearance=0.25
+Clearance=0.2
 TrackWidth=2
 ViaDiameter=0.8
 ViaDrill=0.4
