@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 13
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -193,8 +193,6 @@ F 3 "" H 6500 3550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6500 3450 6500 3550
-Wire Wire Line
-	4000 2000 4250 2000
 $Comp
 L Connector_Generic:Conn_01x02 J1101
 U 1 1 5F80EAFE
@@ -224,25 +222,6 @@ Wire Wire Line
 	7150 2600 7000 2600
 Wire Wire Line
 	7000 2600 7000 2750
-$Comp
-L Connector:TestPoint TP1102
-U 1 1 5F819F73
-P 4250 1950
-F 0 "TP1102" H 4308 2068 50  0000 L CNN
-F 1 "d1" H 4308 1977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4450 1950 50  0001 C CNN
-F 3 "~" H 4450 1950 50  0001 C CNN
-F 4 "10V_SUPPORTED_1CH" H 4250 1950 50  0001 C CNN "Feature"
-F 5 "0" H 4250 1950 50  0001 C CNN "Price"
-F 6 "n.a." H 4250 1950 50  0001 C CNN "is stock"
-	1    4250 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 1950 4250 2000
-Connection ~ 4250 2000
-Wire Wire Line
-	4250 2000 4600 2000
 $Comp
 L Device:R R1102
 U 1 1 5F837482
@@ -370,27 +349,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 4500 5750 4500
 Connection ~ 5000 4500
-Wire Wire Line
-	4000 4500 4250 4500
-$Comp
-L Connector:TestPoint TP1103
-U 1 1 5FEE3D45
-P 4250 4450
-F 0 "TP1103" H 4308 4568 50  0000 L CNN
-F 1 "d2" H 4308 4477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4450 4450 50  0001 C CNN
-F 3 "~" H 4450 4450 50  0001 C CNN
-F 4 "10V_SUPPORTED_1CH" H 4250 4450 50  0001 C CNN "Feature"
-F 5 "0" H 4250 4450 50  0001 C CNN "Price"
-F 6 "n.a." H 4250 4450 50  0001 C CNN "is stock"
-	1    4250 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 4450 4250 4500
-Connection ~ 4250 4500
-Wire Wire Line
-	4250 4500 4600 4500
 $Comp
 L Device:R R1107
 U 1 1 5FEE9ACA
@@ -527,36 +485,8 @@ Wire Wire Line
 	7000 4500 7000 4600
 Wire Wire Line
 	5500 4700 5500 5550
-$Comp
-L Connector:TestPoint TP1101
-U 1 1 5FEEC697
-P 5000 1950
-F 0 "TP1101" H 5058 2068 50  0000 L CNN
-F 1 "a1" H 5058 1977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5200 1950 50  0001 C CNN
-F 3 "~" H 5200 1950 50  0001 C CNN
-F 4 "10V_SUPPORTED_1CH" H 5000 1950 50  0001 C CNN "Feature"
-F 5 "0" H 5000 1950 50  0001 C CNN "Price"
-F 6 "n.a." H 5000 1950 50  0001 C CNN "is stock"
-	1    5000 1950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5000 1950 5000 2000
-$Comp
-L Connector:TestPoint TP1104
-U 1 1 5FEEDF1E
-P 5000 4450
-F 0 "TP1104" H 5058 4568 50  0000 L CNN
-F 1 "a2" H 5058 4477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5200 4450 50  0001 C CNN
-F 3 "~" H 5200 4450 50  0001 C CNN
-F 4 "10V_SUPPORTED_1CH" H 5000 4450 50  0001 C CNN "Feature"
-F 5 "0" H 5000 4450 50  0001 C CNN "Price"
-F 6 "n.a." H 5000 4450 50  0001 C CNN "is stock"
-	1    5000 4450
-	1    0    0    -1  
-$EndComp
+	4000 2000 4600 2000
 Wire Wire Line
-	5000 4450 5000 4500
+	4000 4500 4600 4500
 $EndSCHEMATC

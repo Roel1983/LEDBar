@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 13
+Sheet 2 11
 Title ""
 Date ""
 Rev ""
@@ -726,22 +726,10 @@ $EndComp
 Wire Wire Line
 	8050 5850 8050 5950
 $Sheet
-S 9500 1000 1050 500 
-U 5FA33522
-F0 "SideStrip_left" 50
-F1 "SideStrip.sch" 50
-$EndSheet
-$Sheet
 S 9500 3000 1000 1000
 U 5FA33E59
 F0 "CenterStrips" 50
 F1 "CenterStrips.sch" 50
-$EndSheet
-$Sheet
-S 9450 5550 1050 450 
-U 5FA34085
-F0 "SideStrip_right" 50
-F1 "SideStrip.sch" 50
 $EndSheet
 Wire Wire Line
 	8300 4250 8300 3850
@@ -788,4 +776,6 @@ Wire Wire Line
 Connection ~ 2100 4150
 Wire Wire Line
 	2100 4150 2100 4250
+Text Notes 10050 6100 0    50   ~ 0
+Left
 $EndSCHEMATC
