@@ -768,7 +768,7 @@ F 6 "no" H 8300 3650 50  0001 C CNN "is stock"
 	0    -1   -1   0   
 $EndComp
 Text HLabel 8700 3250 2    50   Output ~ 0
-button
+~button~
 Wire Wire Line
 	8600 3950 8600 3850
 Wire Wire Line

@@ -187,8 +187,8 @@ U 1 1 5F9BC931
 P 5500 4100
 AR Path="/5F92F971/5F9BC931" Ref="SW?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/5F9BC931" Ref="SW801"  Part="1" 
-F 0 "SW801" H 5500 4385 50  0000 C CNN
-F 1 "4x42.3mm PCB Tactile Push Button Switch" H 5500 4294 50  0000 C CNN
+F 0 "SW801" H 5500 4250 50  0000 C CNN
+F 1 "4x42.3mm PCB Tactile Push Button Switch" H 5500 4000 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithStem" H 5500 4300 50  0001 C CNN
 F 3 "~" H 5500 4300 50  0001 C CNN
 F 4 "PWM_SUPPORTED_2STRIPS" H 5500 4100 50  0001 C CNN "Feature"
@@ -248,5 +248,5 @@ Wire Wire Line
 Text Label 5800 3850 0    50   ~ 0
 GND_
 Text Label 5200 3850 2    50   ~ 0
-button_
+~button~_
 $EndSCHEMATC

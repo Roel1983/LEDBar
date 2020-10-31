@@ -42,10 +42,10 @@ S 8000 2000 1000 2000
 U 5F8F2E1B
 F0 "PWM" 50
 F1 "PWM.sch" 50
-F2 "button" O L 8000 3850 50 
-F3 "~oe" I L 8000 2400 50 
-F4 "sda" B L 8000 2200 50 
-F5 "scl" O L 8000 2100 50 
+F2 "~oe" I L 8000 2400 50 
+F3 "sda" B L 8000 2200 50 
+F4 "scl" O L 8000 2100 50 
+F5 "~button~" O L 8000 3850 50 
 $EndSheet
 Wire Wire Line
 	4500 3700 5300 3700
@@ -57,14 +57,14 @@ U 5F829319
 F0 "Microcontroller" 50
 F1 "Microcontroller.sch" 50
 F2 "txd" O L 5300 3700 50 
-F3 "0_10v_dout_1" O R 6300 4800 50 
-F4 "0_10v_ain_1" I R 6300 4900 50 
-F5 "rxd" I L 5300 3600 50 
-F6 "tx_en" O L 5300 3900 50 
-F7 "button" I R 6300 4250 50 
-F8 "scl" O R 6300 3600 50 
-F9 "sda" B R 6300 3700 50 
-F10 "~pwm_oe" O R 6300 3900 50 
+F3 "rxd" I L 5300 3600 50 
+F4 "tx_en" O L 5300 3900 50 
+F5 "scl" O R 6300 3600 50 
+F6 "sda" B R 6300 3700 50 
+F7 "~pwm_oe" O R 6300 3900 50 
+F8 "pwm1" O R 6300 4800 50 
+F9 "pwm2" O R 6300 4900 50 
+F10 "~button~" I R 6300 4250 50 
 $EndSheet
 Wire Wire Line
 	4500 3900 5300 3900
@@ -108,7 +108,7 @@ S 8000 5500 1000 500
 U 5F8293F0
 F0 "0-10V" 50
 F1 "0-10V.sch" 50
-F2 "dout_1" I L 8000 5600 50 
-F3 "ain_1" O L 8000 5700 50 
+F2 "pwm1" I L 8000 5600 50 
+F3 "pwm2" I L 8000 5700 50 
 $EndSheet
 $EndSCHEMATC
