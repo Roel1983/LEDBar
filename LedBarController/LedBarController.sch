@@ -19,8 +19,8 @@ U 1 1 602EA7CB
 P 7950 5500
 AR Path="/5F92F971/602EA7CB" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA7CB" Ref="J?"  Part="1" 
-AR Path="/602EA7CB" Ref="J805"  Part="1" 
-F 0 "J805" H 7850 5800 50  0000 L CNN
+AR Path="/602EA7CB" Ref="J114"  Part="1" 
+F 0 "J114" H 7850 5800 50  0000 L CNN
 F 1 "Conn_01x05" H 8030 5451 50  0001 L CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Right" H 7950 5500 50  0001 C CNN
 F 3 "~" H 7950 5500 50  0001 C CNN
@@ -36,8 +36,8 @@ U 1 1 602EA7D4
 P 7950 4500
 AR Path="/5F92F971/602EA7D4" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA7D4" Ref="J?"  Part="1" 
-AR Path="/602EA7D4" Ref="J803"  Part="1" 
-F 0 "J803" H 7850 4800 50  0000 L CNN
+AR Path="/602EA7D4" Ref="J109"  Part="1" 
+F 0 "J109" H 7850 4800 50  0000 L CNN
 F 1 "Conn_01x05" H 8030 4451 50  0001 L CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Right" H 7950 4500 50  0001 C CNN
 F 3 "~" H 7950 4500 50  0001 C CNN
@@ -53,8 +53,8 @@ U 1 1 602EA7DD
 P 4100 4500
 AR Path="/5F92F971/602EA7DD" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA7DD" Ref="J?"  Part="1" 
-AR Path="/602EA7DD" Ref="J801"  Part="1" 
-F 0 "J801" H 4100 4800 50  0000 C CNN
+AR Path="/602EA7DD" Ref="J107"  Part="1" 
+F 0 "J107" H 4100 4800 50  0000 C CNN
 F 1 "Conn_01x05" H 4018 4826 50  0001 C CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Left" H 4100 4500 50  0001 C CNN
 F 3 "~" H 4100 4500 50  0001 C CNN
@@ -70,8 +70,8 @@ U 1 1 602EA7E6
 P 4100 5500
 AR Path="/5F92F971/602EA7E6" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA7E6" Ref="J?"  Part="1" 
-AR Path="/602EA7E6" Ref="J804"  Part="1" 
-F 0 "J804" H 4100 5800 50  0000 C CNN
+AR Path="/602EA7E6" Ref="J113"  Part="1" 
+F 0 "J113" H 4100 5800 50  0000 C CNN
 F 1 "Conn_01x05" H 4018 5826 50  0001 C CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Left" H 4100 5500 50  0001 C CNN
 F 3 "~" H 4100 5500 50  0001 C CNN
@@ -169,8 +169,8 @@ U 1 1 602EA81D
 P 6000 5250
 AR Path="/5F92F971/602EA81D" Ref="SW?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA81D" Ref="SW?"  Part="1" 
-AR Path="/602EA81D" Ref="SW801"  Part="1" 
-F 0 "SW801" H 6000 5400 50  0000 C CNN
+AR Path="/602EA81D" Ref="SW101"  Part="1" 
+F 0 "SW101" H 6000 5400 50  0000 C CNN
 F 1 "4x42.3mm PCB Tactile Push Button Switch" H 6000 5150 50  0001 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_SKQG_WithStem" H 6000 5450 50  0001 C CNN
 F 3 "~" H 6000 5450 50  0001 C CNN
@@ -186,8 +186,8 @@ U 1 1 602EA826
 P 6050 4500
 AR Path="/5F92F971/602EA826" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA826" Ref="J?"  Part="1" 
-AR Path="/602EA826" Ref="J802"  Part="1" 
-F 0 "J802" H 6100 4925 50  0000 C CNN
+AR Path="/602EA826" Ref="J108"  Part="1" 
+F 0 "J108" H 6100 4925 50  0000 C CNN
 F 1 "Male pitch strip 2x7pins 2.0mm pitch" H 6100 4926 50  0001 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical" H 6050 4500 50  0001 C CNN
 F 3 "~" H 6050 4500 50  0001 C CNN
@@ -238,8 +238,8 @@ AR Path="/5F92F3F9/602EA83F" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA83F" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA83F" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA83F" Ref="J?"  Part="1" 
-AR Path="/602EA83F" Ref="J701"  Part="1" 
-F 0 "J701" H 2850 4800 50  0000 C CNN
+AR Path="/602EA83F" Ref="J106"  Part="1" 
+F 0 "J106" H 2850 4800 50  0000 C CNN
 F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 2768 4826 50  0001 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 2850 4500 50  0001 C CNN
 F 3 "~" H 2850 4500 50  0001 C CNN
@@ -258,8 +258,8 @@ AR Path="/5F92F3F9/602EA848" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA848" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA848" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA848" Ref="J?"  Part="1" 
-AR Path="/602EA848" Ref="J702"  Part="1" 
-F 0 "J702" H 1150 4800 50  0000 L CNN
+AR Path="/602EA848" Ref="J105"  Part="1" 
+F 0 "J105" H 1150 4800 50  0000 L CNN
 F 1 "Conn_01x05" H 1200 4900 50  0001 L CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Left" H 1250 4500 50  0001 C CNN
 F 3 "~" H 1250 4500 50  0001 C CNN
@@ -278,8 +278,8 @@ AR Path="/5F92F3F9/602EA851" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA851" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA851" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA851" Ref="J?"  Part="1" 
-AR Path="/602EA851" Ref="J703"  Part="1" 
-F 0 "J703" H 1150 5800 50  0000 L CNN
+AR Path="/602EA851" Ref="J112"  Part="1" 
+F 0 "J112" H 1150 5800 50  0000 L CNN
 F 1 "Conn_01x05" H 1200 5900 50  0001 L CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Left" H 1250 5500 50  0001 C CNN
 F 3 "~" H 1250 5500 50  0001 C CNN
@@ -343,8 +343,8 @@ AR Path="/5F92F3F9/602EA873" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA873" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA873" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA873" Ref="J?"  Part="1" 
-AR Path="/602EA873" Ref="J704"  Part="1" 
-F 0 "J704" H 1250 3300 50  0000 C CNN
+AR Path="/602EA873" Ref="J101"  Part="1" 
+F 0 "J101" H 1250 3300 50  0000 C CNN
 F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 1168 3326 50  0001 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 1250 3000 50  0001 C CNN
 F 3 "~" H 1250 3000 50  0001 C CNN
@@ -373,8 +373,8 @@ AR Path="/5F92F3F9/602EA881" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA881" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA881" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA881" Ref="J?"  Part="1" 
-AR Path="/602EA881" Ref="J705"  Part="1" 
-F 0 "J705" H 2750 3300 50  0000 C CNN
+AR Path="/602EA881" Ref="J102"  Part="1" 
+F 0 "J102" H 2750 3300 50  0000 C CNN
 F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 2668 3326 50  0001 C CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Right" H 2750 3000 50  0001 C CNN
 F 3 "~" H 2750 3000 50  0001 C CNN
@@ -393,8 +393,8 @@ AR Path="/5F92F3F9/602EA88A" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA88A" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA88A" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA88A" Ref="J?"  Part="1" 
-AR Path="/602EA88A" Ref="J901"  Part="1" 
-F 0 "J901" H 9150 4800 50  0000 C CNN
+AR Path="/602EA88A" Ref="J110"  Part="1" 
+F 0 "J110" H 9150 4800 50  0000 C CNN
 F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 9068 4826 50  0001 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 9150 4500 50  0001 C CNN
 F 3 "~" H 9150 4500 50  0001 C CNN
@@ -413,8 +413,8 @@ AR Path="/5F92F3F9/602EA893" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA893" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA893" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA893" Ref="J?"  Part="1" 
-AR Path="/602EA893" Ref="J902"  Part="1" 
-F 0 "J902" H 10650 4800 50  0000 L CNN
+AR Path="/602EA893" Ref="J111"  Part="1" 
+F 0 "J111" H 10650 4800 50  0000 L CNN
 F 1 "Conn_01x05" H 10700 4900 50  0001 L CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Right" H 10750 4500 50  0001 C CNN
 F 3 "~" H 10750 4500 50  0001 C CNN
@@ -433,8 +433,8 @@ AR Path="/5F92F3F9/602EA89C" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA89C" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA89C" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA89C" Ref="J?"  Part="1" 
-AR Path="/602EA89C" Ref="J903"  Part="1" 
-F 0 "J903" H 10650 5800 50  0000 L CNN
+AR Path="/602EA89C" Ref="J115"  Part="1" 
+F 0 "J115" H 10650 5800 50  0000 L CNN
 F 1 "Conn_01x05" H 10700 5900 50  0001 L CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Right" H 10750 5500 50  0001 C CNN
 F 3 "~" H 10750 5500 50  0001 C CNN
@@ -498,8 +498,8 @@ AR Path="/5F92F3F9/602EA8BE" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA8BE" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA8BE" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA8BE" Ref="J?"  Part="1" 
-AR Path="/602EA8BE" Ref="J905"  Part="1" 
-F 0 "J905" H 10750 3350 50  0000 C CNN
+AR Path="/602EA8BE" Ref="J104"  Part="1" 
+F 0 "J104" H 10750 3350 50  0000 C CNN
 F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 10668 3326 50  0001 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 10750 3000 50  0001 C CNN
 F 3 "~" H 10750 3000 50  0001 C CNN
@@ -518,8 +518,8 @@ AR Path="/5F92F3F9/602EA8C7" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA8C7" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA8C7" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA8C7" Ref="J?"  Part="1" 
-AR Path="/602EA8C7" Ref="J904"  Part="1" 
-F 0 "J904" H 9250 3350 50  0000 C CNN
+AR Path="/602EA8C7" Ref="J103"  Part="1" 
+F 0 "J103" H 9250 3350 50  0000 C CNN
 F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 9168 3326 50  0001 C CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Left" H 9250 3000 50  0001 C CNN
 F 3 "~" H 9250 3000 50  0001 C CNN
