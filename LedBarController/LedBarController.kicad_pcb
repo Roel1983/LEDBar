@@ -5952,7 +5952,7 @@
   (gr_text "LED Bar driver" (at 79.883 40.005) (layer F.SilkS) (tstamp 5FA79AB9)
     (effects (font (size 1.6 1.6) (thickness 0.25)) (justify left))
   )
-  (gr_text www.github.roeldrost/LedBarDriver (at 80.01 45.974) (layer F.SilkS)
+  (gr_text https://github.com/Roel1983/LEDBar (at 80.01 45.974) (layer F.SilkS)
     (effects (font (size 0.9 0.9) (thickness 0.15)) (justify left))
   )
   (gr_text ", Voltage: 12V/12-24V" (at 92.456 44.577) (layer F.SilkS)
