@@ -661,4 +661,14 @@ U 602F109A
 F0 "CenterBack" 50
 F1 "CenterBack.sch" 50
 $EndSheet
+Text Notes 3250 3000 0    79   ~ 0
+<--
+Text Notes 8750 3000 2    79   ~ 0
+-->
+Text Notes 2000 3900 1    79   ~ 0
+<--
+Text Notes 6050 3850 1    79   ~ 0
+<--
+Text Notes 10100 3850 1    79   ~ 0
+<--
 $EndSCHEMATC

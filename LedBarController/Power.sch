@@ -605,7 +605,7 @@ U 1 1 5F7CC4D4
 P 3250 4000
 F 0 "F301" V 3053 4000 50  0000 C CNN
 F 1 "max. 5A F" V 3144 4000 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" V 3180 4000 50  0001 C CNN
+F 2 "LedBarController:Fuseholder_Cylinder-5x20mm_BLX_A_Horizontal" V 3180 4000 50  0001 C CNN
 F 3 "~" H 3250 4000 50  0001 C CNN
 F 4 "POWER" H 3250 4000 50  0001 C CNN "Feature"
 F 5 "0.1474" H 3250 4000 50  0001 C CNN "Price"
