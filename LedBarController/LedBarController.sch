@@ -19,8 +19,8 @@ U 1 1 602EA7CB
 P 7950 5500
 AR Path="/5F92F971/602EA7CB" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA7CB" Ref="J?"  Part="1" 
-AR Path="/602EA7CB" Ref="J114"  Part="1" 
-F 0 "J114" H 7850 5800 50  0000 L CNN
+AR Path="/602EA7CB" Ref="J108"  Part="1" 
+F 0 "J108" H 7850 5800 50  0000 L CNN
 F 1 "Conn_01x05" H 8030 5451 50  0001 L CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Right" H 7950 5500 50  0001 C CNN
 F 3 "~" H 7950 5500 50  0001 C CNN
@@ -36,8 +36,8 @@ U 1 1 602EA7D4
 P 7950 4500
 AR Path="/5F92F971/602EA7D4" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA7D4" Ref="J?"  Part="1" 
-AR Path="/602EA7D4" Ref="J109"  Part="1" 
-F 0 "J109" H 7850 4800 50  0000 L CNN
+AR Path="/602EA7D4" Ref="J107"  Part="1" 
+F 0 "J107" H 7850 4800 50  0000 L CNN
 F 1 "Conn_01x05" H 8030 4451 50  0001 L CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Right" H 7950 4500 50  0001 C CNN
 F 3 "~" H 7950 4500 50  0001 C CNN
@@ -53,8 +53,8 @@ U 1 1 602EA7DD
 P 4100 4500
 AR Path="/5F92F971/602EA7DD" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA7DD" Ref="J?"  Part="1" 
-AR Path="/602EA7DD" Ref="J107"  Part="1" 
-F 0 "J107" H 4100 4800 50  0000 C CNN
+AR Path="/602EA7DD" Ref="J104"  Part="1" 
+F 0 "J104" H 4100 4800 50  0000 C CNN
 F 1 "Conn_01x05" H 4018 4826 50  0001 C CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Left" H 4100 4500 50  0001 C CNN
 F 3 "~" H 4100 4500 50  0001 C CNN
@@ -70,8 +70,8 @@ U 1 1 602EA7E6
 P 4100 5500
 AR Path="/5F92F971/602EA7E6" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA7E6" Ref="J?"  Part="1" 
-AR Path="/602EA7E6" Ref="J113"  Part="1" 
-F 0 "J113" H 4100 5800 50  0000 C CNN
+AR Path="/602EA7E6" Ref="J105"  Part="1" 
+F 0 "J105" H 4100 5800 50  0000 C CNN
 F 1 "Conn_01x05" H 4018 5826 50  0001 C CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Left" H 4100 5500 50  0001 C CNN
 F 3 "~" H 4100 5500 50  0001 C CNN
@@ -186,8 +186,8 @@ U 1 1 602EA826
 P 6050 4500
 AR Path="/5F92F971/602EA826" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA826" Ref="J?"  Part="1" 
-AR Path="/602EA826" Ref="J108"  Part="1" 
-F 0 "J108" H 6100 4925 50  0000 C CNN
+AR Path="/602EA826" Ref="J106"  Part="1" 
+F 0 "J106" H 6100 4925 50  0000 C CNN
 F 1 "Male pitch strip 2x7pins 2.0mm pitch" H 6100 4926 50  0001 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical" H 6050 4500 50  0001 C CNN
 F 3 "~" H 6050 4500 50  0001 C CNN
@@ -238,8 +238,8 @@ AR Path="/5F92F3F9/602EA83F" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA83F" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA83F" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA83F" Ref="J?"  Part="1" 
-AR Path="/602EA83F" Ref="J106"  Part="1" 
-F 0 "J106" H 2850 4800 50  0000 C CNN
+AR Path="/602EA83F" Ref="J103"  Part="1" 
+F 0 "J103" H 2850 4800 50  0000 C CNN
 F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 2768 4826 50  0001 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 2850 4500 50  0001 C CNN
 F 3 "~" H 2850 4500 50  0001 C CNN
@@ -258,8 +258,8 @@ AR Path="/5F92F3F9/602EA848" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA848" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA848" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA848" Ref="J?"  Part="1" 
-AR Path="/602EA848" Ref="J105"  Part="1" 
-F 0 "J105" H 1150 4800 50  0000 L CNN
+AR Path="/602EA848" Ref="J101"  Part="1" 
+F 0 "J101" H 1150 4800 50  0000 L CNN
 F 1 "Conn_01x05" H 1200 4900 50  0001 L CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Left" H 1250 4500 50  0001 C CNN
 F 3 "~" H 1250 4500 50  0001 C CNN
@@ -278,8 +278,8 @@ AR Path="/5F92F3F9/602EA851" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA851" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA851" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA851" Ref="J?"  Part="1" 
-AR Path="/602EA851" Ref="J112"  Part="1" 
-F 0 "J112" H 1150 5800 50  0000 L CNN
+AR Path="/602EA851" Ref="J102"  Part="1" 
+F 0 "J102" H 1150 5800 50  0000 L CNN
 F 1 "Conn_01x05" H 1200 5900 50  0001 L CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Left" H 1250 5500 50  0001 C CNN
 F 3 "~" H 1250 5500 50  0001 C CNN
@@ -336,56 +336,6 @@ Text Label 2600 4300 2    50   ~ 0
 left_front_vdd
 $Comp
 L Connector_Generic:Conn_01x05 J?
-U 1 1 602EA873
-P 1250 3000
-AR Path="/5F92F348/602EA873" Ref="J?"  Part="1" 
-AR Path="/5F92F3F9/602EA873" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5FA33522/602EA873" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5FA34085/602EA873" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5FA33E59/602EA873" Ref="J?"  Part="1" 
-AR Path="/602EA873" Ref="J101"  Part="1" 
-F 0 "J101" H 1250 3300 50  0000 C CNN
-F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 1168 3326 50  0001 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 1250 3000 50  0001 C CNN
-F 3 "~" H 1250 3000 50  0001 C CNN
-F 4 "PWM_SUPPORTED_4STRIPS" H 1250 3000 50  0001 C CNN "Feature"
-F 5 "0.016" H 1250 3000 50  0001 C CNN "Price"
-F 6 "yes" H 1250 3000 50  0001 C CNN "is stock"
-	1    1250 3000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 2800 1450 2800
-Wire Wire Line
-	2550 2900 1450 2900
-Wire Wire Line
-	2550 3000 1450 3000
-Wire Wire Line
-	2550 3100 1450 3100
-Wire Wire Line
-	2550 3200 1450 3200
-$Comp
-L Connector_Generic:Conn_01x05 J?
-U 1 1 602EA881
-P 2750 3000
-AR Path="/5F92F348/602EA881" Ref="J?"  Part="1" 
-AR Path="/5F92F3F9/602EA881" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5FA33522/602EA881" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5FA34085/602EA881" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5FA33E59/602EA881" Ref="J?"  Part="1" 
-AR Path="/602EA881" Ref="J102"  Part="1" 
-F 0 "J102" H 2750 3300 50  0000 C CNN
-F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 2668 3326 50  0001 C CNN
-F 2 "LedBarController:LED_Strip_10mm_5pins_Right" H 2750 3000 50  0001 C CNN
-F 3 "~" H 2750 3000 50  0001 C CNN
-F 4 "PWM_SUPPORTED_4STRIPS" H 2750 3000 50  0001 C CNN "Feature"
-F 5 "0.016" H 2750 3000 50  0001 C CNN "Price"
-F 6 "yes" H 2750 3000 50  0001 C CNN "is stock"
-	1    2750 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J?
 U 1 1 602EA88A
 P 9150 4500
 AR Path="/5F92F348/602EA88A" Ref="J?"  Part="1" 
@@ -393,8 +343,8 @@ AR Path="/5F92F3F9/602EA88A" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA88A" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA88A" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA88A" Ref="J?"  Part="1" 
-AR Path="/602EA88A" Ref="J110"  Part="1" 
-F 0 "J110" H 9150 4800 50  0000 C CNN
+AR Path="/602EA88A" Ref="J109"  Part="1" 
+F 0 "J109" H 9150 4800 50  0000 C CNN
 F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 9068 4826 50  0001 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 9150 4500 50  0001 C CNN
 F 3 "~" H 9150 4500 50  0001 C CNN
@@ -413,8 +363,8 @@ AR Path="/5F92F3F9/602EA893" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA893" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA893" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA893" Ref="J?"  Part="1" 
-AR Path="/602EA893" Ref="J111"  Part="1" 
-F 0 "J111" H 10650 4800 50  0000 L CNN
+AR Path="/602EA893" Ref="J110"  Part="1" 
+F 0 "J110" H 10650 4800 50  0000 L CNN
 F 1 "Conn_01x05" H 10700 4900 50  0001 L CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Right" H 10750 4500 50  0001 C CNN
 F 3 "~" H 10750 4500 50  0001 C CNN
@@ -433,8 +383,8 @@ AR Path="/5F92F3F9/602EA89C" Ref="J?"  Part="1"
 AR Path="/5F8F2E1B/5FA33522/602EA89C" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA34085/602EA89C" Ref="J?"  Part="1" 
 AR Path="/5F8F2E1B/5FA33E59/602EA89C" Ref="J?"  Part="1" 
-AR Path="/602EA89C" Ref="J115"  Part="1" 
-F 0 "J115" H 10650 5800 50  0000 L CNN
+AR Path="/602EA89C" Ref="J111"  Part="1" 
+F 0 "J111" H 10650 5800 50  0000 L CNN
 F 1 "Conn_01x05" H 10700 5900 50  0001 L CNN
 F 2 "LedBarController:LED_Strip_10mm_5pins_Right" H 10750 5500 50  0001 C CNN
 F 3 "~" H 10750 5500 50  0001 C CNN
@@ -489,66 +439,6 @@ Text Label 9400 4700 0    50   ~ 0
 right_front_white
 Text Label 9400 4300 0    50   ~ 0
 right_front_vdd
-$Comp
-L Connector_Generic:Conn_01x05 J?
-U 1 1 602EA8BE
-P 10750 3000
-AR Path="/5F92F348/602EA8BE" Ref="J?"  Part="1" 
-AR Path="/5F92F3F9/602EA8BE" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5FA33522/602EA8BE" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5FA34085/602EA8BE" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5FA33E59/602EA8BE" Ref="J?"  Part="1" 
-AR Path="/602EA8BE" Ref="J104"  Part="1" 
-F 0 "J104" H 10750 3350 50  0000 C CNN
-F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 10668 3326 50  0001 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 10750 3000 50  0001 C CNN
-F 3 "~" H 10750 3000 50  0001 C CNN
-F 4 "PWM_SUPPORTED_4STRIPS" H 10750 3000 50  0001 C CNN "Feature"
-F 5 "0.016" H 10750 3000 50  0001 C CNN "Price"
-F 6 "yes" H 10750 3000 50  0001 C CNN "is stock"
-	1    10750 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J?
-U 1 1 602EA8C7
-P 9250 3000
-AR Path="/5F92F348/602EA8C7" Ref="J?"  Part="1" 
-AR Path="/5F92F3F9/602EA8C7" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5FA33522/602EA8C7" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5FA34085/602EA8C7" Ref="J?"  Part="1" 
-AR Path="/5F8F2E1B/5FA33E59/602EA8C7" Ref="J?"  Part="1" 
-AR Path="/602EA8C7" Ref="J103"  Part="1" 
-F 0 "J103" H 9250 3350 50  0000 C CNN
-F 1 "Male pitch strip 1x7 pins 2.0mm pitch" H 9168 3326 50  0001 C CNN
-F 2 "LedBarController:LED_Strip_10mm_5pins_Left" H 9250 3000 50  0001 C CNN
-F 3 "~" H 9250 3000 50  0001 C CNN
-F 4 "PWM_SUPPORTED_4STRIPS" H 9250 3000 50  0001 C CNN "Feature"
-F 5 "0.016" H 9250 3000 50  0001 C CNN "Price"
-F 6 "yes" H 9250 3000 50  0001 C CNN "is stock"
-	1    9250 3000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 2800 10550 2800
-Wire Wire Line
-	9450 2900 10550 2900
-Wire Wire Line
-	9450 3000 10550 3000
-Wire Wire Line
-	9450 3100 10550 3100
-Wire Wire Line
-	9450 3200 10550 3200
-Text Label 2500 2800 2    50   ~ 0
-left_back_vdd
-Text Label 2500 2900 2    50   ~ 0
-left_back_green
-Text Label 2500 3000 2    50   ~ 0
-left_back_red
-Text Label 2500 3100 2    50   ~ 0
-left_back_blue
-Text Label 2500 3200 2    50   ~ 0
-left_back_white
 Wire Wire Line
 	1950 4300 2650 4300
 Wire Wire Line
@@ -559,16 +449,6 @@ Wire Wire Line
 	1650 4600 2650 4600
 Wire Wire Line
 	1550 4700 2650 4700
-Wire Notes Line
-	1000 2500 1000 3500
-Wire Notes Line
-	1000 3500 3000 3500
-Wire Notes Line
-	3000 3500 3000 2500
-Wire Notes Line
-	3000 2500 1000 2500
-Text Notes 1000 2500 0    50   ~ 0
-Board: Left Back
 Wire Notes Line
 	1000 4000 3000 4000
 Wire Notes Line
@@ -625,26 +505,6 @@ Wire Wire Line
 	9350 4700 10450 4700
 Text Notes 9000 4000 0    50   ~ 0
 Board: Right Front
-Wire Notes Line
-	9000 3500 11000 3500
-Wire Notes Line
-	11000 3500 11000 2500
-Wire Notes Line
-	11000 2500 9000 2500
-Wire Notes Line
-	9000 2500 9000 3500
-Text Notes 9000 2500 0    50   ~ 0
-Board: Right Back
-Text Label 9500 2800 0    50   ~ 0
-right_back_vdd
-Text Label 9500 2900 0    50   ~ 0
-right_back_green
-Text Label 9500 3000 0    50   ~ 0
-right_back_red
-Text Label 9500 3100 0    50   ~ 0
-right_back_blue
-Text Label 9500 3200 0    50   ~ 0
-right_back_white
 Wire Wire Line
 	4500 4400 5750 4400
 Wire Wire Line
@@ -661,14 +521,18 @@ U 602F109A
 F0 "CenterBack" 50
 F1 "CenterBack.sch" 50
 $EndSheet
-Text Notes 3250 3000 0    79   ~ 0
-<--
-Text Notes 8750 3000 2    79   ~ 0
--->
-Text Notes 2000 3900 1    79   ~ 0
-<--
-Text Notes 6050 3850 1    79   ~ 0
-<--
-Text Notes 10100 3850 1    79   ~ 0
-<--
+Wire Notes Line
+	3700 3000 2000 3000
+Wire Notes Line
+	2000 3000 2000 3900
+Wire Notes Line
+	8300 3000 10000 3000
+Wire Notes Line
+	10000 3000 10000 3950
+Wire Notes Line
+	6000 3550 6000 3950
+Text Notes 10000 3000 2    50   ~ 0
+Wire x 5
+Text Notes 2000 3000 0    50   ~ 0
+Wire x 5
 $EndSCHEMATC
