@@ -1,4 +1,4 @@
-19005593315393608
+19008802458658608
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56231,6 +56231,13 @@ CP_Disc_D18.7mm_H20.2mm_P5.0mm_Vertical
 2
 2
 LedBarController
+Crystal_HC49-U_Vertical_tight_fit
+Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf
+THT crystalHC-49/U
+0
+2
+2
+LedBarController
 Fuseholder_Cylinder-5x20mm_BLX_A_Horizontal
 https://www.tme.eu/en/Document/3b48dbe2b9714a62652c97b08fcd464b/PTF78.pdf
 Fuseholder horizontal open 5x20 Stelvio-Kontek PTF/78
@@ -56265,6 +56272,13 @@ solder jumper open
 0
 2
 2
+LedBarController
+TQFP-32_7x7mm_P0.8mm_corner_cutoff
+32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+32
+32
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
