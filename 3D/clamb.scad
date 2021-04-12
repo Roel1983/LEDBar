@@ -23,6 +23,7 @@ s =  1.0; // foot wall thickness
 p = 20.0; // screw distancemodel
 q =  0.5; // foot edge
 u =  4.0;
+k =  2.5;
 v =  8.0;
 w =  5.0;
 aa = 0.0;
@@ -33,21 +34,94 @@ dd = 4.5; // ti-rib width
 ee = 1.6; // ti-rib height
 ff = 0.5; // ti-rib bottom
 jj = 83.5; // ANGLE_PROFILE_ANGLE
+jja = 90;
 ii = 30.0;
 gg =  6.0;
 hh =  15.0;
 kk = 4.0;
 
-ab =    5.3; // PCB_TO_ANGLE_PROFILE
-ai =    2.2; // PCB_TO_SHIFT
-ac =  22.7; // PCB_WIDTH
-ad = 100.0; // PCB_LENGTH
-ae =   1.2; // PCB_THICKNESS
-af =   3.2; // PCB_BOTTOM_CLEARANCE_DEPTH
-ag =   1.0; // PCB_BOTTOM_MARGIN_1
-ah =   1.5; // PCB_BOTTOM_MARGIN_1
+aa =  0.8;
+ab =  7.25 - a;
+ac =  2.5 - a;
+ad = 22.8;
+ae =  1.2;
+ai = max(m, ad+ac*2)+1.5;
+af = 0.8;
+ag = 0.8;
 
-if(part == "mid" || part == "end") {
+
+case_inner_pcb_rotloc() rotate(180,[1,0,0]) rotate(90, [1,0,0]) {
+    cube([ad,100.5, ae], center=true);
+    translate([-5.77, -42.12, ae/2]) power_jack();
+    translate([-2.18,23.74,-ae/2]) rotate(180, [1,0,0]) {
+        linear_extrude(6.51) square([14.8,4.8],true);
+    }
+    #translate([6.42,-46.09, ae/2]) screw_terminal_2_45mm(3);
+    translate([-8.63,45.60, ae/2]) rotate(180) {
+        screw_terminal_2_45mm(2);
+    }
+    translate([-2.09,45.60, ae/2]) rotate(180) {
+        screw_terminal_2_45mm(2);
+    }
+    translate([7.17,-20.44]) cylinder(d=1.5, h=20);
+}
+
+module screw_terminal_2_45mm(p=2,h1=5,h2=20) {
+    sphere();
+    for(i=[0:p-1]) translate([-i*2.54,0]) {
+        cylinder(2.54-0.8,h=h2);
+        rotate(180) {
+            translate([-1,3.3, 0.5]) cube([2,h1,4]);
+        }
+    }
+}
+
+
+difference() {
+    linear_extrude(83) case_outer_basic();
+    translate([0,0,-1])linear_extrude(85) case_inner();
+    translate([0,0,17.5]) case_inner_pcb_rotloc() {
+        translate([-2,-6])cube([15,10,5],center=true);
+    }
+}
+
+module case_outer_basic() {
+    difference() {
+        translate([-ai,0]) square([ai*2, ii]);
+        mirror_copy() translate([0,ii]) rotate(-90+jja/2) {
+            translate([0, -a/2]) square([ii+ai,ai]);
+            translate([ai,1]) rotate(-90) square(ii);
+        }
+    }
+}
+
+module case_inner() {
+    difference() {
+        offset(-aa) case_outer_basic();
+        case_inner_pcb_rotloc() {
+            mirror_copy() translate([-ad/2,0]) {
+                polygon([
+                    [af, ae/2+ag],
+                    [af-ac-10,ae/2+ag+ac+10],
+                    [af-ac-10,-ae/2-ag-ac-10],
+                    [af, -ae/2-ag]
+                ]);
+            }
+        }
+    }
+    case_inner_pcb_rotloc() square([ad, ae], center=true);
+}
+module case_inner_pcb_rotloc() {
+    translate([0,ii]) rotate(-90 - jja/2) {
+        translate([ac, ab]) {
+            translate([ad/2,ae/2]) {
+                children();
+            }
+        }
+    }
+}
+
+!if(part == "mid" || part == "end") {
     difference() {
         union() {
             mirror_copy([1,0,0]) grip();
@@ -55,24 +129,11 @@ if(part == "mid" || part == "end") {
         }
         tyrib();
     }
-    trans_rot() rotate(-90, [1,0,0]) {
-        translate([ai,0, a/2+ab]) pcb();
-    }
 }
 
-module pcb() {
-    // PCB Board
-    linear_extrude(ae) square([ac, ad]);
-    translate([0,0,ae]) {
-        translate([5.48, 7.88]) power_jack();
-        hull() {
-            translate([.6,.6])cube([ac-1.2,ad-1.2, 3.5]);
-            translate([.6,.6])cube([19,ad-1.2, 9.0]);
-            translate([.6,.6])cube([12,ad-1.2, 19.0]);
-        }
-    }
-}
-module power_jack(h=3) {
+
+
+module power_jack(h=2.7) {
     translate([-9.6/2, -7.2]) cube([9.6, 14.4, 11.2]);
     translate([0, 0, 6.5]) rotate(90, [1,0,0])cylinder(d=6.5, h=h+7.2);
 }
