@@ -299,87 +299,7 @@ int main(void)
 	asm volatile("nop\n\t");
 #endif
 
-	/* set pin direction for bootloader pin and enable pullup */
-	/* for ATmega128, two pins need to be initialized */
-#ifdef __AVR_ATmega128__
-	BL_DDR &= ~_BV(BL0);
-	BL_DDR &= ~_BV(BL1);
-	BL_PORT |= _BV(BL0);
-	BL_PORT |= _BV(BL1);
-#else
-	/* We run the bootloader regardless of the state of this pin.  Thus, don't
-	put it in a different state than the other pins.  --DAM, 070709
-	This also applies to Arduino Mega -- DC, 080930
-	BL_DDR &= ~_BV(BL);
-	BL_PORT |= _BV(BL);
-	*/
-#endif
-
-
-#ifdef __AVR_ATmega128__
-	/* check which UART should be used for booting */
-	if(bit_is_clear(BL_PIN, BL0)) {
-		bootuart = 1;
-	}
-	else if(bit_is_clear(BL_PIN, BL1)) {
-		bootuart = 2;
-	}
-#endif
-
-#if defined __AVR_ATmega1280__
-	/* the mega1280 chip has four serial ports ... we could eventually use any of them, or not? */
-	/* however, we don't wanna confuse people, to avoid making a mess, we will stick to RXD0, TXD0 */
-	bootuart = 1;
-#endif
-
-	/* check if flash is programmed already, if not start bootloader anyway */
-	if(pgm_read_byte_near(0x0000) != 0xFF) {
-
-#ifdef __AVR_ATmega128__
-	/* no UART was selected, start application */
-	if(!bootuart) {
-		app_start();
-	}
-#else
-	/* check if bootloader pin is set low */
-	/* we don't start this part neither for the m8, nor m168 */
-	//if(bit_is_set(BL_PIN, BL)) {
-	//      app_start();
-	//    }
-#endif
-	}
-
-#ifdef __AVR_ATmega128__    
-	/* no bootuart was selected, default to uart 0 */
-	if(!bootuart) {
-		bootuart = 1;
-	}
-#endif
-
-
 	/* initialize UART(s) depending on CPU defined */
-#if defined(__AVR_ATmega128__) || defined(__AVR_ATmega1280__)
-	if(bootuart == 1) {
-		UBRR0L = (uint8_t)(F_CPU/(BAUD_RATE*16L)-1);
-		UBRR0H = (F_CPU/(BAUD_RATE*16L)-1) >> 8;
-		UCSR0A = 0x00;
-		UCSR0C = 0x06;
-		UCSR0B = _BV(TXEN0)|_BV(RXEN0);
-	}
-	if(bootuart == 2) {
-		UBRR1L = (uint8_t)(F_CPU/(BAUD_RATE*16L)-1);
-		UBRR1H = (F_CPU/(BAUD_RATE*16L)-1) >> 8;
-		UCSR1A = 0x00;
-		UCSR1C = 0x06;
-		UCSR1B = _BV(TXEN1)|_BV(RXEN1);
-	}
-#elif defined __AVR_ATmega163__
-	UBRR = (uint8_t)(F_CPU/(BAUD_RATE*16L)-1);
-	UBRRHI = (F_CPU/(BAUD_RATE*16L)-1) >> 8;
-	UCSRA = 0x00;
-	UCSRB = _BV(TXEN)|_BV(RXEN);	
-#elif defined(__AVR_ATmega168__) || defined(__AVR_ATmega328P__) || defined (__AVR_ATmega328__)
-
 #ifdef DOUBLE_SPEED
 	UCSR0A = (1<<U2X0); //Double speed mode USART0
 	UBRR0L = (uint8_t)(F_CPU/(BAUD_RATE*8L)-1);
@@ -388,7 +308,6 @@ int main(void)
 	UBRR0L = (uint8_t)(F_CPU/(BAUD_RATE*16L)-1);
 	UBRR0H = (F_CPU/(BAUD_RATE*16L)-1) >> 8;
 #endif
-
 	UCSR0B = (1<<RXEN0) | (1<<TXEN0);
 	UCSR0C = (1<<UCSZ00) | (1<<UCSZ01);
 
@@ -397,62 +316,52 @@ int main(void)
 	timing out (DAM: 20070509) */
 	DDRD &= ~_BV(PIND0);
 	PORTD |= _BV(PIND0);
-#elif defined __AVR_ATmega8__
-	/* m8 */
-	UBRRH = (((F_CPU/BAUD_RATE)/16)-1)>>8; 	// set baud rate
-	UBRRL = (((F_CPU/BAUD_RATE)/16)-1);
-	UCSRB = (1<<RXEN)|(1<<TXEN);  // enable Rx & Tx
-	UCSRC = (1<<URSEL)|(1<<UCSZ1)|(1<<UCSZ0);  // config USART; 8N1
-#else
-	/* m16,m32,m169,m8515,m8535 */
-	UBRRL = (uint8_t)(F_CPU/(BAUD_RATE*16L)-1);
-	UBRRH = (F_CPU/(BAUD_RATE*16L)-1) >> 8;
-	UCSRA = 0x00;
-	UCSRC = 0x06;
-	UCSRB = _BV(TXEN)|_BV(RXEN);
-#endif
 
-#if defined __AVR_ATmega1280__
-	/* Enable internal pull-up resistor on pin D0 (RX), in order
-	to supress line noise that prevents the bootloader from
-	timing out (DAM: 20070509) */
-	/* feature added to the Arduino Mega --DC: 080930 */
-	DDRE &= ~_BV(PINE0);
-	PORTE |= _BV(PINE0);
-#endif
-
-
-	/* set LED pin as output */
-	LED_DDR |= _BV(LED);
-
-#if defined RS485
 	/* set TX-En pin as output */
 	TXEN_DDR |= _BV(TXEN);
 	TXEN_PORT &= ~_BV(TXEN);
-#endif
+
+	
+	/* set LED pin as output */
+	LED_DDR |= _BV(LED);
 
 	/* flash onboard LED to signal entering of bootloader */
-#if defined(__AVR_ATmega128__) || defined(__AVR_ATmega1280__)
-	// 4x for UART0, 5x for UART1
-	flash_led(NUM_LED_FLASHES + bootuart);
-#else
 	flash_led(NUM_LED_FLASHES);
-#endif
 
-/*	putch('H');
-	putch('e');
-	putch('l');
-	putch('l');
-	putch('o');
-	putch(' ');
-	putch('W');
-	putch('o');
-	putch('r');
-	putch('l');
-	putch('d');
-	putch('\n');
+	/*for(;;) {
+		/*TXEN_PORT |= _BV(TXEN);
+		while (!(UCSR0A & _BV(UDRE0)));
+		UCSR0A |= _BV(TXC0);
+		UDR0 = 0x55;
+		while (!(UCSR0A & _BV(TXC0)));
+		//_delay_ms(1);
+		TXEN_PORT &= ~_BV(TXEN);
+		_delay_ms(1); 
+
+		putch(0x55);
+		_delay_ms(1);
+		putch(0xAA);
+		_delay_ms(1);
+	}*/
+
+
+	/*TXEN_PORT &= ~_BV(TXEN); _delay_ms(1); putch('H');
+	TXEN_PORT &= ~_BV(TXEN); _delay_ms(1); putch('e');
+	TXEN_PORT &= ~_BV(TXEN); _delay_ms(1); putch('l');
+	TXEN_PORT &= ~_BV(TXEN); _delay_ms(1); putch('l');
+	TXEN_PORT &= ~_BV(TXEN); _delay_ms(1); putch('o');
+	TXEN_PORT &= ~_BV(TXEN); _delay_ms(1); putch(' ');
+	TXEN_PORT &= ~_BV(TXEN); _delay_ms(1); putch('W');
+	TXEN_PORT &= ~_BV(TXEN); _delay_ms(1); putch('o');
+	TXEN_PORT &= ~_BV(TXEN); _delay_ms(1); putch('r');
+	TXEN_PORT &= ~_BV(TXEN); _delay_ms(1); putch('l');
+	TXEN_PORT &= ~_BV(TXEN); _delay_ms(1); putch('d');
+	TXEN_PORT &= ~_BV(TXEN); _delay_ms(1); putch('\n');
+	
 	for(;;) {
 		ch = getch();
+		//TXEN_PORT &= ~_BV(TXEN);
+		//_delay_ms(1);
 		putch(ch);
 	}*/
 
@@ -950,66 +859,18 @@ void puthex(char ch) {
 
 void putch(char ch)
 {
-#if defined RS485
 	TXEN_PORT |= _BV(TXEN);
-	_delay_ms(1);
-#endif
-#if defined(__AVR_ATmega128__) || defined(__AVR_ATmega1280__)
-	if(bootuart == 1) {
-		while (!(UCSR0A & _BV(UDRE0)));
-		UDR0 = ch;
-	}
-	else if (bootuart == 2) {
-		while (!(UCSR1A & _BV(UDRE1)));
-		UDR1 = ch;
-	}
-#elif defined(__AVR_ATmega168__) || defined(__AVR_ATmega328P__) || defined (__AVR_ATmega328__)
 	while (!(UCSR0A & _BV(UDRE0)));
+	UCSR0A |= _BV(TXC0);
 	UDR0 = ch;
-#else
-	/* m8,16,32,169,8515,8535,163 */
-	while (!(UCSRA & _BV(UDRE)));
-	UDR = ch;
-#endif
-#if defined RS485
-	int i;
 	while (!(UCSR0A & _BV(TXC0)));
-	for(i=0;i<500;i++) asm volatile("nop\n\t");
-	TXEN_PORT &= ~_BV(TXEN);
-#endif
 }
 
 
 char getch(void)
 {
+	TXEN_PORT &= ~_BV(TXEN);
 
-
-#if defined(__AVR_ATmega128__) || defined(__AVR_ATmega1280__)
-	uint32_t count = 0;
-	if(bootuart == 1) {
-		while(!(UCSR0A & _BV(RXC0))) {
-			/* 20060803 DojoCorp:: Addon coming from the previous Bootloader*/               
-			/* HACKME:: here is a good place to count times*/
-			count++;
-			if (count > MAX_TIME_COUNT)
-				app_start();
-		}
-
-		return UDR0;
-	}
-	else if(bootuart == 2) {
-		while(!(UCSR1A & _BV(RXC1))) {
-			/* 20060803 DojoCorp:: Addon coming from the previous Bootloader*/               
-			/* HACKME:: here is a good place to count times*/
-			count++;
-			if (count > MAX_TIME_COUNT)
-				app_start();
-		}
-
-		return UDR1;
-	}
-	return 0;
-#elif defined(__AVR_ATmega168__)  || defined(__AVR_ATmega328P__) || defined (__AVR_ATmega328__)
 	uint32_t count = 0;
 	while(!(UCSR0A & _BV(RXC0))){
 		/* 20060803 DojoCorp:: Addon coming from the previous Bootloader*/               
@@ -1019,18 +880,6 @@ char getch(void)
 			app_start();
 	}
 	return UDR0;
-#else
-	/* m8,16,32,169,8515,8535,163 */
-	uint32_t count = 0;
-	while(!(UCSRA & _BV(RXC))){
-		/* 20060803 DojoCorp:: Addon coming from the previous Bootloader*/               
-		/* HACKME:: here is a good place to count times*/
-		count++;
-		if (count > MAX_TIME_COUNT)
-			app_start();
-	}
-	return UDR;
-#endif
 }
 
 
