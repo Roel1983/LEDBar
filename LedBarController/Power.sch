@@ -375,13 +375,6 @@ Wire Wire Line
 	7300 1950 7300 2050
 Wire Wire Line
 	7300 2950 7300 3050
-Wire Wire Line
-	7700 2650 7700 2750
-Wire Wire Line
-	7700 2950 7300 2950
-Connection ~ 7700 2750
-Wire Wire Line
-	7700 2750 7700 2950
 Connection ~ 7300 2950
 $Comp
 L Device:C C302
@@ -481,15 +474,12 @@ F 5 "yes" H 8500 2500 50  0001 C CNN "is stock"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 2050 8500 2050
+	7300 2050 7850 2050
 Wire Wire Line
 	8500 2050 8500 2350
 Connection ~ 7300 2050
 Wire Wire Line
 	7300 2050 7300 2150
-Wire Wire Line
-	8500 2950 7700 2950
-Connection ~ 7700 2950
 Wire Wire Line
 	8500 2650 8500 2950
 Wire Wire Line
@@ -592,4 +582,20 @@ Connection ~ 4700 4000
 Wire Wire Line
 	4700 5500 5500 5500
 Connection ~ 4700 5500
+Wire Wire Line
+	7300 2950 7850 2950
+Wire Wire Line
+	7700 2750 7850 2750
+Wire Wire Line
+	7850 2750 7850 2950
+Connection ~ 7850 2950
+Wire Wire Line
+	7850 2950 8500 2950
+Wire Wire Line
+	7700 2650 7850 2650
+Wire Wire Line
+	7850 2650 7850 2050
+Connection ~ 7850 2050
+Wire Wire Line
+	7850 2050 8500 2050
 $EndSCHEMATC
