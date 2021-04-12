@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/roel/git/lightsoundmsa/LedBarController/LedBarController.sch</source>
-    <date>do 29 okt 2020 12:21:15 CET</date>
+    <date>zo 20 dec 2020 12:15:23 CET</date>
     <tool>Eeschema 5.1.7-a382d34a8~87~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -17,124 +17,20 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="2" name="/PWM/" tstamps="/5F8F2E1B/">
+    <sheet number="2" name="/CenterBack/" tstamps="/602F109A/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>PWM.sch</source>
+        <source>CenterBack.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="3" name="/PWM/4xFet_1/" tstamps="/5F8F2E1B/5F886FBB/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>4xFet.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="4" name="/PWM/4xFet_2/" tstamps="/5F8F2E1B/5F902BD5/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>4xFet.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="5" name="/PWM/4xFet_3/" tstamps="/5F8F2E1B/5F902D83/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>4xFet.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="6" name="/PWM/4xFet_4/" tstamps="/5F8F2E1B/5F902E61/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>4xFet.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="7" name="/PWM/SideStrip_left/" tstamps="/5F8F2E1B/5FA33522/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>SideStrip.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="8" name="/PWM/CenterStrips/" tstamps="/5F8F2E1B/5FA33E59/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>CenterStrips.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="9" name="/PWM/SideStrip_right/" tstamps="/5F8F2E1B/5FA34085/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>SideStrip.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="10" name="/Microcontroller/" tstamps="/5F829319/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>Microcontroller.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="11" name="/Power/" tstamps="/5F7C8D58/">
+    <sheet number="3" name="/CenterBack/Power/" tstamps="/602F109A/602FAB65/">
       <title_block>
         <title/>
         <company/>
@@ -147,7 +43,20 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="12" name="/RS485/" tstamps="/5F7B7D30/">
+    <sheet number="4" name="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Microcontroller.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/CenterBack/RS485/" tstamps="/602F109A/6030591E/">
       <title_block>
         <title/>
         <company/>
@@ -160,7 +69,20 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="13" name="/0-10V/" tstamps="/5F8293F0/">
+    <sheet number="6" name="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PWM.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/">
       <title_block>
         <title/>
         <company/>
@@ -175,7 +97,915 @@
     </sheet>
   </design>
   <components>
-    <comp ref="C203">
+    <comp ref="J108">
+      <value>Conn_01x05</value>
+      <footprint>LedBarController:LED_Strip_10mm_5pins_Right</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602EA7CB</tstamp>
+    </comp>
+    <comp ref="J107">
+      <value>Conn_01x05</value>
+      <footprint>LedBarController:LED_Strip_10mm_5pins_Right</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602EA7D4</tstamp>
+    </comp>
+    <comp ref="J104">
+      <value>Conn_01x05</value>
+      <footprint>LedBarController:LED_Strip_10mm_5pins_Left</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602EA7DD</tstamp>
+    </comp>
+    <comp ref="J105">
+      <value>Conn_01x05</value>
+      <footprint>LedBarController:LED_Strip_10mm_5pins_Left</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602EA7E6</tstamp>
+    </comp>
+    <comp ref="SW101">
+      <value>4x42.3mm PCB Tactile Push Button Switch</value>
+      <footprint>Button_Switch_SMD:SW_SPST_SKQG_WithStem</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0356</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602EA81D</tstamp>
+    </comp>
+    <comp ref="J106">
+      <value>Male pitch strip 2x7pins 2.0mm pitch</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.055</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602EA826</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>Male pitch strip 1x7 pins 2.0mm pitch</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
+        <field name="Price">0.016</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602EA83F</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_01x05</value>
+      <footprint>LedBarController:LED_Strip_10mm_5pins_Left</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
+        <field name="Price">0</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602EA848</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>Conn_01x05</value>
+      <footprint>LedBarController:LED_Strip_10mm_5pins_Left</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
+        <field name="Price">0</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602EA851</tstamp>
+    </comp>
+    <comp ref="J109">
+      <value>Male pitch strip 1x7 pins 2.0mm pitch</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
+        <field name="Price">0.016</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602EA88A</tstamp>
+    </comp>
+    <comp ref="J110">
+      <value>Conn_01x05</value>
+      <footprint>LedBarController:LED_Strip_10mm_5pins_Right</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
+        <field name="Price">0</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602EA893</tstamp>
+    </comp>
+    <comp ref="J111">
+      <value>Conn_01x05</value>
+      <footprint>LedBarController:LED_Strip_10mm_5pins_Right</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
+        <field name="Price">0</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602EA89C</tstamp>
+    </comp>
+    <comp ref="C305">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0.0057</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F7CE3F6</tstamp>
+    </comp>
+    <comp ref="C306">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0.0057</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F7CE9E9</tstamp>
+    </comp>
+    <comp ref="C307">
+      <value>10uF/35V</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0.139</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F7CF0E4</tstamp>
+    </comp>
+    <comp ref="C308">
+      <value>10uF/10V</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0.19</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F7CF5E6</tstamp>
+    </comp>
+    <comp ref="R304">
+      <value>100, 1W</value>
+      <footprint>Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0.056</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F7D081A</tstamp>
+    </comp>
+    <comp ref="U302">
+      <value>AMS1117-5.0</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0.0254</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-5.0" description="1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F7CD4A1</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0.0057</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F7F8388</tstamp>
+    </comp>
+    <comp ref="R306">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0.0036</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F959CE5</tstamp>
+    </comp>
+    <comp ref="D303">
+      <value>Blue</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0.00675</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F95A723</tstamp>
+    </comp>
+    <comp ref="TP302">
+      <value>5V+</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0</field>
+        <field name="is stock">n.a.</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5FA64F76</tstamp>
+    </comp>
+    <comp ref="TP301">
+      <value>VDD</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0</field>
+        <field name="is stock">n.a.</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5FA6537E</tstamp>
+    </comp>
+    <comp ref="TP303">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0</field>
+        <field name="is stock">n.a.</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5FA66AC1</tstamp>
+    </comp>
+    <comp ref="Q301">
+      <value>FQP47P06</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">REVERSEPOLARITY_SUPPORTED</field>
+        <field name="Price">0.386</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GDS" description="P-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5FA735DA</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>10V</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">REVERSEPOLARITY_SUPPORTED</field>
+        <field name="Price">0.0073</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5FA7B9A0</tstamp>
+    </comp>
+    <comp ref="R305">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">REVERSEPOLARITY_SUPPORTED</field>
+        <field name="Price">0.0036</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5FA7CE6E</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>R001/2W</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">INA219</field>
+        <field name="Price">0.0794</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F8905AC</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>INA219AxD</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina219.pdf</datasheet>
+      <fields>
+        <field name="Feature">INA219</field>
+        <field name="Price">1.506</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Analog_ADC" part="INA219AxD" description="Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F891052</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">INA219_SUPPORTED_FILTERED</field>
+        <field name="Price">0.015</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F89A068</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">INA219_SUPPORTED</field>
+        <field name="Price">0.0036</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F89AEA9</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">INA219_SUPPORTED</field>
+        <field name="Price">0.0036</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F89AA2D</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">INA219_SUPPORTED_FILTERED</field>
+        <field name="Price">0.0057</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F8B3D1B</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Price">0.0057</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F9AC8D5</tstamp>
+    </comp>
+    <comp ref="D302">
+      <value>SMBJ30CA CK /SMBJ15CA BM</value>
+      <footprint>Diode_SMD:D_SMB_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Price">0.1</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5FC9A3E5</tstamp>
+    </comp>
+    <comp ref="F301">
+      <value>max. 5A F</value>
+      <footprint>LedBarController:Fuseholder_Cylinder-5x20mm_BLX_A_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0.1474</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F7CC4D4</tstamp>
+    </comp>
+    <comp ref="J301">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">POWER</field>
+        <field name="Price">0.0472</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/CenterBack/Power/" tstamps="/602F109A/602FAB65/"/>
+      <tstamp>5F7C9FB6</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">10V_SUPPORTED VDDADC_SUPPORTED</field>
+        <field name="Price">0.0057</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F8941AE</tstamp>
+    </comp>
+    <comp ref="SW401">
+      <value>reset</value>
+      <footprint>Button_Switch_SMD:SW_SPST_CK_RS282G05A3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">UC</field>
+        <field name="Price">0.023</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F8ABBB7</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">UC</field>
+        <field name="Price">0.0036</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F8AE9A5</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">UC</field>
+        <field name="Price">0.0057</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F89F179</tstamp>
+    </comp>
+    <comp ref="C405">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">UC</field>
+        <field name="Price">0.0057</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F89EAE1</tstamp>
+    </comp>
+    <comp ref="Y401">
+      <value>14.7456Mhz</value>
+      <footprint>LedBarController:Crystal_HC49-U_Vertical_tight_fit</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">RTC_SUPPORTED</field>
+        <field name="Price">0.178</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F89DB56</tstamp>
+    </comp>
+    <comp ref="J401">
+      <value>ISP</value>
+      <footprint>LedBarController:ISP_P1.27mm_single_row</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Feature">UC</field>
+        <field name="Price">0</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Connector" part="AVR-ISP-6" description="Atmel 6-pin ISP connector"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5FACD200</tstamp>
+    </comp>
+    <comp ref="D401">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">GPLED</field>
+        <field name="Price">0.00675</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F879749</tstamp>
+    </comp>
+    <comp ref="RN401">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_Array_Concave_4x0603</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <fields>
+        <field name="Feature">GPLED</field>
+        <field name="Price">0.0134</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04_Split" description="4 resistor network, parallel topology, split"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F8B2985</tstamp>
+    </comp>
+    <comp ref="D402">
+      <value>Yellow</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">GPLED</field>
+        <field name="Price">0.00675</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F8E2DAF</tstamp>
+    </comp>
+    <comp ref="D403">
+      <value>Orange</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">GPLED</field>
+        <field name="Price">0.00675</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F8E3481</tstamp>
+    </comp>
+    <comp ref="D404">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">GPLED</field>
+        <field name="Price">0.00675</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F8E37DA</tstamp>
+    </comp>
+    <comp ref="JP401">
+      <value>SolderJumper_2_Open</value>
+      <footprint>LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">GPJUMPER</field>
+        <field name="Price">0</field>
+        <field name="is stock">n.a.</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F88FFF7</tstamp>
+    </comp>
+    <comp ref="JP402">
+      <value>SolderJumper_2_Open</value>
+      <footprint>LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">GPJUMPER</field>
+        <field name="Price">0</field>
+        <field name="is stock">n.a.</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F8C286A</tstamp>
+    </comp>
+    <comp ref="JP403">
+      <value>SolderJumper_2_Open</value>
+      <footprint>LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">GPJUMPER</field>
+        <field name="Price">0</field>
+        <field name="is stock">n.a.</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F8C2C72</tstamp>
+    </comp>
+    <comp ref="JP404">
+      <value>SolderJumper_2_Open</value>
+      <footprint>LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">GPJUMPER</field>
+        <field name="Price">0</field>
+        <field name="is stock">n.a.</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F8C30EB</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">INA219_SUPPORTED PWM_SUPPORTED RTC_SUPPORTED EEPROM_SUPPORTED</field>
+        <field name="Price">0.0036</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F89605B</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">INA219_SUPPORTED PWM_SUPPORTED RTC_SUPPORTED EEPROM_SUPPORTED</field>
+        <field name="Price">0.0036</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F895D84</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>ATmega328P-AU</value>
+      <footprint>LedBarController:TQFP-32_7x7mm_P0.8mm_corner_cutoff</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</datasheet>
+      <fields>
+        <field name="Feature">UC</field>
+        <field name="Price">1.106</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega328P-AU" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F8297C2</tstamp>
+    </comp>
+    <comp ref="U402">
+      <value>AT24C256</value>
+      <footprint>Package_SO:SOP-8_3.76x4.96mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF</datasheet>
+      <fields>
+        <field name="Feature">Memory</field>
+        <field name="Price">0.05</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="CAT24C256" description="256 kb CMOS Serial EEPROM, DIP-8/SOIC-8/TSSOP-8/DFN-8"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5FD8CA5F</tstamp>
+    </comp>
+    <comp ref="C406">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">UC</field>
+        <field name="Price">0.0057</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5FDBE069</tstamp>
+    </comp>
+    <comp ref="JP405">
+      <value>SolderJumper_2_Open</value>
+      <footprint>LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">GPJUMPER</field>
+        <field name="Price">0</field>
+        <field name="is stock">n.a.</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F9D4D45</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">UC</field>
+        <field name="Price">0.0057</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F9F6893</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">UC</field>
+        <field name="Price">0.0057</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/Microcontroller/" tstamps="/602F109A/602FDBCD/"/>
+      <tstamp>5F89BFF2</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>MAX485E</value>
+      <footprint>Package_SO:SOP-8_3.76x4.96mm_P1.27mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf</datasheet>
+      <fields>
+        <field name="Feature">10V_SUPPORTED</field>
+        <field name="Price">0.065</field>
+        <field name="is stock">no</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX485E" description="Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"/>
+      <sheetpath names="/CenterBack/RS485/" tstamps="/602F109A/6030591E/"/>
+      <tstamp>5F7B8096</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">RS485_SUPPORTED</field>
+        <field name="Price">0.0036</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CenterBack/RS485/" tstamps="/602F109A/6030591E/"/>
+      <tstamp>5F7BA62C</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">RS485_SUPPORTED</field>
+        <field name="Price">0.0036</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CenterBack/RS485/" tstamps="/602F109A/6030591E/"/>
+      <tstamp>5F7BA295</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">RS485_SUPPORTED</field>
+        <field name="Price">0.0036</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/CenterBack/RS485/" tstamps="/602F109A/6030591E/"/>
+      <tstamp>5F7BC04A</tstamp>
+    </comp>
+    <comp ref="TP501">
+      <value>B</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">RS485_SUPPORTED</field>
+        <field name="Price">0</field>
+        <field name="is stock">n.a.</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/CenterBack/RS485/" tstamps="/602F109A/6030591E/"/>
+      <tstamp>5FA6885F</tstamp>
+    </comp>
+    <comp ref="TP502">
+      <value>A</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">RS485_SUPPORTED</field>
+        <field name="Price">0</field>
+        <field name="is stock">n.a.</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/CenterBack/RS485/" tstamps="/602F109A/6030591E/"/>
+      <tstamp>5FA68C0E</tstamp>
+    </comp>
+    <comp ref="JP501">
+      <value>Jumper_2_Bridged</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">RS485_SUPPORTED</field>
+        <field name="Price">0.0062</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/CenterBack/RS485/" tstamps="/602F109A/6030591E/"/>
+      <tstamp>5F804235</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">RS485_SUPPORTED</field>
+        <field name="Price">0.0057</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/CenterBack/RS485/" tstamps="/602F109A/6030591E/"/>
+      <tstamp>5FE4FDAD</tstamp>
+    </comp>
+    <comp ref="J501">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">RS485_SUPPORTED_1CONN</field>
+        <field name="Price">0.202</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/CenterBack/RS485/" tstamps="/602F109A/6030591E/"/>
+      <tstamp>5F9ABD9D</tstamp>
+    </comp>
+    <comp ref="C601">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -185,10 +1015,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/PWM/" tstamps="/5F8F2E1B/"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
       <tstamp>5F85273F</tstamp>
     </comp>
-    <comp ref="U201">
+    <comp ref="U601">
       <value>PCA9685PW</value>
       <footprint>Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</footprint>
       <datasheet>http://www.nxp.com/documents/data_sheet/PCA9685.pdf</datasheet>
@@ -198,10 +1028,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Driver_LED" part="PCA9685PW" description="16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"/>
-      <sheetpath names="/PWM/" tstamps="/5F8F2E1B/"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
       <tstamp>5F836506</tstamp>
     </comp>
-    <comp ref="C202">
+    <comp ref="C603">
       <value>470uF/35V</value>
       <footprint>Capacitor_THT:CP_Radial_D13.0mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
@@ -211,10 +1041,10 @@
         <field name="is stock">no</field>
       </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
-      <sheetpath names="/PWM/" tstamps="/5F8F2E1B/"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
       <tstamp>5F83AB7E</tstamp>
     </comp>
-    <comp ref="C201">
+    <comp ref="C602">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -224,10 +1054,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/PWM/" tstamps="/5F8F2E1B/"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
       <tstamp>5F83AB92</tstamp>
     </comp>
-    <comp ref="C205">
+    <comp ref="C605">
       <value>470uF/35V</value>
       <footprint>Capacitor_THT:CP_Radial_D13.0mm_P5.00mm</footprint>
       <datasheet>~</datasheet>
@@ -237,10 +1067,10 @@
         <field name="is stock">no</field>
       </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
-      <sheetpath names="/PWM/" tstamps="/5F8F2E1B/"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
       <tstamp>5F83D76F</tstamp>
     </comp>
-    <comp ref="C204">
+    <comp ref="C604">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -250,10 +1080,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/PWM/" tstamps="/5F8F2E1B/"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
       <tstamp>5F83D783</tstamp>
     </comp>
-    <comp ref="J203">
+    <comp ref="J603">
       <value>Female pitch strip 1x7 pins 2.0mm pitch</value>
       <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
@@ -263,229 +1093,8 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/" tstamps="/5F8F2E1B/"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
       <tstamp>5F9D9614</tstamp>
-    </comp>
-    <comp ref="J201">
-      <value>Female pitch strip 1x7 pins 2.0mm pitch</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0.14</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/" tstamps="/5F8F2E1B/"/>
-      <tstamp>5F85865B</tstamp>
-    </comp>
-    <comp ref="J202">
-      <value>Female 2x7 pins 2.0mm pitch</value>
-      <footprint>Connector_PinSocket_2.00mm:PinSocket_2x07_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0.0595</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/" tstamps="/5F8F2E1B/"/>
-      <tstamp>5F880FC8</tstamp>
-    </comp>
-    <comp ref="Q304">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_1/" tstamps="/5F8F2E1B/5F886FBB/"/>
-      <tstamp>5F88FE81</tstamp>
-    </comp>
-    <comp ref="Q303">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_1/" tstamps="/5F8F2E1B/5F886FBB/"/>
-      <tstamp>5F88FE73</tstamp>
-    </comp>
-    <comp ref="Q302">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_1/" tstamps="/5F8F2E1B/5F886FBB/"/>
-      <tstamp>5F88FE65</tstamp>
-    </comp>
-    <comp ref="Q301">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_1/" tstamps="/5F8F2E1B/5F886FBB/"/>
-      <tstamp>5F88FE58</tstamp>
-    </comp>
-    <comp ref="Q404">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_2/" tstamps="/5F8F2E1B/5F902BD5/"/>
-      <tstamp>5F88FE81</tstamp>
-    </comp>
-    <comp ref="Q403">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_2/" tstamps="/5F8F2E1B/5F902BD5/"/>
-      <tstamp>5F88FE73</tstamp>
-    </comp>
-    <comp ref="Q402">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_2/" tstamps="/5F8F2E1B/5F902BD5/"/>
-      <tstamp>5F88FE65</tstamp>
-    </comp>
-    <comp ref="Q401">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_2/" tstamps="/5F8F2E1B/5F902BD5/"/>
-      <tstamp>5F88FE58</tstamp>
-    </comp>
-    <comp ref="Q504">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_3/" tstamps="/5F8F2E1B/5F902D83/"/>
-      <tstamp>5F88FE81</tstamp>
-    </comp>
-    <comp ref="Q503">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_3/" tstamps="/5F8F2E1B/5F902D83/"/>
-      <tstamp>5F88FE73</tstamp>
-    </comp>
-    <comp ref="Q502">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_3/" tstamps="/5F8F2E1B/5F902D83/"/>
-      <tstamp>5F88FE65</tstamp>
-    </comp>
-    <comp ref="Q501">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_3/" tstamps="/5F8F2E1B/5F902D83/"/>
-      <tstamp>5F88FE58</tstamp>
-    </comp>
-    <comp ref="Q604">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_4/" tstamps="/5F8F2E1B/5F902E61/"/>
-      <tstamp>5F88FE81</tstamp>
-    </comp>
-    <comp ref="Q603">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_4/" tstamps="/5F8F2E1B/5F902E61/"/>
-      <tstamp>5F88FE73</tstamp>
-    </comp>
-    <comp ref="Q602">
-      <value>Si2302DS</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0.0146</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_4/" tstamps="/5F8F2E1B/5F902E61/"/>
-      <tstamp>5F88FE65</tstamp>
     </comp>
     <comp ref="Q601">
       <value>Si2302DS</value>
@@ -497,918 +1106,231 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/PWM/4xFet_4/" tstamps="/5F8F2E1B/5F902E61/"/>
-      <tstamp>5F88FE58</tstamp>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FECB8B0</tstamp>
     </comp>
-    <comp ref="J701">
-      <value>Male pitch strip 1x7 pins 2.0mm pitch</value>
+    <comp ref="Q602">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF4606D</tstamp>
+    </comp>
+    <comp ref="Q603">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF51A53</tstamp>
+    </comp>
+    <comp ref="Q604">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF57AC7</tstamp>
+    </comp>
+    <comp ref="Q605">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF72DAC</tstamp>
+    </comp>
+    <comp ref="Q606">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF72DC1</tstamp>
+    </comp>
+    <comp ref="Q607">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF72DD6</tstamp>
+    </comp>
+    <comp ref="Q608">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF72DEB</tstamp>
+    </comp>
+    <comp ref="Q609">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF7EE17</tstamp>
+    </comp>
+    <comp ref="Q610">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF7EE2C</tstamp>
+    </comp>
+    <comp ref="Q611">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF7EE41</tstamp>
+    </comp>
+    <comp ref="Q612">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF7EE56</tstamp>
+    </comp>
+    <comp ref="Q613">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF8DBAD</tstamp>
+    </comp>
+    <comp ref="Q614">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF8DBC2</tstamp>
+    </comp>
+    <comp ref="Q615">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF8DBD7</tstamp>
+    </comp>
+    <comp ref="Q616">
+      <value>Si2302DS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
+        <field name="Price">0.0146</field>
+        <field name="is stock">yes</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5FF8DBEC</tstamp>
+    </comp>
+    <comp ref="J601">
+      <value>Female pitch strip 1x7 pins 2.0mm pitch</value>
       <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0.016</field>
+        <field name="Price">0.14</field>
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/SideStrip_left/" tstamps="/5F8F2E1B/5FA33522/"/>
-      <tstamp>5F96E4A9</tstamp>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5F85865B</tstamp>
     </comp>
-    <comp ref="J702">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/SideStrip_left/" tstamps="/5F8F2E1B/5FA33522/"/>
-      <tstamp>5F96EB0B</tstamp>
-    </comp>
-    <comp ref="J703">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/SideStrip_left/" tstamps="/5F8F2E1B/5FA33522/"/>
-      <tstamp>5F96F581</tstamp>
-    </comp>
-    <comp ref="J805">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
+    <comp ref="J602">
+      <value>Female 2x7 pins 2.0mm pitch</value>
+      <footprint>Connector_PinSocket_2.00mm:PinSocket_2x07_P2.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/CenterStrips/" tstamps="/5F8F2E1B/5FA33E59/"/>
-      <tstamp>5F98A394</tstamp>
-    </comp>
-    <comp ref="J803">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/CenterStrips/" tstamps="/5F8F2E1B/5FA33E59/"/>
-      <tstamp>5F989158</tstamp>
-    </comp>
-    <comp ref="J801">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/CenterStrips/" tstamps="/5F8F2E1B/5FA33E59/"/>
-      <tstamp>5F98F474</tstamp>
-    </comp>
-    <comp ref="J804">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/CenterStrips/" tstamps="/5F8F2E1B/5FA33E59/"/>
-      <tstamp>5F98F47A</tstamp>
-    </comp>
-    <comp ref="SW801">
-      <value>4x42.3mm PCB Tactile Push Button Switch</value>
-      <footprint>Button_Switch_SMD:SW_SPST_SKQG_WithStem</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0.0356</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/PWM/CenterStrips/" tstamps="/5F8F2E1B/5FA33E59/"/>
-      <tstamp>5F9BC931</tstamp>
-    </comp>
-    <comp ref="J802">
-      <value>Male pitch strip 2x7pins 2.0mm pitch</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_2STRIPS</field>
-        <field name="Price">0.055</field>
+        <field name="Price">0.0595</field>
         <field name="is stock">no</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/CenterStrips/" tstamps="/5F8F2E1B/5FA33E59/"/>
-      <tstamp>5F9CBA33</tstamp>
+      <sheetpath names="/CenterBack/PWM/" tstamps="/602F109A/6030A14B/"/>
+      <tstamp>5F880FC8</tstamp>
     </comp>
-    <comp ref="J901">
-      <value>Male pitch strip 1x7 pins 2.0mm pitch</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0.016</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/SideStrip_right/" tstamps="/5F8F2E1B/5FA34085/"/>
-      <tstamp>5F96E4A9</tstamp>
-    </comp>
-    <comp ref="J902">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/SideStrip_right/" tstamps="/5F8F2E1B/5FA34085/"/>
-      <tstamp>5F96EB0B</tstamp>
-    </comp>
-    <comp ref="J903">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">PWM_SUPPORTED_4STRIPS</field>
-        <field name="Price">0</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/PWM/SideStrip_right/" tstamps="/5F8F2E1B/5FA34085/"/>
-      <tstamp>5F96F581</tstamp>
-    </comp>
-    <comp ref="C1002">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">10V_SUPPORTED VDDADC_SUPPORTED</field>
-        <field name="Price">0.0057</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F8941AE</tstamp>
-    </comp>
-    <comp ref="SW1001">
-      <value>reset</value>
-      <footprint>Button_Switch_SMD:SW_SPST_SKQG_WithStem</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">UC</field>
-        <field name="Price">0.0356</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F8ABBB7</tstamp>
-    </comp>
-    <comp ref="R1006">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">UC</field>
-        <field name="Price">0.0036</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F8AE9A5</tstamp>
-    </comp>
-    <comp ref="C1001">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">UC</field>
-        <field name="Price">0.0057</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F89BFF2</tstamp>
-    </comp>
-    <comp ref="C1003">
-      <value>22pF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">UC</field>
-        <field name="Price">0.0057</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F89F179</tstamp>
-    </comp>
-    <comp ref="C1004">
-      <value>22pF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">UC</field>
-        <field name="Price">0.0057</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F89EAE1</tstamp>
-    </comp>
-    <comp ref="Y1001">
-      <value>14.7456Mhz</value>
-      <footprint>Crystal:Crystal_HC49-U_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">RTC_SUPPORTED</field>
-        <field name="Price">0.178</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F89DB56</tstamp>
-    </comp>
-    <comp ref="J1005">
-      <value>ISP</value>
-      <footprint>LedBarController:ISP_P1.27mm_single_row</footprint>
-      <datasheet> ~</datasheet>
-      <fields>
-        <field name="Feature">UC</field>
-        <field name="Price">0</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Connector" part="AVR-ISP-6" description="Atmel 6-pin ISP connector"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5FACD200</tstamp>
-    </comp>
-    <comp ref="D1001">
-      <value>Green</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">GPLED</field>
-        <field name="Price">0.00675</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F879749</tstamp>
-    </comp>
-    <comp ref="RN1001">
-      <value>470R</value>
-      <footprint>Resistor_SMD:R_Array_Concave_4x0603</footprint>
-      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
-      <fields>
-        <field name="Feature">GPLED</field>
-        <field name="Price">0.0134</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Device" part="R_Pack04_Split" description="4 resistor network, parallel topology, split"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F8B2985</tstamp>
-    </comp>
-    <comp ref="D1002">
-      <value>Yellow</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">GPLED</field>
-        <field name="Price">0.00675</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F8E2DAF</tstamp>
-    </comp>
-    <comp ref="D1003">
-      <value>Orange</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">GPLED</field>
-        <field name="Price">0.00675</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F8E3481</tstamp>
-    </comp>
-    <comp ref="D1004">
-      <value>Red</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">GPLED</field>
-        <field name="Price">0.00675</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F8E37DA</tstamp>
-    </comp>
-    <comp ref="JP1001">
-      <value>SolderJumper_2_Open</value>
-      <footprint>LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">GPJUMPER</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F88FFF7</tstamp>
-    </comp>
-    <comp ref="JP1002">
-      <value>SolderJumper_2_Open</value>
-      <footprint>LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">GPJUMPER</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F8C286A</tstamp>
-    </comp>
-    <comp ref="JP1003">
-      <value>SolderJumper_2_Open</value>
-      <footprint>LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">GPJUMPER</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F8C2C72</tstamp>
-    </comp>
-    <comp ref="JP1004">
-      <value>SolderJumper_2_Open</value>
-      <footprint>LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">GPJUMPER</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F8C30EB</tstamp>
-    </comp>
-    <comp ref="R1003">
-      <value>4k7</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">INA219_SUPPORTED PWM_SUPPORTED RTC_SUPPORTED EEPROM_SUPPORTED</field>
-        <field name="Price">0.0036</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F89605B</tstamp>
-    </comp>
-    <comp ref="R1002">
-      <value>4k7</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">INA219_SUPPORTED PWM_SUPPORTED RTC_SUPPORTED EEPROM_SUPPORTED</field>
-        <field name="Price">0.0036</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F895D84</tstamp>
-    </comp>
-    <comp ref="U1001">
-      <value>ATmega328P-AU</value>
-      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</datasheet>
-      <fields>
-        <field name="Feature">UC</field>
-        <field name="Price">1.106</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="MCU_Microchip_ATmega" part="ATmega328P-AU" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F8297C2</tstamp>
-    </comp>
-    <comp ref="U1002">
-      <value>AT24C256</value>
-      <footprint>Package_SO:SOP-8_3.76x4.96mm_P1.27mm</footprint>
-      <datasheet>https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF</datasheet>
-      <fields>
-        <field name="Feature">Memory</field>
-        <field name="Price">0.05</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Memory_EEPROM" part="CAT24C256" description="256 kb CMOS Serial EEPROM, DIP-8/SOIC-8/TSSOP-8/DFN-8"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5FD8CA5F</tstamp>
-    </comp>
-    <comp ref="C1005">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">UC</field>
-        <field name="Price">0.0057</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5FDBE069</tstamp>
-    </comp>
-    <comp ref="JP1005">
-      <value>SolderJumper_2_Open</value>
-      <footprint>LedBarController:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">GPJUMPER</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F9D4D45</tstamp>
-    </comp>
-    <comp ref="C1006">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">UC</field>
-        <field name="Price">0.0057</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Microcontroller/" tstamps="/5F829319/"/>
-      <tstamp>5F9F6893</tstamp>
-    </comp>
-    <comp ref="J1201">
-      <value>Barrel_Jack_Switch</value>
-      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0.0472</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F7C9FB6</tstamp>
-    </comp>
-    <comp ref="F1201">
-      <value>max. 5A F</value>
-      <footprint>Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0.1474</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F7CC4D4</tstamp>
-    </comp>
-    <comp ref="C1202">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0.0057</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F7CE3F6</tstamp>
-    </comp>
-    <comp ref="C1203">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0.0057</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F7CE9E9</tstamp>
-    </comp>
-    <comp ref="C1204">
-      <value>10uF/35V</value>
-      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0.139</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F7CF0E4</tstamp>
-    </comp>
-    <comp ref="C1205">
-      <value>10uF/10V</value>
-      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0.19</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F7CF5E6</tstamp>
-    </comp>
-    <comp ref="R1201">
-      <value>100, 1W</value>
-      <footprint>Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0.056</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F7D081A</tstamp>
-    </comp>
-    <comp ref="U1201">
-      <value>AMS1117-5.0</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
-      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0.0254</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Regulator_Linear" part="AMS1117-5.0" description="1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F7CD4A1</tstamp>
-    </comp>
-    <comp ref="C1201">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0.0057</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F7F8388</tstamp>
-    </comp>
-    <comp ref="R1203">
-      <value>470R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0.0036</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F959CE5</tstamp>
-    </comp>
-    <comp ref="D1202">
-      <value>Blue</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0.00675</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F95A723</tstamp>
-    </comp>
-    <comp ref="TP1202">
-      <value>5V+</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5FA64F76</tstamp>
-    </comp>
-    <comp ref="TP1201">
-      <value>VDD</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5FA6537E</tstamp>
-    </comp>
-    <comp ref="TP1203">
-      <value>GND</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">POWER</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5FA66AC1</tstamp>
-    </comp>
-    <comp ref="Q1201">
-      <value>FQP47P06</value>
-      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">REVERSEPOLARITY_SUPPORTED</field>
-        <field name="Price">0.386</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Device" part="Q_PMOS_GDS" description="P-MOSFET transistor, gate/drain/source"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5FA735DA</tstamp>
-    </comp>
-    <comp ref="D1201">
-      <value>10V</value>
-      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">REVERSEPOLARITY_SUPPORTED</field>
-        <field name="Price">0.0073</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5FA7B9A0</tstamp>
-    </comp>
-    <comp ref="R1202">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">REVERSEPOLARITY_SUPPORTED</field>
-        <field name="Price">0.0036</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5FA7CE6E</tstamp>
-    </comp>
-    <comp ref="R1206">
-      <value>R001/2W</value>
-      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">INA219</field>
-        <field name="Price">0.0794</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F8905AC</tstamp>
-    </comp>
-    <comp ref="U1202">
-      <value>INA219AxD</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/ina219.pdf</datasheet>
-      <fields>
-        <field name="Feature">INA219</field>
-        <field name="Price">1.506</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Analog_ADC" part="INA219AxD" description="Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F891052</tstamp>
-    </comp>
-    <comp ref="C1206">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">INA219_SUPPORTED_FILTERED</field>
-        <field name="Price">0.015</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F89A068</tstamp>
-    </comp>
-    <comp ref="R1205">
-      <value>10R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">INA219_SUPPORTED</field>
-        <field name="Price">0.0036</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F89AEA9</tstamp>
-    </comp>
-    <comp ref="R1204">
-      <value>10R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">INA219_SUPPORTED</field>
-        <field name="Price">0.0036</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F89AA2D</tstamp>
-    </comp>
-    <comp ref="C1207">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">INA219_SUPPORTED_FILTERED</field>
-        <field name="Price">0.0057</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F8B3D1B</tstamp>
-    </comp>
-    <comp ref="C1208">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Price">0.0057</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5F9AC8D5</tstamp>
-    </comp>
-    <comp ref="D1203">
-      <value>SMBJ30CA CK /SMBJ15CA BM</value>
-      <footprint>Diode_SMD:D_SMB_Handsoldering</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Price">0.1</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
-      <sheetpath names="/Power/" tstamps="/5F7C8D58/"/>
-      <tstamp>5FC9A3E5</tstamp>
-    </comp>
-    <comp ref="U1301">
-      <value>MAX485E</value>
-      <footprint>Package_SO:SOP-8_3.76x4.96mm_P1.27mm</footprint>
-      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf</datasheet>
-      <fields>
-        <field name="Feature">10V_SUPPORTED</field>
-        <field name="Price">0.065</field>
-        <field name="is stock">no</field>
-      </fields>
-      <libsource lib="Interface_UART" part="MAX485E" description="Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"/>
-      <sheetpath names="/RS485/" tstamps="/5F7B7D30/"/>
-      <tstamp>5F7B8096</tstamp>
-    </comp>
-    <comp ref="R1303">
-      <value>1K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">RS485_SUPPORTED</field>
-        <field name="Price">0.0036</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/RS485/" tstamps="/5F7B7D30/"/>
-      <tstamp>5F7BA62C</tstamp>
-    </comp>
-    <comp ref="R1301">
-      <value>1K</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">RS485_SUPPORTED</field>
-        <field name="Price">0.0036</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/RS485/" tstamps="/5F7B7D30/"/>
-      <tstamp>5F7BA295</tstamp>
-    </comp>
-    <comp ref="R1302">
-      <value>120</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">RS485_SUPPORTED</field>
-        <field name="Price">0.0036</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/RS485/" tstamps="/5F7B7D30/"/>
-      <tstamp>5F7BC04A</tstamp>
-    </comp>
-    <comp ref="TP1301">
-      <value>B</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">RS485_SUPPORTED</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/RS485/" tstamps="/5F7B7D30/"/>
-      <tstamp>5FA6885F</tstamp>
-    </comp>
-    <comp ref="TP1304">
-      <value>A</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">RS485_SUPPORTED</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/RS485/" tstamps="/5F7B7D30/"/>
-      <tstamp>5FA68C0E</tstamp>
-    </comp>
-    <comp ref="JP1301">
-      <value>Jumper_2_Bridged</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">RS485_SUPPORTED</field>
-        <field name="Price">0.0062</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
-      <sheetpath names="/RS485/" tstamps="/5F7B7D30/"/>
-      <tstamp>5F804235</tstamp>
-    </comp>
-    <comp ref="C1301">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">RS485_SUPPORTED</field>
-        <field name="Price">0.0057</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/RS485/" tstamps="/5F7B7D30/"/>
-      <tstamp>5FE4FDAD</tstamp>
-    </comp>
-    <comp ref="J1301">
-      <value>Screw_Terminal_01x03</value>
-      <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">RS485_SUPPORTED_1CONN</field>
-        <field name="Price">0.202</field>
-        <field name="is stock">yes</field>
-      </fields>
-      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/RS485/" tstamps="/5F7B7D30/"/>
-      <tstamp>5F9ABD9D</tstamp>
-    </comp>
-    <comp ref="U1101">
+    <comp ref="U701">
       <value>LM393</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/lm2904-n.pdf</datasheet>
@@ -1418,10 +1340,10 @@
         <field name="is stock">no</field>
       </fields>
       <libsource lib="Amplifier_Operational" part="LM358" description="Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5F7CF7BB</tstamp>
     </comp>
-    <comp ref="R1101">
+    <comp ref="R701">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1431,10 +1353,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5F7CF150</tstamp>
     </comp>
-    <comp ref="C1102">
+    <comp ref="C703">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1444,10 +1366,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5F7D3020</tstamp>
     </comp>
-    <comp ref="C1101">
+    <comp ref="C701">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1457,10 +1379,10 @@
         <field name="is stock">no</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5F7DE73D</tstamp>
     </comp>
-    <comp ref="R1103">
+    <comp ref="R703">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1470,10 +1392,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5F7E4BB1</tstamp>
     </comp>
-    <comp ref="R1104">
+    <comp ref="R704">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1483,10 +1405,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5F7E5039</tstamp>
     </comp>
-    <comp ref="J1101">
+    <comp ref="J701">
       <value>Conn_01x02</value>
       <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal</footprint>
       <datasheet>~</datasheet>
@@ -1496,23 +1418,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5F80EAFE</tstamp>
     </comp>
-    <comp ref="TP1102">
-      <value>d1</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">10V_SUPPORTED_1CH</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
-      <tstamp>5F819F73</tstamp>
-    </comp>
-    <comp ref="R1102">
+    <comp ref="R702">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1522,10 +1431,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5F837482</tstamp>
     </comp>
-    <comp ref="C1104">
+    <comp ref="C702">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1535,10 +1444,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5F9C8781</tstamp>
     </comp>
-    <comp ref="R1105">
+    <comp ref="R705">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1548,10 +1457,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5FEE3D26</tstamp>
     </comp>
-    <comp ref="C1103">
+    <comp ref="C704">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1561,23 +1470,10 @@
         <field name="is stock">no</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5FEE3D30</tstamp>
     </comp>
-    <comp ref="TP1103">
-      <value>d2</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">10V_SUPPORTED_1CH</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
-      <tstamp>5FEE3D45</tstamp>
-    </comp>
-    <comp ref="R1107">
+    <comp ref="R707">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1587,10 +1483,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5FEE9ACA</tstamp>
     </comp>
-    <comp ref="R1108">
+    <comp ref="R708">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1600,10 +1496,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5FEE9AD3</tstamp>
     </comp>
-    <comp ref="J1102">
+    <comp ref="J702">
       <value>Conn_01x02</value>
       <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal</footprint>
       <datasheet>~</datasheet>
@@ -1613,10 +1509,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5FEE9AE6</tstamp>
     </comp>
-    <comp ref="R1106">
+    <comp ref="R706">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1626,10 +1522,10 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5FEE9AF7</tstamp>
     </comp>
-    <comp ref="C1105">
+    <comp ref="C705">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
@@ -1639,34 +1535,8 @@
         <field name="is stock">yes</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
+      <sheetpath names="/CenterBack/0-10V/" tstamps="/602F109A/60313CE1/"/>
       <tstamp>5FEE9B07</tstamp>
-    </comp>
-    <comp ref="TP1101">
-      <value>a1</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">10V_SUPPORTED_1CH</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
-      <tstamp>5FEEC697</tstamp>
-    </comp>
-    <comp ref="TP1104">
-      <value>a2</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Feature">10V_SUPPORTED_1CH</field>
-        <field name="Price">0</field>
-        <field name="is stock">n.a.</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <sheetpath names="/0-10V/" tstamps="/5F8293F0/"/>
-      <tstamp>5FEEDF1E</tstamp>
     </comp>
   </components>
   <libparts>
@@ -2394,608 +2264,604 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/0-10V/pwm1">
-      <node ref="R1101" pin="2"/>
-      <node ref="TP1102" pin="1"/>
-      <node ref="U1001" pin="9"/>
+    <net code="1" name="/right_front_vdd">
+      <node ref="J111" pin="1"/>
+      <node ref="J110" pin="1"/>
+      <node ref="J109" pin="1"/>
     </net>
-    <net code="2" name="/0-10V/pwm2">
-      <node ref="U1001" pin="10"/>
-      <node ref="R1105" pin="2"/>
-      <node ref="TP1103" pin="1"/>
+    <net code="2" name="/red_left_front">
+      <node ref="J101" pin="3"/>
+      <node ref="J103" pin="3"/>
+      <node ref="J102" pin="3"/>
     </net>
-    <net code="3" name="/Microcontroller/tx_en">
-      <node ref="U1301" pin="3"/>
-      <node ref="U1301" pin="2"/>
-      <node ref="U1001" pin="32"/>
+    <net code="3" name="/left_front_vdd">
+      <node ref="J101" pin="1"/>
+      <node ref="J102" pin="1"/>
+      <node ref="J103" pin="1"/>
     </net>
-    <net code="4" name="/Microcontroller/sda">
-      <node ref="U201" pin="27"/>
-      <node ref="U1002" pin="5"/>
-      <node ref="U1202" pin="3"/>
-      <node ref="U1001" pin="27"/>
-      <node ref="R1002" pin="2"/>
+    <net code="4" name="/left_front_green">
+      <node ref="J103" pin="2"/>
+      <node ref="J102" pin="2"/>
+      <node ref="J101" pin="2"/>
     </net>
-    <net code="5" name="/Microcontroller/scl">
-      <node ref="R1003" pin="2"/>
-      <node ref="U1001" pin="28"/>
-      <node ref="U201" pin="26"/>
-      <node ref="U1002" pin="6"/>
-      <node ref="U1202" pin="4"/>
+    <net code="5" name="/blue_left_front">
+      <node ref="J101" pin="4"/>
+      <node ref="J102" pin="4"/>
+      <node ref="J103" pin="4"/>
     </net>
-    <net code="6" name="/PWM/~oe">
-      <node ref="U201" pin="23"/>
-      <node ref="U1001" pin="26"/>
+    <net code="6" name="/white_left_front">
+      <node ref="J103" pin="5"/>
+      <node ref="J101" pin="5"/>
+      <node ref="J102" pin="5"/>
     </net>
-    <net code="7" name="/Microcontroller/~button~">
-      <node ref="J202" pin="14"/>
-      <node ref="U1001" pin="23"/>
+    <net code="7" name="/right_front_green">
+      <node ref="J110" pin="2"/>
+      <node ref="J109" pin="2"/>
+      <node ref="J111" pin="2"/>
     </net>
-    <net code="8" name="/Microcontroller/rxd">
-      <node ref="U1301" pin="1"/>
-      <node ref="U1001" pin="30"/>
+    <net code="8" name="/right_front_red">
+      <node ref="J111" pin="3"/>
+      <node ref="J110" pin="3"/>
+      <node ref="J109" pin="3"/>
     </net>
-    <net code="9" name="/Microcontroller/txd">
-      <node ref="U1001" pin="31"/>
-      <node ref="U1301" pin="4"/>
+    <net code="9" name="/right_front_blue">
+      <node ref="J111" pin="4"/>
+      <node ref="J110" pin="4"/>
+      <node ref="J109" pin="4"/>
     </net>
-    <net code="10" name="/RS485/A">
-      <node ref="TP1304" pin="1"/>
-      <node ref="U1301" pin="6"/>
-      <node ref="J1301" pin="2"/>
-      <node ref="R1302" pin="2"/>
-      <node ref="R1303" pin="1"/>
+    <net code="10" name="/right_front_white">
+      <node ref="J111" pin="5"/>
+      <node ref="J110" pin="5"/>
+      <node ref="J109" pin="5"/>
     </net>
-    <net code="11" name="GND">
-      <node ref="C1003" pin="2"/>
-      <node ref="C1004" pin="2"/>
-      <node ref="U1002" pin="2"/>
-      <node ref="U1002" pin="3"/>
-      <node ref="SW1001" pin="2"/>
-      <node ref="U1001" pin="3"/>
-      <node ref="U1001" pin="5"/>
-      <node ref="J1101" pin="2"/>
-      <node ref="C1102" pin="2"/>
-      <node ref="U1101" pin="4"/>
-      <node ref="C1104" pin="1"/>
-      <node ref="R1104" pin="1"/>
-      <node ref="U1002" pin="7"/>
-      <node ref="C1001" pin="2"/>
-      <node ref="U1002" pin="4"/>
-      <node ref="U1002" pin="1"/>
-      <node ref="D1003" pin="1"/>
-      <node ref="D1002" pin="1"/>
-      <node ref="JP1001" pin="2"/>
-      <node ref="JP1002" pin="2"/>
-      <node ref="JP1003" pin="2"/>
-      <node ref="JP1004" pin="2"/>
-      <node ref="J1005" pin="6"/>
-      <node ref="D1001" pin="1"/>
-      <node ref="JP1005" pin="2"/>
-      <node ref="U1001" pin="21"/>
-      <node ref="C1002" pin="2"/>
-      <node ref="C1006" pin="2"/>
-      <node ref="C1005" pin="2"/>
-      <node ref="D1004" pin="1"/>
-      <node ref="Q301" pin="2"/>
-      <node ref="Q403" pin="2"/>
-      <node ref="Q404" pin="2"/>
-      <node ref="Q401" pin="2"/>
-      <node ref="C205" pin="2"/>
-      <node ref="C201" pin="2"/>
-      <node ref="J202" pin="13"/>
-      <node ref="Q402" pin="2"/>
-      <node ref="U201" pin="2"/>
-      <node ref="U201" pin="14"/>
-      <node ref="U201" pin="1"/>
-      <node ref="C203" pin="2"/>
-      <node ref="U201" pin="24"/>
-      <node ref="Q302" pin="2"/>
-      <node ref="Q303" pin="2"/>
-      <node ref="Q304" pin="2"/>
-      <node ref="U201" pin="3"/>
-      <node ref="U201" pin="4"/>
-      <node ref="U201" pin="5"/>
-      <node ref="J1102" pin="2"/>
-      <node ref="C1105" pin="1"/>
-      <node ref="Q602" pin="2"/>
-      <node ref="C1103" pin="2"/>
-      <node ref="Q603" pin="2"/>
-      <node ref="C1101" pin="2"/>
-      <node ref="Q604" pin="2"/>
+    <net code="11" name="/center_front_l_green">
+      <node ref="J106" pin="6"/>
+      <node ref="J104" pin="2"/>
+      <node ref="J105" pin="2"/>
+    </net>
+    <net code="12" name="/center_front_r_blue">
+      <node ref="J106" pin="9"/>
+      <node ref="J108" pin="4"/>
+      <node ref="J107" pin="4"/>
+    </net>
+    <net code="13" name="/center_front_l_red">
+      <node ref="J106" pin="8"/>
+      <node ref="J105" pin="3"/>
+      <node ref="J104" pin="3"/>
+    </net>
+    <net code="14" name="/center_front_l_blue">
+      <node ref="J106" pin="10"/>
+      <node ref="J104" pin="4"/>
+      <node ref="J105" pin="4"/>
+    </net>
+    <net code="15" name="/center_front_l_white">
+      <node ref="J104" pin="5"/>
+      <node ref="J105" pin="5"/>
+      <node ref="J106" pin="12"/>
+    </net>
+    <net code="16" name="/center_front_r_green">
+      <node ref="J108" pin="2"/>
+      <node ref="J106" pin="5"/>
+      <node ref="J107" pin="2"/>
+    </net>
+    <net code="17" name="/center_front_r_red">
+      <node ref="J106" pin="7"/>
+      <node ref="J107" pin="3"/>
+      <node ref="J108" pin="3"/>
+    </net>
+    <net code="18" name="/center_front_r_white">
+      <node ref="J106" pin="11"/>
+      <node ref="J108" pin="5"/>
+      <node ref="J107" pin="5"/>
+    </net>
+    <net code="19" name="/gnd">
+      <node ref="SW101" pin="1"/>
+      <node ref="J106" pin="13"/>
+    </net>
+    <net code="20" name="/~button~">
+      <node ref="J106" pin="14"/>
+      <node ref="SW101" pin="2"/>
+    </net>
+    <net code="21" name="/center_front_vdd">
+      <node ref="J106" pin="1"/>
+      <node ref="J106" pin="3"/>
+      <node ref="J105" pin="1"/>
+      <node ref="J104" pin="1"/>
+      <node ref="J106" pin="4"/>
+      <node ref="J107" pin="1"/>
+      <node ref="J106" pin="2"/>
+      <node ref="J108" pin="1"/>
+    </net>
+    <net code="22" name="/CenterBack/PWM/~oe">
+      <node ref="U601" pin="23"/>
+      <node ref="U401" pin="32"/>
+    </net>
+    <net code="23" name="/CenterBack/Microcontroller/tx_en">
+      <node ref="U501" pin="3"/>
+      <node ref="U501" pin="2"/>
+      <node ref="U401" pin="26"/>
+    </net>
+    <net code="24" name="/CenterBack/Microcontroller/~button~">
+      <node ref="J602" pin="14"/>
+      <node ref="U401" pin="23"/>
+    </net>
+    <net code="25" name="/CenterBack/0-10V/pwm1">
+      <node ref="R701" pin="2"/>
+      <node ref="U401" pin="9"/>
+    </net>
+    <net code="26" name="/CenterBack/0-10V/pwm2">
+      <node ref="U401" pin="10"/>
+      <node ref="R705" pin="2"/>
+    </net>
+    <net code="27" name="/CenterBack/Microcontroller/rxd">
+      <node ref="U401" pin="30"/>
+      <node ref="U501" pin="1"/>
+    </net>
+    <net code="28" name="/CenterBack/Microcontroller/txd">
+      <node ref="U401" pin="31"/>
+      <node ref="U501" pin="4"/>
+    </net>
+    <net code="29" name="/CenterBack/Microcontroller/sda">
+      <node ref="U601" pin="27"/>
+      <node ref="R403" pin="2"/>
+      <node ref="U401" pin="27"/>
+      <node ref="U301" pin="3"/>
+      <node ref="U402" pin="5"/>
+    </net>
+    <net code="30" name="/CenterBack/Microcontroller/scl">
+      <node ref="U301" pin="4"/>
+      <node ref="U402" pin="6"/>
+      <node ref="U401" pin="28"/>
+      <node ref="R402" pin="2"/>
+      <node ref="U601" pin="26"/>
+    </net>
+    <net code="31" name="GND">
+      <node ref="U501" pin="5"/>
+      <node ref="R501" pin="1"/>
+      <node ref="Q608" pin="2"/>
+      <node ref="Q614" pin="2"/>
+      <node ref="Q615" pin="2"/>
+      <node ref="Q612" pin="2"/>
+      <node ref="J401" pin="6"/>
+      <node ref="Q613" pin="2"/>
+      <node ref="D404" pin="1"/>
+      <node ref="D401" pin="1"/>
+      <node ref="JP403" pin="2"/>
+      <node ref="JP404" pin="2"/>
+      <node ref="JP402" pin="2"/>
+      <node ref="SW401" pin="2"/>
+      <node ref="C404" pin="2"/>
+      <node ref="C405" pin="2"/>
+      <node ref="C403" pin="2"/>
+      <node ref="D402" pin="1"/>
+      <node ref="J501" pin="3"/>
+      <node ref="C501" pin="2"/>
+      <node ref="D403" pin="1"/>
+      <node ref="JP401" pin="2"/>
       <node ref="Q601" pin="2"/>
-      <node ref="C202" pin="2"/>
-      <node ref="Q504" pin="2"/>
-      <node ref="Q501" pin="2"/>
-      <node ref="Q502" pin="2"/>
-      <node ref="Q503" pin="2"/>
-      <node ref="U201" pin="25"/>
-      <node ref="R1108" pin="1"/>
-      <node ref="C204" pin="2"/>
-      <node ref="R1301" pin="1"/>
-      <node ref="C1203" pin="2"/>
-      <node ref="U1301" pin="5"/>
-      <node ref="C1204" pin="2"/>
-      <node ref="C1205" pin="2"/>
-      <node ref="C1202" pin="2"/>
-      <node ref="U1201" pin="1"/>
-      <node ref="TP1203" pin="1"/>
-      <node ref="C1207" pin="2"/>
-      <node ref="C1208" pin="2"/>
-      <node ref="C1201" pin="2"/>
-      <node ref="J1201" pin="2"/>
-      <node ref="D1202" pin="1"/>
-      <node ref="J1301" pin="3"/>
-      <node ref="D1203" pin="2"/>
-      <node ref="U1202" pin="2"/>
-      <node ref="C1301" pin="2"/>
-      <node ref="U1202" pin="1"/>
-      <node ref="U1202" pin="6"/>
-      <node ref="R1202" pin="2"/>
+      <node ref="C604" pin="2"/>
+      <node ref="J701" pin="2"/>
+      <node ref="Q602" pin="2"/>
+      <node ref="Q605" pin="2"/>
+      <node ref="Q606" pin="2"/>
+      <node ref="C704" pin="2"/>
+      <node ref="J702" pin="2"/>
+      <node ref="C701" pin="2"/>
+      <node ref="U701" pin="4"/>
+      <node ref="C703" pin="2"/>
+      <node ref="C702" pin="1"/>
+      <node ref="R708" pin="1"/>
+      <node ref="Q603" pin="2"/>
+      <node ref="C705" pin="1"/>
+      <node ref="U601" pin="4"/>
+      <node ref="Q616" pin="2"/>
+      <node ref="U601" pin="2"/>
+      <node ref="U601" pin="5"/>
+      <node ref="J602" pin="13"/>
+      <node ref="U601" pin="3"/>
+      <node ref="U601" pin="25"/>
+      <node ref="U601" pin="24"/>
+      <node ref="R704" pin="1"/>
+      <node ref="U601" pin="14"/>
+      <node ref="U601" pin="1"/>
+      <node ref="C605" pin="2"/>
+      <node ref="Q607" pin="2"/>
+      <node ref="Q611" pin="2"/>
+      <node ref="Q610" pin="2"/>
+      <node ref="C601" pin="2"/>
+      <node ref="Q604" pin="2"/>
+      <node ref="C602" pin="2"/>
+      <node ref="C603" pin="2"/>
+      <node ref="Q609" pin="2"/>
+      <node ref="C301" pin="2"/>
+      <node ref="D302" pin="2"/>
+      <node ref="J301" pin="2"/>
+      <node ref="JP405" pin="2"/>
+      <node ref="U402" pin="1"/>
+      <node ref="TP303" pin="1"/>
+      <node ref="R305" pin="2"/>
+      <node ref="U402" pin="2"/>
+      <node ref="U402" pin="3"/>
+      <node ref="U402" pin="4"/>
+      <node ref="U401" pin="5"/>
+      <node ref="U301" pin="1"/>
+      <node ref="C303" pin="2"/>
+      <node ref="D303" pin="1"/>
+      <node ref="U401" pin="21"/>
+      <node ref="C406" pin="2"/>
+      <node ref="C305" pin="2"/>
+      <node ref="C306" pin="2"/>
+      <node ref="C307" pin="2"/>
+      <node ref="C308" pin="2"/>
+      <node ref="U302" pin="1"/>
+      <node ref="U401" pin="3"/>
+      <node ref="U402" pin="7"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C304" pin="2"/>
+      <node ref="C402" pin="2"/>
+      <node ref="U301" pin="2"/>
+      <node ref="U301" pin="6"/>
     </net>
-    <net code="12" name="+5V">
-      <node ref="U1002" pin="8"/>
-      <node ref="R1203" pin="1"/>
-      <node ref="TP1202" pin="1"/>
-      <node ref="U1001" pin="4"/>
-      <node ref="U1001" pin="6"/>
-      <node ref="U1202" pin="5"/>
-      <node ref="U1201" pin="2"/>
-      <node ref="C1203" pin="1"/>
-      <node ref="C1006" pin="1"/>
-      <node ref="C1205" pin="1"/>
-      <node ref="C1005" pin="1"/>
-      <node ref="U1001" pin="18"/>
-      <node ref="U201" pin="28"/>
-      <node ref="R1303" pin="2"/>
-      <node ref="U1301" pin="8"/>
-      <node ref="R1003" pin="1"/>
-      <node ref="R1006" pin="1"/>
-      <node ref="C1301" pin="1"/>
-      <node ref="C1001" pin="1"/>
-      <node ref="C1208" pin="1"/>
-      <node ref="R1002" pin="1"/>
-      <node ref="J1005" pin="2"/>
-      <node ref="C203" pin="1"/>
+    <net code="32" name="Net-(R302-Pad2)">
+      <node ref="U301" pin="7"/>
+      <node ref="R302" pin="2"/>
     </net>
-    <net code="13" name="Net-(JP1301-Pad2)">
-      <node ref="JP1301" pin="2"/>
-      <node ref="R1302" pin="1"/>
+    <net code="33" name="Net-(R301-Pad2)">
+      <node ref="R301" pin="2"/>
+      <node ref="U301" pin="8"/>
     </net>
-    <net code="14" name="/RS485/B">
-      <node ref="R1301" pin="2"/>
-      <node ref="TP1301" pin="1"/>
-      <node ref="J1301" pin="1"/>
-      <node ref="U1301" pin="7"/>
-      <node ref="JP1301" pin="1"/>
+    <net code="34" name="+5V">
+      <node ref="U401" pin="6"/>
+      <node ref="C406" pin="1"/>
+      <node ref="U401" pin="18"/>
+      <node ref="C501" pin="1"/>
+      <node ref="R306" pin="1"/>
+      <node ref="R403" pin="1"/>
+      <node ref="TP302" pin="1"/>
+      <node ref="R402" pin="1"/>
+      <node ref="U401" pin="4"/>
+      <node ref="U501" pin="8"/>
+      <node ref="U302" pin="2"/>
+      <node ref="R503" pin="2"/>
+      <node ref="C308" pin="1"/>
+      <node ref="J401" pin="2"/>
+      <node ref="U601" pin="28"/>
+      <node ref="C601" pin="1"/>
+      <node ref="C306" pin="1"/>
+      <node ref="R401" pin="1"/>
+      <node ref="C401" pin="1"/>
+      <node ref="U301" pin="5"/>
+      <node ref="C402" pin="1"/>
+      <node ref="C301" pin="1"/>
+      <node ref="U402" pin="8"/>
     </net>
-    <net code="15" name="Net-(R1205-Pad2)">
-      <node ref="R1205" pin="2"/>
-      <node ref="U1202" pin="7"/>
+    <net code="35" name="Net-(F301-Pad2)">
+      <node ref="F301" pin="2"/>
+      <node ref="J301" pin="1"/>
     </net>
-    <net code="16" name="Net-(F1201-Pad2)">
-      <node ref="F1201" pin="2"/>
-      <node ref="J1201" pin="1"/>
+    <net code="36" name="Net-(J301-Pad3)">
+      <node ref="J301" pin="3"/>
     </net>
-    <net code="17" name="Net-(J1201-Pad3)">
-      <node ref="J1201" pin="3"/>
+    <net code="37" name="/CenterBack/Power/surge_bypass">
+      <node ref="F301" pin="1"/>
+      <node ref="Q301" pin="2"/>
+      <node ref="D302" pin="1"/>
     </net>
-    <net code="18" name="Net-(C1202-Pad1)">
-      <node ref="R1201" pin="1"/>
-      <node ref="C1202" pin="1"/>
-      <node ref="C1204" pin="1"/>
-      <node ref="U1201" pin="3"/>
+    <net code="38" name="Net-(C305-Pad1)">
+      <node ref="U302" pin="3"/>
+      <node ref="R304" pin="1"/>
+      <node ref="C307" pin="1"/>
+      <node ref="C305" pin="1"/>
     </net>
-    <net code="19" name="Net-(R1204-Pad2)">
-      <node ref="U1202" pin="8"/>
-      <node ref="R1204" pin="2"/>
+    <net code="39" name="VDD">
+      <node ref="C302" pin="1"/>
+      <node ref="J602" pin="3"/>
+      <node ref="J601" pin="1"/>
+      <node ref="J602" pin="4"/>
+      <node ref="J602" pin="2"/>
+      <node ref="TP301" pin="1"/>
+      <node ref="J602" pin="1"/>
+      <node ref="R303" pin="1"/>
+      <node ref="C703" pin="1"/>
+      <node ref="C604" pin="1"/>
+      <node ref="C603" pin="1"/>
+      <node ref="U701" pin="8"/>
+      <node ref="J603" pin="1"/>
+      <node ref="R302" pin="1"/>
+      <node ref="C602" pin="1"/>
+      <node ref="C605" pin="1"/>
+      <node ref="C304" pin="1"/>
+      <node ref="R304" pin="2"/>
     </net>
-    <net code="20" name="Net-(D1202-Pad2)">
-      <node ref="D1202" pin="2"/>
-      <node ref="R1203" pin="2"/>
+    <net code="40" name="Net-(C302-Pad2)">
+      <node ref="D301" pin="1"/>
+      <node ref="Q301" pin="3"/>
+      <node ref="C303" pin="1"/>
+      <node ref="C302" pin="2"/>
+      <node ref="R301" pin="1"/>
+      <node ref="R303" pin="2"/>
     </net>
-    <net code="21" name="VDD">
-      <node ref="C202" pin="1"/>
-      <node ref="C204" pin="1"/>
-      <node ref="R1201" pin="2"/>
-      <node ref="R1206" pin="1"/>
-      <node ref="J203" pin="1"/>
-      <node ref="J202" pin="1"/>
-      <node ref="J202" pin="4"/>
-      <node ref="J201" pin="1"/>
-      <node ref="R1205" pin="1"/>
-      <node ref="C1206" pin="1"/>
-      <node ref="C1207" pin="1"/>
-      <node ref="J202" pin="3"/>
-      <node ref="J202" pin="2"/>
-      <node ref="C201" pin="1"/>
-      <node ref="C205" pin="1"/>
-      <node ref="TP1201" pin="1"/>
-      <node ref="C1102" pin="1"/>
-      <node ref="U1101" pin="8"/>
+    <net code="41" name="Net-(D301-Pad2)">
+      <node ref="Q301" pin="1"/>
+      <node ref="R305" pin="1"/>
+      <node ref="D301" pin="2"/>
     </net>
-    <net code="22" name="Net-(D1201-Pad2)">
-      <node ref="R1202" pin="1"/>
-      <node ref="D1201" pin="2"/>
-      <node ref="Q1201" pin="1"/>
+    <net code="42" name="Net-(D303-Pad2)">
+      <node ref="D303" pin="2"/>
+      <node ref="R306" pin="2"/>
     </net>
-    <net code="23" name="/Power/surge_bypass">
-      <node ref="Q1201" pin="2"/>
-      <node ref="D1203" pin="1"/>
-      <node ref="F1201" pin="1"/>
+    <net code="43" name="Net-(U401-Pad25)">
+      <node ref="U401" pin="25"/>
     </net>
-    <net code="24" name="Net-(C1201-Pad1)">
-      <node ref="C1201" pin="1"/>
-      <node ref="D1201" pin="1"/>
-      <node ref="Q1201" pin="3"/>
-      <node ref="R1204" pin="1"/>
-      <node ref="C1206" pin="2"/>
-      <node ref="R1206" pin="2"/>
+    <net code="44" name="Net-(U401-Pad24)">
+      <node ref="U401" pin="24"/>
     </net>
-    <net code="25" name="/Microcontroller/reset">
-      <node ref="R1006" pin="2"/>
-      <node ref="J1005" pin="5"/>
-      <node ref="SW1001" pin="1"/>
-      <node ref="U1001" pin="29"/>
+    <net code="45" name="Net-(U401-Pad22)">
+      <node ref="U401" pin="22"/>
     </net>
-    <net code="26" name="/Microcontroller/aref">
-      <node ref="U1001" pin="20"/>
-      <node ref="C1002" pin="1"/>
+    <net code="46" name="Net-(U401-Pad19)">
+      <node ref="U401" pin="19"/>
     </net>
-    <net code="27" name="Net-(C1003-Pad1)">
-      <node ref="Y1001" pin="2"/>
-      <node ref="U1001" pin="7"/>
-      <node ref="C1003" pin="1"/>
+    <net code="47" name="/CenterBack/Microcontroller/reset">
+      <node ref="SW401" pin="1"/>
+      <node ref="R401" pin="2"/>
+      <node ref="J401" pin="5"/>
+      <node ref="U401" pin="29"/>
     </net>
-    <net code="28" name="Net-(C1004-Pad1)">
-      <node ref="C1004" pin="1"/>
-      <node ref="U1001" pin="8"/>
-      <node ref="Y1001" pin="1"/>
+    <net code="48" name="/CenterBack/Microcontroller/isp_mosi">
+      <node ref="U401" pin="15"/>
+      <node ref="RN401" pin="4"/>
+      <node ref="J401" pin="4"/>
     </net>
-    <net code="29" name="/Microcontroller/led1">
-      <node ref="RN1001" pin="1"/>
-      <node ref="U1001" pin="14"/>
+    <net code="49" name="Net-(D404-Pad2)">
+      <node ref="D404" pin="2"/>
+      <node ref="RN401" pin="7"/>
     </net>
-    <net code="30" name="Net-(U1001-Pad19)">
-      <node ref="U1001" pin="19"/>
+    <net code="50" name="/CenterBack/Microcontroller/isp_sck">
+      <node ref="RN401" pin="2"/>
+      <node ref="J401" pin="3"/>
+      <node ref="U401" pin="17"/>
     </net>
-    <net code="31" name="Net-(D1002-Pad2)">
-      <node ref="D1002" pin="2"/>
-      <node ref="RN1001" pin="5"/>
+    <net code="51" name="Net-(D403-Pad2)">
+      <node ref="RN401" pin="6"/>
+      <node ref="D403" pin="2"/>
     </net>
-    <net code="32" name="Net-(D1003-Pad2)">
-      <node ref="D1003" pin="2"/>
-      <node ref="RN1001" pin="6"/>
+    <net code="52" name="/CenterBack/Microcontroller/isp_miso">
+      <node ref="J401" pin="1"/>
+      <node ref="U401" pin="16"/>
+      <node ref="RN401" pin="3"/>
     </net>
-    <net code="33" name="/Microcontroller/isp_miso">
-      <node ref="J1005" pin="1"/>
-      <node ref="RN1001" pin="3"/>
-      <node ref="U1001" pin="16"/>
+    <net code="53" name="Net-(D402-Pad2)">
+      <node ref="RN401" pin="5"/>
+      <node ref="D402" pin="2"/>
     </net>
-    <net code="34" name="/Microcontroller/isp_sck">
-      <node ref="RN1001" pin="2"/>
-      <node ref="U1001" pin="17"/>
-      <node ref="J1005" pin="3"/>
+    <net code="54" name="/CenterBack/Microcontroller/addr5">
+      <node ref="U401" pin="13"/>
+      <node ref="JP405" pin="1"/>
     </net>
-    <net code="35" name="/Microcontroller/isp_mosi">
-      <node ref="U1001" pin="15"/>
-      <node ref="RN1001" pin="4"/>
-      <node ref="J1005" pin="4"/>
+    <net code="55" name="/CenterBack/Microcontroller/addr1">
+      <node ref="JP401" pin="1"/>
+      <node ref="U401" pin="1"/>
     </net>
-    <net code="36" name="Net-(D1004-Pad2)">
-      <node ref="RN1001" pin="7"/>
-      <node ref="D1004" pin="2"/>
+    <net code="56" name="/CenterBack/Microcontroller/addr2">
+      <node ref="U401" pin="2"/>
+      <node ref="JP402" pin="1"/>
     </net>
-    <net code="37" name="/Microcontroller/addr1">
-      <node ref="JP1001" pin="1"/>
-      <node ref="U1001" pin="1"/>
+    <net code="57" name="Net-(D401-Pad2)">
+      <node ref="RN401" pin="8"/>
+      <node ref="D401" pin="2"/>
     </net>
-    <net code="38" name="/Microcontroller/addr2">
-      <node ref="U1001" pin="2"/>
-      <node ref="JP1002" pin="1"/>
+    <net code="58" name="Net-(C404-Pad1)">
+      <node ref="C404" pin="1"/>
+      <node ref="Y401" pin="2"/>
+      <node ref="U401" pin="7"/>
     </net>
-    <net code="39" name="/Microcontroller/addr3">
-      <node ref="U1001" pin="11"/>
-      <node ref="JP1003" pin="1"/>
+    <net code="59" name="/CenterBack/Microcontroller/led1">
+      <node ref="U401" pin="14"/>
+      <node ref="RN401" pin="1"/>
     </net>
-    <net code="40" name="/Microcontroller/addr4">
-      <node ref="U1001" pin="12"/>
-      <node ref="JP1004" pin="1"/>
+    <net code="60" name="Net-(C405-Pad1)">
+      <node ref="Y401" pin="1"/>
+      <node ref="C405" pin="1"/>
+      <node ref="U401" pin="8"/>
     </net>
-    <net code="41" name="Net-(D1001-Pad2)">
-      <node ref="D1001" pin="2"/>
-      <node ref="RN1001" pin="8"/>
+    <net code="61" name="/CenterBack/Microcontroller/aref">
+      <node ref="C403" pin="1"/>
+      <node ref="U401" pin="20"/>
     </net>
-    <net code="42" name="Net-(U1001-Pad24)">
-      <node ref="U1001" pin="24"/>
+    <net code="62" name="/CenterBack/Microcontroller/addr4">
+      <node ref="JP404" pin="1"/>
+      <node ref="U401" pin="12"/>
     </net>
-    <net code="43" name="/Microcontroller/addr5">
-      <node ref="U1001" pin="13"/>
-      <node ref="JP1005" pin="1"/>
+    <net code="63" name="/CenterBack/Microcontroller/addr3">
+      <node ref="JP403" pin="1"/>
+      <node ref="U401" pin="11"/>
     </net>
-    <net code="44" name="Net-(U1001-Pad22)">
-      <node ref="U1001" pin="22"/>
+    <net code="64" name="Net-(JP501-Pad2)">
+      <node ref="JP501" pin="2"/>
+      <node ref="R502" pin="1"/>
     </net>
-    <net code="45" name="Net-(U1001-Pad25)">
-      <node ref="U1001" pin="25"/>
+    <net code="65" name="/CenterBack/RS485/B">
+      <node ref="U501" pin="7"/>
+      <node ref="R501" pin="2"/>
+      <node ref="JP501" pin="1"/>
+      <node ref="TP501" pin="1"/>
+      <node ref="J501" pin="1"/>
     </net>
-    <net code="46" name="Net-(C1104-Pad2)">
-      <node ref="R1103" pin="2"/>
-      <node ref="C1104" pin="2"/>
-      <node ref="J1101" pin="1"/>
-      <node ref="R1102" pin="1"/>
+    <net code="66" name="/CenterBack/RS485/A">
+      <node ref="R502" pin="2"/>
+      <node ref="R503" pin="1"/>
+      <node ref="TP502" pin="1"/>
+      <node ref="U501" pin="6"/>
+      <node ref="J501" pin="2"/>
     </net>
-    <net code="47" name="Net-(R1103-Pad1)">
-      <node ref="U1101" pin="2"/>
-      <node ref="R1103" pin="1"/>
-      <node ref="R1104" pin="2"/>
+    <net code="67" name="/CenterBack/PWM/strip3_w">
+      <node ref="Q612" pin="1"/>
+      <node ref="U601" pin="18"/>
     </net>
-    <net code="48" name="Net-(R1102-Pad2)">
-      <node ref="U1101" pin="1"/>
-      <node ref="R1102" pin="2"/>
+    <net code="68" name="/CenterBack/PWM/strip3_w_out">
+      <node ref="Q612" pin="3"/>
+      <node ref="J602" pin="11"/>
     </net>
-    <net code="49" name="Net-(R1106-Pad2)">
-      <node ref="U1101" pin="7"/>
-      <node ref="R1106" pin="2"/>
+    <net code="69" name="/CenterBack/PWM/strip3_b_out">
+      <node ref="J602" pin="9"/>
+      <node ref="Q611" pin="3"/>
     </net>
-    <net code="50" name="Net-(R1107-Pad1)">
-      <node ref="R1108" pin="2"/>
-      <node ref="R1107" pin="1"/>
-      <node ref="U1101" pin="6"/>
+    <net code="70" name="/CenterBack/PWM/strip3_b">
+      <node ref="Q611" pin="1"/>
+      <node ref="U601" pin="17"/>
     </net>
-    <net code="51" name="Net-(C1105-Pad2)">
-      <node ref="R1107" pin="2"/>
-      <node ref="R1106" pin="1"/>
-      <node ref="J1102" pin="1"/>
-      <node ref="C1105" pin="2"/>
+    <net code="71" name="/CenterBack/PWM/strip4_b">
+      <node ref="Q615" pin="1"/>
+      <node ref="U601" pin="21"/>
     </net>
-    <net code="52" name="Net-(C1101-Pad1)">
-      <node ref="TP1101" pin="1"/>
-      <node ref="R1101" pin="1"/>
-      <node ref="U1101" pin="3"/>
-      <node ref="C1101" pin="1"/>
+    <net code="72" name="/CenterBack/PWM/strip4_g_out">
+      <node ref="Q614" pin="3"/>
+      <node ref="J603" pin="2"/>
     </net>
-    <net code="53" name="Net-(C1103-Pad1)">
-      <node ref="TP1104" pin="1"/>
-      <node ref="U1101" pin="5"/>
-      <node ref="C1103" pin="1"/>
-      <node ref="R1105" pin="1"/>
+    <net code="73" name="/CenterBack/PWM/strip4_g">
+      <node ref="Q614" pin="1"/>
+      <node ref="U601" pin="20"/>
     </net>
-    <net code="54" name="/PWM/strip4_w_out">
+    <net code="74" name="/CenterBack/PWM/strip4_r_out">
+      <node ref="Q613" pin="3"/>
+      <node ref="J603" pin="3"/>
+    </net>
+    <net code="75" name="/CenterBack/PWM/strip4_r">
+      <node ref="Q613" pin="1"/>
+      <node ref="U601" pin="19"/>
+    </net>
+    <net code="76" name="/CenterBack/PWM/strip2_w_out">
+      <node ref="J602" pin="12"/>
+      <node ref="Q608" pin="3"/>
+    </net>
+    <net code="77" name="/CenterBack/PWM/strip2_w">
+      <node ref="U601" pin="13"/>
+      <node ref="Q608" pin="1"/>
+    </net>
+    <net code="78" name="/CenterBack/PWM/strip2_b_out">
+      <node ref="Q607" pin="3"/>
+      <node ref="J602" pin="10"/>
+    </net>
+    <net code="79" name="/CenterBack/PWM/strip2_b">
+      <node ref="Q607" pin="1"/>
+      <node ref="U601" pin="12"/>
+    </net>
+    <net code="80" name="/CenterBack/PWM/strip3_g_out">
+      <node ref="J602" pin="5"/>
+      <node ref="Q610" pin="3"/>
+    </net>
+    <net code="81" name="/CenterBack/PWM/strip3_g">
+      <node ref="U601" pin="16"/>
+      <node ref="Q610" pin="1"/>
+    </net>
+    <net code="82" name="/CenterBack/PWM/strip3_r_out">
+      <node ref="J602" pin="7"/>
+      <node ref="Q609" pin="3"/>
+    </net>
+    <net code="83" name="/CenterBack/PWM/strip3_r">
+      <node ref="Q609" pin="1"/>
+      <node ref="U601" pin="15"/>
+    </net>
+    <net code="84" name="/CenterBack/PWM/strip2_r_out">
+      <node ref="Q605" pin="3"/>
+      <node ref="J602" pin="8"/>
+    </net>
+    <net code="85" name="/CenterBack/PWM/strip2_g_out">
+      <node ref="J602" pin="6"/>
+      <node ref="Q606" pin="3"/>
+    </net>
+    <net code="86" name="/CenterBack/PWM/strip4_w_out">
+      <node ref="Q616" pin="3"/>
+      <node ref="J603" pin="5"/>
+    </net>
+    <net code="87" name="/CenterBack/PWM/strip4_b_out">
+      <node ref="J603" pin="4"/>
+      <node ref="Q615" pin="3"/>
+    </net>
+    <net code="88" name="/CenterBack/PWM/strip4_w">
+      <node ref="U601" pin="22"/>
+      <node ref="Q616" pin="1"/>
+    </net>
+    <net code="89" name="/CenterBack/PWM/strip1_g_out">
+      <node ref="J601" pin="2"/>
+      <node ref="Q602" pin="3"/>
+    </net>
+    <net code="90" name="/CenterBack/PWM/strip1_w_out">
+      <node ref="J601" pin="5"/>
       <node ref="Q604" pin="3"/>
-      <node ref="J203" pin="5"/>
     </net>
-    <net code="55" name="/PWM/strip4_b_out">
-      <node ref="J203" pin="4"/>
+    <net code="91" name="/CenterBack/PWM/strip1_b_out">
+      <node ref="J601" pin="4"/>
       <node ref="Q603" pin="3"/>
     </net>
-    <net code="56" name="/PWM/strip4_g_out">
-      <node ref="Q602" pin="3"/>
-      <node ref="J203" pin="2"/>
-    </net>
-    <net code="57" name="/PWM/strip4_r_out">
-      <node ref="J203" pin="3"/>
+    <net code="92" name="/CenterBack/PWM/strip1_r_out">
       <node ref="Q601" pin="3"/>
+      <node ref="J601" pin="3"/>
     </net>
-    <net code="58" name="/PWM/strip1_w_out">
-      <node ref="Q304" pin="3"/>
-      <node ref="J201" pin="5"/>
+    <net code="93" name="/CenterBack/PWM/strip2_g">
+      <node ref="Q606" pin="1"/>
+      <node ref="U601" pin="11"/>
     </net>
-    <net code="59" name="/PWM/strip3_g_out">
-      <node ref="J202" pin="5"/>
-      <node ref="Q502" pin="3"/>
+    <net code="94" name="/CenterBack/PWM/strip2_r">
+      <node ref="U601" pin="10"/>
+      <node ref="Q605" pin="1"/>
     </net>
-    <net code="60" name="/PWM/strip2_w_out">
-      <node ref="Q404" pin="3"/>
-      <node ref="J202" pin="12"/>
-    </net>
-    <net code="61" name="/PWM/strip3_w_out">
-      <node ref="J202" pin="11"/>
-      <node ref="Q504" pin="3"/>
-    </net>
-    <net code="62" name="/PWM/strip2_b_out">
-      <node ref="J202" pin="10"/>
-      <node ref="Q403" pin="3"/>
-    </net>
-    <net code="63" name="/PWM/strip3_b_out">
-      <node ref="J202" pin="9"/>
-      <node ref="Q503" pin="3"/>
-    </net>
-    <net code="64" name="/PWM/strip3_r_out">
-      <node ref="Q501" pin="3"/>
-      <node ref="J202" pin="7"/>
-    </net>
-    <net code="65" name="/PWM/strip2_r_out">
-      <node ref="Q401" pin="3"/>
-      <node ref="J202" pin="8"/>
-    </net>
-    <net code="66" name="/PWM/strip2_g_out">
-      <node ref="J202" pin="6"/>
-      <node ref="Q402" pin="3"/>
-    </net>
-    <net code="67" name="/PWM/strip3_w">
-      <node ref="U201" pin="18"/>
-      <node ref="Q504" pin="1"/>
-    </net>
-    <net code="68" name="/PWM/strip3_g">
-      <node ref="Q502" pin="1"/>
-      <node ref="U201" pin="16"/>
-    </net>
-    <net code="69" name="/PWM/strip2_b">
-      <node ref="Q403" pin="1"/>
-      <node ref="U201" pin="12"/>
-    </net>
-    <net code="70" name="/PWM/strip2_w">
-      <node ref="Q404" pin="1"/>
-      <node ref="U201" pin="13"/>
-    </net>
-    <net code="71" name="/PWM/strip3_b">
-      <node ref="U201" pin="17"/>
-      <node ref="Q503" pin="1"/>
-    </net>
-    <net code="72" name="/PWM/strip4_w">
-      <node ref="Q604" pin="1"/>
-      <node ref="U201" pin="22"/>
-    </net>
-    <net code="73" name="/PWM/strip4_b">
+    <net code="95" name="/CenterBack/PWM/strip1_b">
+      <node ref="U601" pin="8"/>
       <node ref="Q603" pin="1"/>
-      <node ref="U201" pin="21"/>
     </net>
-    <net code="74" name="/PWM/strip3_r">
-      <node ref="Q501" pin="1"/>
-      <node ref="U201" pin="15"/>
-    </net>
-    <net code="75" name="/PWM/strip2_r">
-      <node ref="U201" pin="10"/>
-      <node ref="Q401" pin="1"/>
-    </net>
-    <net code="76" name="/PWM/strip1_g">
-      <node ref="U201" pin="7"/>
-      <node ref="Q302" pin="1"/>
-    </net>
-    <net code="77" name="/PWM/strip1_b">
-      <node ref="U201" pin="8"/>
-      <node ref="Q303" pin="1"/>
-    </net>
-    <net code="78" name="/PWM/strip1_w">
-      <node ref="U201" pin="9"/>
-      <node ref="Q304" pin="1"/>
-    </net>
-    <net code="79" name="/PWM/strip1_g_out">
-      <node ref="J201" pin="2"/>
-      <node ref="Q302" pin="3"/>
-    </net>
-    <net code="80" name="/PWM/strip1_r">
-      <node ref="Q301" pin="1"/>
-      <node ref="U201" pin="6"/>
-    </net>
-    <net code="81" name="/PWM/strip2_g">
-      <node ref="U201" pin="11"/>
-      <node ref="Q402" pin="1"/>
-    </net>
-    <net code="82" name="/PWM/strip4_r">
-      <node ref="Q601" pin="1"/>
-      <node ref="U201" pin="19"/>
-    </net>
-    <net code="83" name="/PWM/strip1_b_out">
-      <node ref="Q303" pin="3"/>
-      <node ref="J201" pin="4"/>
-    </net>
-    <net code="84" name="/PWM/strip1_r_out">
-      <node ref="J201" pin="3"/>
-      <node ref="Q301" pin="3"/>
-    </net>
-    <net code="85" name="/PWM/strip4_g">
-      <node ref="U201" pin="20"/>
+    <net code="96" name="/CenterBack/PWM/strip1_g">
       <node ref="Q602" pin="1"/>
+      <node ref="U601" pin="7"/>
     </net>
-    <net code="86" name="/PWM/SideStrip_left/green_">
-      <node ref="J701" pin="2"/>
-      <node ref="J702" pin="2"/>
-      <node ref="J703" pin="2"/>
+    <net code="97" name="/CenterBack/PWM/strip1_r">
+      <node ref="U601" pin="6"/>
+      <node ref="Q601" pin="1"/>
     </net>
-    <net code="87" name="/PWM/SideStrip_left/red_">
-      <node ref="J702" pin="3"/>
-      <node ref="J703" pin="3"/>
-      <node ref="J701" pin="3"/>
+    <net code="98" name="/CenterBack/PWM/strip1_w">
+      <node ref="Q604" pin="1"/>
+      <node ref="U601" pin="9"/>
     </net>
-    <net code="88" name="/PWM/SideStrip_left/blue_">
-      <node ref="J702" pin="4"/>
-      <node ref="J701" pin="4"/>
-      <node ref="J703" pin="4"/>
+    <net code="99" name="Net-(C704-Pad1)">
+      <node ref="R705" pin="1"/>
+      <node ref="C704" pin="1"/>
+      <node ref="U701" pin="5"/>
     </net>
-    <net code="89" name="/PWM/SideStrip_left/VDD_">
-      <node ref="J701" pin="1"/>
-      <node ref="J703" pin="1"/>
+    <net code="100" name="Net-(R707-Pad1)">
+      <node ref="U701" pin="6"/>
+      <node ref="R708" pin="2"/>
+      <node ref="R707" pin="1"/>
+    </net>
+    <net code="101" name="Net-(C705-Pad2)">
+      <node ref="R706" pin="1"/>
+      <node ref="R707" pin="2"/>
       <node ref="J702" pin="1"/>
+      <node ref="C705" pin="2"/>
     </net>
-    <net code="90" name="/PWM/SideStrip_left/white_">
-      <node ref="J703" pin="5"/>
-      <node ref="J702" pin="5"/>
-      <node ref="J701" pin="5"/>
+    <net code="102" name="Net-(R706-Pad2)">
+      <node ref="R706" pin="2"/>
+      <node ref="U701" pin="7"/>
     </net>
-    <net code="91" name="/PWM/CenterStrips/~button~_">
-      <node ref="SW801" pin="1"/>
-      <node ref="J802" pin="13"/>
+    <net code="103" name="Net-(C701-Pad1)">
+      <node ref="R701" pin="1"/>
+      <node ref="U701" pin="3"/>
+      <node ref="C701" pin="1"/>
     </net>
-    <net code="92" name="/PWM/CenterStrips/GND_">
-      <node ref="SW801" pin="2"/>
-      <node ref="J802" pin="14"/>
+    <net code="104" name="Net-(C702-Pad2)">
+      <node ref="R703" pin="2"/>
+      <node ref="R702" pin="1"/>
+      <node ref="C702" pin="2"/>
+      <node ref="J701" pin="1"/>
     </net>
-    <net code="93" name="/PWM/CenterStrips/white_right_">
-      <node ref="J803" pin="5"/>
-      <node ref="J802" pin="12"/>
-      <node ref="J805" pin="5"/>
+    <net code="105" name="Net-(R702-Pad2)">
+      <node ref="U701" pin="1"/>
+      <node ref="R702" pin="2"/>
     </net>
-    <net code="94" name="/PWM/CenterStrips/blue_right_">
-      <node ref="J803" pin="4"/>
-      <node ref="J802" pin="10"/>
-      <node ref="J805" pin="4"/>
-    </net>
-    <net code="95" name="/PWM/CenterStrips/red_right_">
-      <node ref="J802" pin="8"/>
-      <node ref="J803" pin="3"/>
-      <node ref="J805" pin="3"/>
-    </net>
-    <net code="96" name="/PWM/CenterStrips/VDD_">
-      <node ref="J801" pin="1"/>
-      <node ref="J802" pin="2"/>
-      <node ref="J804" pin="1"/>
-      <node ref="J803" pin="1"/>
-      <node ref="J805" pin="1"/>
-      <node ref="J802" pin="4"/>
-      <node ref="J802" pin="1"/>
-      <node ref="J802" pin="3"/>
-    </net>
-    <net code="97" name="/PWM/CenterStrips/white_left_">
-      <node ref="J801" pin="5"/>
-      <node ref="J802" pin="11"/>
-      <node ref="J804" pin="5"/>
-    </net>
-    <net code="98" name="/PWM/CenterStrips/blue_left_">
-      <node ref="J801" pin="4"/>
-      <node ref="J804" pin="4"/>
-      <node ref="J802" pin="9"/>
-    </net>
-    <net code="99" name="/PWM/CenterStrips/green_left_">
-      <node ref="J802" pin="5"/>
-      <node ref="J804" pin="2"/>
-      <node ref="J801" pin="2"/>
-    </net>
-    <net code="100" name="/PWM/CenterStrips/red_left_">
-      <node ref="J802" pin="7"/>
-      <node ref="J804" pin="3"/>
-      <node ref="J801" pin="3"/>
-    </net>
-    <net code="101" name="/PWM/CenterStrips/green_right_">
-      <node ref="J802" pin="6"/>
-      <node ref="J803" pin="2"/>
-      <node ref="J805" pin="2"/>
-    </net>
-    <net code="102" name="/PWM/SideStrip_right/green_">
-      <node ref="J901" pin="2"/>
-      <node ref="J902" pin="2"/>
-      <node ref="J903" pin="2"/>
-    </net>
-    <net code="103" name="/PWM/SideStrip_right/VDD_">
-      <node ref="J903" pin="1"/>
-      <node ref="J901" pin="1"/>
-      <node ref="J902" pin="1"/>
-    </net>
-    <net code="104" name="/PWM/SideStrip_right/red_">
-      <node ref="J902" pin="3"/>
-      <node ref="J903" pin="3"/>
-      <node ref="J901" pin="3"/>
-    </net>
-    <net code="105" name="/PWM/SideStrip_right/white_">
-      <node ref="J901" pin="5"/>
-      <node ref="J902" pin="5"/>
-      <node ref="J903" pin="5"/>
-    </net>
-    <net code="106" name="/PWM/SideStrip_right/blue_">
-      <node ref="J903" pin="4"/>
-      <node ref="J902" pin="4"/>
-      <node ref="J901" pin="4"/>
+    <net code="106" name="Net-(R703-Pad1)">
+      <node ref="R704" pin="2"/>
+      <node ref="U701" pin="2"/>
+      <node ref="R703" pin="1"/>
     </net>
   </nets>
 </export>
