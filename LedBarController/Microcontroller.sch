@@ -675,9 +675,11 @@ F 6 "no" H 6750 2600 50  0001 C CNN "is stock"
 	0    1    1    0   
 $EndComp
 $Comp
-L MCU_Microchip_ATmega:ATmega328P-AU U401
+L LedBarController:ATmega48PV-10AU-arduino-atmega48pv-10au-arduino-LedBarController-rescue U401
 U 1 1 5F8297C2
 P 2500 3400
+AR Path="/5F8297C2" Ref="U401"  Part="1" 
+AR Path="/602F109A/602FDBCD/5F8297C2" Ref="U401"  Part="1" 
 F 0 "U401" H 2850 1900 50  0000 C CNN
 F 1 "ATmega328P-AU" H 2900 1800 50  0000 C CNN
 F 2 "LedBarController:TQFP-32_7x7mm_P0.8mm_corner_cutoff" H 2500 3400 50  0001 C CIN
