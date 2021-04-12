@@ -313,75 +313,6 @@ F 6 "n.a." H 9000 5600 50  0001 C CNN "is stock"
 	1    9000 5600
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:Q_PMOS_GDS Q301
-U 1 1 5FA735DA
-P 4500 4100
-F 0 "Q301" V 4842 4100 50  0000 C CNN
-F 1 "FQP47P06" V 4751 4100 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4700 4200 50  0001 C CNN
-F 3 "~" H 4500 4100 50  0001 C CNN
-F 4 "REVERSEPOLARITY_SUPPORTED" H 4500 4100 50  0001 C CNN "Feature"
-F 5 "0.386" H 4500 4100 50  0001 C CNN "Price"
-F 6 "no" H 4500 4100 50  0001 C CNN "is stock"
-	1    4500 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Zener D301
-U 1 1 5FA7B9A0
-P 5000 4250
-F 0 "D301" V 4950 4000 50  0000 L CNN
-F 1 "10V" V 5050 4050 50  0000 L CNN
-F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5000 4250 50  0001 C CNN
-F 3 "~" H 5000 4250 50  0001 C CNN
-F 4 "REVERSEPOLARITY_SUPPORTED" H 5000 4250 50  0001 C CNN "Feature"
-F 5 "0.0073" H 5000 4250 50  0001 C CNN "Price"
-F 6 "yes" H 5000 4250 50  0001 C CNN "is stock"
-	1    5000 4250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R305
-U 1 1 5FA7CE6E
-P 4500 4750
-F 0 "R305" H 4570 4796 50  0000 L CNN
-F 1 "100k" H 4570 4705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4430 4750 50  0001 C CNN
-F 3 "~" H 4500 4750 50  0001 C CNN
-F 4 "REVERSEPOLARITY_SUPPORTED" H 4500 4750 50  0001 C CNN "Feature"
-F 5 "0.0036" H 4500 4750 50  0001 C CNN "Price"
-F 6 "yes" H 4500 4750 50  0001 C CNN "is stock"
-	1    4500 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 4000 5000 4000
-Wire Wire Line
-	5000 4100 5000 4000
-Wire Wire Line
-	5000 4400 5000 4500
-Wire Wire Line
-	5000 4500 4500 4500
-Wire Wire Line
-	4500 4500 4500 4300
-Wire Wire Line
-	4500 4500 4500 4600
-Connection ~ 4500 4500
-Wire Wire Line
-	4500 4900 4500 5500
-Wire Wire Line
-	4500 5500 5500 5500
-Wire Notes Line
-	4250 3500 5250 3500
-Wire Notes Line
-	5250 3500 5250 5000
-Wire Notes Line
-	5250 5000 4250 5000
-Wire Notes Line
-	4250 5000 4250 3500
-Text Notes 4250 3500 0    50   ~ 0
-Reverse voltage protection
 Wire Wire Line
 	9000 5500 9000 5600
 $Comp
@@ -570,84 +501,74 @@ Wire Wire Line
 Wire Wire Line
 	5500 5500 6500 5500
 Connection ~ 5500 5500
-Wire Wire Line
-	5000 4000 5500 4000
-Connection ~ 5000 4000
 Connection ~ 5500 4000
-Text Label 3500 4550 1    50   ~ 0
+Text Label 4700 4550 1    50   ~ 0
 surge_bypass
 Wire Wire Line
-	3500 4600 3500 4000
+	4700 4600 4700 4000
 Wire Wire Line
-	3500 5500 3500 4900
+	4700 5500 4700 4900
 Wire Wire Line
-	3400 4000 3500 4000
+	4600 4000 4700 4000
 $Comp
-L Device:D_TVS D302
+L Diode:Z2SMBxxx D302
 U 1 1 5FC9A3E5
-P 3500 4750
-F 0 "D302" V 3450 4450 50  0000 L CNN
-F 1 "SMBJ30CA CK /SMBJ15CA BM" V 3550 3550 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB_Handsoldering" H 3500 4750 50  0001 C CNN
-F 3 "~" H 3500 4750 50  0001 C CNN
-F 4 "0.1" H 3500 4750 50  0001 C CNN "Price"
-F 5 "no" H 3500 4750 50  0001 C CNN "is stock"
-	1    3500 4750
+P 4700 4750
+F 0 "D302" V 4650 4450 50  0000 L CNN
+F 1 "SMBJ15A" V 4750 4350 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB_Handsoldering" H 4700 4750 50  0001 C CNN
+F 3 "~" H 4700 4750 50  0001 C CNN
+F 4 "0.1" H 4700 4750 50  0001 C CNN "Price"
+F 5 "no" H 4700 4750 50  0001 C CNN "is stock"
+	1    4700 4750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2000 4850 2000 5500
+	3200 4850 3200 5500
 Wire Wire Line
-	2000 4650 2000 4000
+	3200 4650 3200 4000
 $Comp
 L Device:Fuse F301
 U 1 1 5F7CC4D4
-P 3250 4000
-F 0 "F301" V 3053 4000 50  0000 C CNN
-F 1 "max. 5A F" V 3144 4000 50  0000 C CNN
-F 2 "LedBarController:Fuseholder_Cylinder-5x20mm_BLX_A_Horizontal" V 3180 4000 50  0001 C CNN
-F 3 "~" H 3250 4000 50  0001 C CNN
-F 4 "POWER" H 3250 4000 50  0001 C CNN "Feature"
-F 5 "0.1474" H 3250 4000 50  0001 C CNN "Price"
-F 6 "yes" H 3250 4000 50  0001 C CNN "is stock"
-	1    3250 4000
+P 4450 4000
+F 0 "F301" V 4253 4000 50  0000 C CNN
+F 1 "max. 5A F" V 4344 4000 50  0000 C CNN
+F 2 "LedBarController:Fuseholder_Cylinder-5x20mm_BLX_A_Horizontal" V 4380 4000 50  0001 C CNN
+F 3 "~" H 4450 4000 50  0001 C CNN
+F 4 "POWER" H 4450 4000 50  0001 C CNN "Feature"
+F 5 "0.1474" H 4450 4000 50  0001 C CNN "Price"
+F 6 "yes" H 4450 4000 50  0001 C CNN "is stock"
+	1    4450 4000
 	0    1    1    0   
 $EndComp
-NoConn ~ 2000 4750
+NoConn ~ 3200 4750
 $Comp
 L Connector:Barrel_Jack_Switch J301
 U 1 1 5F7C9FB6
-P 1700 4750
-F 0 "J301" H 1757 5067 50  0000 C CNN
-F 1 "Barrel_Jack_Switch" H 1757 4976 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 1750 4710 50  0001 C CNN
-F 3 "~" H 1750 4710 50  0001 C CNN
-F 4 "POWER" H 1700 4750 50  0001 C CNN "Feature"
-F 5 "0.0472" H 1700 4750 50  0001 C CNN "Price"
-F 6 "yes" H 1700 4750 50  0001 C CNN "is stock"
-	1    1700 4750
+P 2900 4750
+F 0 "J301" H 2957 5067 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 2957 4976 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 2950 4710 50  0001 C CNN
+F 3 "~" H 2950 4710 50  0001 C CNN
+F 4 "POWER" H 2900 4750 50  0001 C CNN "Feature"
+F 5 "0.0472" H 2900 4750 50  0001 C CNN "Price"
+F 6 "yes" H 2900 4750 50  0001 C CNN "is stock"
+	1    2900 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 4000 3100 4000
+	3200 4000 4300 4000
 Wire Wire Line
-	2000 5500 3500 5500
-Wire Wire Line
-	3500 4000 4300 4000
-Connection ~ 3500 4000
-Wire Wire Line
-	4500 5500 3500 5500
-Connection ~ 4500 5500
-Connection ~ 3500 5500
+	3200 5500 4700 5500
 Wire Notes Line
-	2250 3500 3750 3500
+	3450 3500 4950 3500
 Wire Notes Line
-	3750 3500 3750 5000
+	4950 3500 4950 5000
 Wire Notes Line
-	3750 5000 2250 5000
+	4950 5000 3450 5000
 Wire Notes Line
-	2250 5000 2250 3500
-Text Notes 2250 3500 0    50   ~ 0
+	3450 5000 3450 3500
+Text Notes 3450 3500 0    50   ~ 0
 Over current and voltage protection
 Wire Wire Line
 	5850 3350 5850 4000
@@ -665,4 +586,10 @@ Wire Notes Line
 	5500 1500 5500 3500
 Text Notes 5500 1500 0    50   ~ 0
 Voltage and current measurement
+Wire Wire Line
+	4700 4000 5500 4000
+Connection ~ 4700 4000
+Wire Wire Line
+	4700 5500 5500 5500
+Connection ~ 4700 5500
 $EndSCHEMATC
