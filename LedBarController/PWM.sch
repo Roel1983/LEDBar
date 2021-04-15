@@ -51,7 +51,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 1200 3000 1600
 Wire Wire Line
-	1700 2200 2300 2200
+	1700 2200 1800 2200
 Wire Wire Line
 	2100 3300 2100 3950
 Connection ~ 2100 3300
@@ -1527,4 +1527,20 @@ Wire Wire Line
 	7750 5450 7750 5700
 Wire Wire Line
 	7750 5450 9350 5450
+$Comp
+L Connector:TestPoint TP601
+U 1 1 60820EF9
+P 1800 2250
+F 0 "TP601" H 1742 2270 50  0000 R CNN
+F 1 "~oe" H 1742 2368 50  0000 R CNN
+F 2 "" H 2000 2250 50  0001 C CNN
+F 3 "~" H 2000 2250 50  0001 C CNN
+	1    1800 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 2250 1800 2200
+Connection ~ 1800 2200
+Wire Wire Line
+	1800 2200 2300 2200
 $EndSCHEMATC

@@ -163,8 +163,6 @@ Wire Wire Line
 	6500 3300 6400 3300
 Wire Wire Line
 	6500 3300 6500 4000
-Wire Wire Line
-	6500 4000 7400 4000
 Connection ~ 6500 3300
 Wire Wire Line
 	5000 2500 4500 2500
@@ -311,4 +309,48 @@ F 6 "yes" H 3350 3300 50  0001 C CNN "is stock"
 	1    3350 3300
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	6500 4000 7400 4000
+$Comp
+L Connector:TestPoint TP504
+U 1 1 607DBA66
+P 7000 2950
+F 0 "TP504" H 7058 3068 50  0000 L CNN
+F 1 "rxd" H 7058 2977 50  0000 L CNN
+F 2 "" H 7200 2950 50  0001 C CNN
+F 3 "~" H 7200 2950 50  0001 C CNN
+	1    7000 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2950 7000 3000
+Connection ~ 7000 3000
+$Comp
+L Connector:TestPoint TP505
+U 1 1 607DCB5D
+P 7000 3550
+F 0 "TP505" H 6942 3576 50  0000 R CNN
+F 1 "txd" H 6942 3667 50  0000 R CNN
+F 2 "" H 7200 3550 50  0001 C CNN
+F 3 "~" H 7200 3550 50  0001 C CNN
+	1    7000 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 3500 7000 3550
+Connection ~ 7000 3500
+$Comp
+L Connector:TestPoint TP503
+U 1 1 607DD7B7
+P 6500 4050
+F 0 "TP503" H 6442 4076 50  0000 R CNN
+F 1 "tx_en" H 6442 4167 50  0000 R CNN
+F 2 "" H 6700 4050 50  0001 C CNN
+F 3 "~" H 6700 4050 50  0001 C CNN
+	1    6500 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6500 4000 6500 4050
+Connection ~ 6500 4000
 $EndSCHEMATC

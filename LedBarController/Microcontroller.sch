@@ -522,8 +522,6 @@ Wire Wire Line
 	9500 4250 9500 4350
 Text Label 9100 4250 0    50   ~ 0
 reset
-Text HLabel 4000 3100 2    50   Input ~ 0
-~button~
 Wire Wire Line
 	4000 2300 3100 2300
 Text Label 3500 2500 0    50   ~ 0
@@ -561,11 +559,7 @@ scl
 Text Label 5150 7100 2    50   ~ 0
 sda
 Wire Wire Line
-	5600 7000 6350 7000
-Wire Wire Line
 	5600 6800 5600 7000
-Wire Wire Line
-	5950 7100 6350 7100
 Wire Wire Line
 	5950 6800 5950 7100
 Wire Wire Line
@@ -622,8 +616,6 @@ F 6 "yes" H 5950 6650 50  0001 C CNN "is stock"
 	1    5950 6650
 	-1   0    0    -1  
 $EndComp
-Text HLabel 6350 7000 2    50   Output ~ 0
-scl
 Text HLabel 6350 7100 2    50   BiDi ~ 0
 sda
 Wire Wire Line
@@ -690,7 +682,6 @@ F 6 "yes" H 2500 3400 50  0001 C CNN "is stock"
 	1    2500 3400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3100 3300
 NoConn ~ 1900 2500
 $Comp
 L Memory_EEPROM:CAT24C256 U402
@@ -799,7 +790,6 @@ Wire Wire Line
 	3100 4400 4000 4400
 Wire Wire Line
 	4000 4500 3100 4500
-NoConn ~ 3100 3200
 Wire Wire Line
 	9350 1000 9550 1000
 Wire Wire Line
@@ -911,4 +901,103 @@ Wire Wire Line
 	2500 1500 2500 1900
 Wire Wire Line
 	2600 1500 2600 1900
+Wire Wire Line
+	3100 3200 3900 3200
+Wire Wire Line
+	3100 3300 3900 3300
+Text Label 3500 3300 0    50   ~ 0
+debug2
+$Comp
+L Connector:TestPoint TP401
+U 1 1 607A0A42
+P 3900 3200
+F 0 "TP401" V 3900 3388 50  0000 L CNN
+F 1 "dbg1" V 3945 3388 50  0001 L CNN
+F 2 "" H 4100 3200 50  0001 C CNN
+F 3 "~" H 4100 3200 50  0001 C CNN
+	1    3900 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP402
+U 1 1 607A1F2C
+P 3900 3300
+F 0 "TP402" V 3900 3488 50  0000 L CNN
+F 1 "dbg2" V 3945 3488 50  0001 L CNN
+F 2 "" H 4100 3300 50  0001 C CNN
+F 3 "~" H 4100 3300 50  0001 C CNN
+	1    3900 3300
+	0    1    1    0   
+$EndComp
+Text Label 3500 3200 0    50   ~ 0
+debug1
+Text HLabel 6350 7000 2    50   Output ~ 0
+scl
+$Comp
+L Connector:TestPoint TP405
+U 1 1 607D2CC2
+P 9600 4250
+F 0 "TP405" V 9554 4438 50  0000 L CNN
+F 1 "reset" V 9645 4438 50  0000 L CNN
+F 2 "" H 9800 4250 50  0001 C CNN
+F 3 "~" H 9800 4250 50  0001 C CNN
+	1    9600 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 4250 9500 4250
+$Comp
+L Connector:TestPoint TP403
+U 1 1 607DEDB6
+P 5600 7150
+F 0 "TP403" H 5542 7176 50  0000 R CNN
+F 1 "scl" H 5542 7267 50  0000 R CNN
+F 2 "" H 5800 7150 50  0001 C CNN
+F 3 "~" H 5800 7150 50  0001 C CNN
+	1    5600 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP404
+U 1 1 607E3DF5
+P 5950 7150
+F 0 "TP404" H 5892 7176 50  0000 R CNN
+F 1 "sda" H 5892 7267 50  0000 R CNN
+F 2 "" H 6150 7150 50  0001 C CNN
+F 3 "~" H 6150 7150 50  0001 C CNN
+	1    5950 7150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 7000 6350 7000
+Wire Wire Line
+	5950 7100 6350 7100
+Wire Wire Line
+	5600 7000 5600 7150
+Wire Wire Line
+	5950 7100 5950 7150
+Text Label 3500 3100 0    50   ~ 0
+button
+Text HLabel 10000 6000 2    50   Input ~ 0
+~button~
+Wire Wire Line
+	9000 6000 9500 6000
+Text Label 9050 6000 0    50   ~ 0
+~button
+$Comp
+L Connector:TestPoint TP406
+U 1 1 60873ACA
+P 9500 5950
+F 0 "TP406" H 9558 6074 50  0000 L CNN
+F 1 "~button" H 9558 5976 50  0000 L CNN
+F 2 "" H 9700 5950 50  0001 C CNN
+F 3 "~" H 9700 5950 50  0001 C CNN
+	1    9500 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 5950 9500 6000
+Connection ~ 9500 6000
+Wire Wire Line
+	9500 6000 10000 6000
 $EndSCHEMATC
